@@ -1,0 +1,1057 @@
+[
+	{
+		"id": "yijing-001-kwangtung",
+		"pilgrim": "Yijing",
+		"sequence": 1,
+		"canonicalId": "kwangtung",
+		"names": {
+			"primary": "Canton",
+			"asGiven": "the town of Kwang-tung",
+			"variants": [
+				"Kwang-tung",
+				"Guangzhou",
+				"Canton",
+				"P'an-yü",
+				"Canton (Kwang-tung)"
+			]
+		},
+		"type": [
+			"city",
+			"port"
+		],
+		"firsthand": true,
+		"yana": [
+			"Mahāyāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "I-tsing's port of departure. Having failed to keep his companions, in the 11th month of 671 he embarked at Kwang-tung on a Persian merchant ship to sail south for India, the patronage of the Fêng family supplying his needs. He returned here in 689 to seek paper, ink and scribes for copying the scriptures gathered at Śrībhoga.",
+		"anecdotes": [],
+		"features": [
+			"Persian merchant shipping to the south seas",
+			"patronage of the Fêng family",
+			"temple of Chih-chih"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "Chang'an (Ch'ang-an)",
+			"directionFromPrev": "south to the coast",
+			"distance": "—"
+		},
+		"date": {
+			"year": 671,
+			"yearEarliest": 671,
+			"yearLatest": 671,
+			"approx": true,
+			"text": "671 CE",
+			"basis": "I-tsing left Chang'an in 670–671 and embarked at Kwang-tung in the 11th month of 671 (journey 671–695)."
+		},
+		"scholarlyNotes": {
+			"modernName": "Guangzhou (Canton), China",
+			"coordinates": {
+				"lat": 23.129,
+				"lon": 113.264,
+				"note": "Guangzhou (Canton), China. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "P'an-yü = Kwang-tung = modern Guangzhou, the main south-China port for the maritime route to the Indies. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — departure (p. xxix)",
+			"quote": "I came to the town of Kwang-tung, where I fixed the date of meeting with the owner of a Persian ship"
+		}
+	},
+	{
+		"id": "yijing-002-sribhoga",
+		"pilgrim": "Yijing",
+		"sequence": 2,
+		"canonicalId": "sribhoga",
+		"names": {
+			"primary": "Srivijaya",
+			"asGiven": "Bhoga … the country of Śrībhoga",
+			"variants": [
+				"Sribhoga",
+				"Bhoga",
+				"Malayu",
+				"Palembang",
+				"Sumatra",
+				"Śrībhoga (Bhoga / Malayu)",
+				"Śrībhoga"
+			]
+		},
+		"type": [
+			"city",
+			"port"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [
+			"Mulasarvastivada"
+		],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": 1000,
+			"text": "more than 1,000 priests",
+			"approx": true
+		},
+		"activity": "The great Buddhist hub of the Southern Sea and I-tsing's base on both the outward and homeward legs. Twenty days' sail from Canton he reached Bhoga, landed and stayed six months learning Sanskrit grammar; the king sent him on to Malayu (which had by then 'become Bhoga'). In the fortified city of Bhoga more than a thousand priests studied just as in India, and I-tsing urged China-bound pilgrims to train here first. He returned here after his Indian years to translate and compile this very Record, its priests almost all of the Mūlasarvāstivāda, with a few Mahāyānists in Malayu.",
+		"anecdotes": [],
+		"features": [
+			"over 1,000 resident priests",
+			"a recommended training-stop before India",
+			"where I-tsing wrote the Record",
+			"mostly Mūlasarvāstivāda; a few Mahāyānists in Malayu"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "Canton (Kwang-tung)",
+			"directionFromPrev": "south by sea, ~20 days' sail",
+			"distance": "20 days' sail"
+		},
+		"date": {
+			"year": 671,
+			"yearEarliest": 671,
+			"yearLatest": 695,
+			"approx": true,
+			"text": "c. 671–695 CE",
+			"basis": "Outward stay of six months from late 671/672, and his long working residence on the return (c. 685–695) where he compiled the Record; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Palembang, Sumatra (Śrīvijaya)",
+			"coordinates": {
+				"lat": -2.976,
+				"lon": 104.775,
+				"note": "Palembang (Srivijaya), Sumatra. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Śrībhoga/Bhoga = Palembang, capital of Śrīvijaya; Malayu = the Jambi area, which I-tsing notes 'became Bhoga'. The Southern-Sea hub of the Mūlasarvāstivāda. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the return (p. xxxiv)",
+			"quote": "In the fortified city of Bhoga Buddhist priests number more than 1,000, whose minds are bent on learning and good practices."
+		}
+	},
+	{
+		"id": "yijing-003-kacha",
+		"pilgrim": "Yijing",
+		"sequence": 3,
+		"canonicalId": "kacha",
+		"names": {
+			"primary": "Kedah",
+			"asGiven": "Ka-cha",
+			"variants": [
+				"Kacha",
+				"Kedah",
+				"Kalah",
+				"Ka-cha (Kedah)",
+				"Ka-cha"
+			]
+		},
+		"type": [
+			"port"
+		],
+		"firsthand": true,
+		"yana": [
+			"unknown"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "A transit port on the Malay route. From Malayu/Śrībhoga I-tsing went on to Ka-cha, where he embarked in the 12th month aboard the king's ship to sail for Eastern India; it was also the staging point on the homeward voyage, where the Bhoga ship met returning pilgrims each year.",
+		"anecdotes": [],
+		"features": [
+			"embarkation port between the Malay archipelago and India",
+			"annual rendezvous of the Bhoga ship"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "Malayu / Śrībhoga",
+			"directionFromPrev": "north-west by sea",
+			"distance": "—"
+		},
+		"date": {
+			"year": 672,
+			"yearEarliest": 671,
+			"yearLatest": 672,
+			"approx": true,
+			"text": "c. 672 CE",
+			"basis": "Outward transit in the 12th month after the six-month Bhoga stay; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Kedah, Malay Peninsula (Atchin/Aceh coast)",
+			"coordinates": {
+				"lat": 6.12,
+				"lon": 100.37,
+				"note": "Kedah, Malay Peninsula."
+			},
+			"geoConfidence": "medium",
+			"notes": "Ka-cha is generally placed at Kedah on the Malay Peninsula (Takakusu: 'somewhere on the Atchin coast'). Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the voyage (p. xxx)",
+			"quote": "Here I embarked in the twelfth month, and again on board the king's ship I sailed to Eastern India."
+		}
+	},
+	{
+		"id": "yijing-004-naked-people",
+		"pilgrim": "Yijing",
+		"sequence": 4,
+		"canonicalId": "naked-people",
+		"names": {
+			"primary": "Nicobar Islands",
+			"asGiven": "the country of the Naked People (Insulae Nudorum)",
+			"variants": [
+				"Nicobar Islands",
+				"Insulae Nudorum",
+				"Land of the Naked",
+				"The Country of the Naked People",
+				"Country of the Naked People"
+			]
+		},
+		"type": [
+			"region",
+			"port"
+		],
+		"firsthand": true,
+		"yana": [
+			"unknown"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "Islands passed on the crossing to India, more than ten days' sail north from Ka-cha. The shore was lined with coconut and betel-nut forest; the naked, medium-built islanders paddled out by the hundred in little boats to barter coconuts, bananas and rattan-ware, prizing only iron — five to ten coconuts for a finger-sized piece — and they would loose poisoned arrows on any who refused to trade.",
+		"anecdotes": [
+			{
+				"title": "The iron-hungry islanders",
+				"kind": "other",
+				"summary": "The naked islanders would trade five to ten coconuts for a scrap of iron the size of two fingers, refusing offered clothes; a single poisoned arrow was said to prove fatal to any who declined to barter.",
+				"figures": []
+			}
+		],
+		"features": [
+			"coconut and betel-nut forest",
+			"barter for iron only",
+			"poisoned arrows"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "Ka-cha (Kedah)",
+			"directionFromPrev": "north, more than 10 days' sail",
+			"distance": "10+ days' sail"
+		},
+		"date": {
+			"year": 672,
+			"yearEarliest": 672,
+			"yearLatest": 673,
+			"approx": true,
+			"text": "c. 672 CE",
+			"basis": "On the crossing from Ka-cha to Tāmraliptī, late 672/early 673; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "the Nicobar Islands",
+			"coordinates": {
+				"lat": 8.0,
+				"lon": 93.5,
+				"note": "Nicobar Islands (region)."
+			},
+			"geoConfidence": "medium",
+			"notes": "Takakusu identifies the 'Naked People' with the Nicobar Islands. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the voyage (p. xxxi)",
+			"quote": "we came to the country of the Naked People (Insulae Nudorum)."
+		}
+	},
+	{
+		"id": "yijing-005-tamralipti",
+		"pilgrim": "Yijing",
+		"sequence": 5,
+		"canonicalId": "tamralipti",
+		"names": {
+			"primary": "Tamralipti",
+			"asGiven": "Tāmraliptī",
+			"variants": [
+				"Tamralipti",
+				"Tamluk",
+				"Tāmraliptī"
+			]
+		},
+		"type": [
+			"city",
+			"port"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [
+			"Sarvastivada"
+		],
+		"monasteries": {
+			"count": null,
+			"text": "five or six monasteries",
+			"approx": true
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "I-tsing's landfall in India and the gateway of his pilgrimage, the southern limit of Eastern India, forty yojanas from the eastern frontier and some sixty from Mahābodhi and Nālandā. He arrived on the 8th day of the 2nd month of 673, stayed about a year studying Sanskrit with the master Mahāyānapradīpa (a pupil of Xuanzang), and set out west with him and many merchants. It is also where he re-embarked for home. There are five or six monasteries and the people are rich.",
+		"anecdotes": [],
+		"features": [
+			"southern limit of E. India",
+			"five or six monasteries",
+			"study with Mahāyānapradīpa",
+			"port of arrival and departure",
+			"the sea-mouth port from which one sails for China",
+			"Sarvāstivāda vinaya studied here (Tao-lin)"
+		],
+		"figures": [
+			"Yijing",
+			"Mahāyānapradīpa"
+		],
+		"route": {
+			"fromPlace": "the Country of the Naked People",
+			"directionFromPrev": "north-west, about half a month's sail",
+			"distance": "~15 days' sail"
+		},
+		"date": {
+			"year": 673,
+			"yearEarliest": 673,
+			"yearLatest": 674,
+			"approx": true,
+			"text": "673 CE",
+			"basis": "Arrived 8th day of the 2nd month, 673; stayed about a year before going inland; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Tamluk, West Bengal",
+			"coordinates": {
+				"lat": 22.3,
+				"lon": 87.92,
+				"note": "Tamluk (Tamralipti), West Bengal. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Tāmraliptī = Tamluk, the Bay-of-Bengal port also used by Faxian and described by Xuanzang. Coordinates are in data/canonical/places.json. The Sarvāstivāda attribution rests on I-tsing's Kao Seng Chuan: the monk Tao-lin spent three years here studying Sanskrit and the Sarvāstivāda vinaya before going on to Nālandā."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — arrival in India (p. xxxiv)",
+			"quote": "Tāmraliptī is forty yojanas south from the eastern limit of India. There are five or six monasteries; the people are"
+		},
+		"supplementarySources": [
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chüan 1 — description of Nālandā and its surroundings (p. 61)",
+				"quote": "It was situated on the mouth of the sea from where one had to sail for China.",
+				"note": "On Tāmralipti as the port of embarkation for China."
+			},
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chapter Two (Fifteen Monks) — biography of Tao-lin (p. 64)",
+				"quote": "He rejected the old precepts, accepted the important ones and studied thoroughly the Vinayas of I-ch'ieh-yu-pu Sarvästivada school.",
+				"note": "Tao-lin, after landing at Tāmralipti and spending three years there studying Sanskrit, mastered the Sarvāstivāda vinaya before proceeding to Nālandā — the basis for the Sarvāstivāda school listed at this place."
+			}
+		]
+	},
+	{
+		"id": "yijing-006-nalanda",
+		"pilgrim": "Yijing",
+		"sequence": 6,
+		"canonicalId": "nalanda",
+		"names": {
+			"primary": "Nalanda",
+			"asGiven": "the Nālanda Vihāra",
+			"variants": [
+				"Nalanda",
+				"Nālanda Vihāra",
+				"Mūlagandhakuṭī",
+				"Nālandā"
+			]
+		},
+		"type": [
+			"monastery"
+		],
+		"firsthand": true,
+		"yana": [
+			"Mahāyāna",
+			"Śrāvakayāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": 3500,
+			"text": "About three thousand five hundred monks were living in the Nālandā monastery",
+			"approx": true
+		},
+		"activity": "The centre of I-tsing's Indian sojourn, where he lived and studied for about ten years (c. 675–685), worshipping the Root Temple (Mūlagandhakuṭī). Much of the Record's detail on monastic discipline — the assignment of rooms each year, the daily rules — is drawn from what he observed at Nālandā, which he holds up as the model of correct practice.",
+		"anecdotes": [],
+		"features": [
+			"Mūlagandhakuṭī (Root Temple)",
+			"ten years' residence and study",
+			"model of monastic discipline in the Record",
+			"eight halls and three hundred apartments",
+			"201 villages endowed by successive kings"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "Tāmraliptī",
+			"directionFromPrev": "west, then north (inland with a merchant caravan)",
+			"distance": "~sixty yojanas"
+		},
+		"date": {
+			"year": 675,
+			"yearEarliest": 674,
+			"yearLatest": 685,
+			"approx": true,
+			"text": "c. 675–685 CE",
+			"basis": "I-tsing lived at the Nālanda Vihāra for about ten years, probably 675–685; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Nalanda (Bargaon), Bihar",
+			"coordinates": {
+				"lat": 25.1362,
+				"lon": 85.4439,
+				"note": "Nalanda Mahavihara ruins, Bargaon. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "The same Nālandā Mahāvihāra where Xuanzang studied a generation earlier. Coordinates are in data/canonical/places.json. Takakusu (note to chap. xxxii) reconciles the manuscript readings: I-tsing gives the number of Nālandā priests as “more than 3,000” in chap. x, and his Memoirs give 3,500 (Chavannes, p. 97). The Memoirs figure is now ingested directly — see the supplementary quote from the Kao Seng Chuan (Lahiri's translation), and the count on this entry follows it."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — at Nālandā (p. xxxiii)",
+			"quote": "lived in the Nālanda Vihāra for ten years"
+		},
+		"supplementarySources": [
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chüan 1 — description of Nālandā (p. 61)",
+				"quote": "About three thousand five hundred monks were living in the Nālandā monastery. This establishment was in possession of 201 villages. The kings of successive generations had donated those villages permanently for the resident monks.",
+				"note": "I-tsing's own, more precise count from his Memoirs — consistent with the Record's 'exceeds three thousand'."
+			},
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chapter Two (Fifteen Monks) — biography of Tao-lin (p. 68)",
+				"quote": "While I-ching was at Nalanda, he regularly went to the altar and wholeheartedly tried to study this Sūtra; he worked quite hard but could not attain full success.",
+				"note": "I-tsing's own attempt at the esoteric Vidyādhara-piṭaka (the mantra collection, which he says could not be understood until expounded orally) at the Nālandā altar — the basis for the derived Vajrayāna at this place; see About."
+			}
+		]
+	},
+	{
+		"id": "yijing-007-mahabodhi",
+		"pilgrim": "Yijing",
+		"sequence": 7,
+		"canonicalId": "bodh-gaya",
+		"names": {
+			"primary": "Bodh Gaya",
+			"asGiven": "the Mahābodhi Vihāra",
+			"variants": [
+				"Mahabodhi",
+				"Bodh Gaya",
+				"Bodhi tree",
+				"Mahābodhi (Bodh Gayā)",
+				"Mahābodhi",
+				"Bodh Gayā"
+			]
+		},
+		"type": [
+			"holy-site",
+			"monastery"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [
+			"Sthavira"
+		],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "The place of the Buddha's enlightenment, which I-tsing reached after Nālandā and the Vulture Peak. He worshipped 'the image of the real face' of the Buddha, and offered it a kāṣāya robe of the Tathāgata's own size made from silks entrusted to him by the priests and laity of Shan-tung. He records that the Mahābodhi monastery adhered to the Sthavira school yet also belonged to the Mahāyāna.",
+		"anecdotes": [],
+		"features": [
+			"the image of the real face of the Buddha",
+			"I-tsing's offering of a Tathāgata-sized robe",
+			"Sthavira school yet also Mahāyāna",
+			"Vajrāsana and temple erected by a king of Ceylon",
+			"traditional lodging of Ceylonese monks"
+		],
+		"figures": [
+			"Yijing",
+			"Buddha"
+		],
+		"route": {
+			"fromPlace": "Nālandā / the Vulture Peak",
+			"directionFromPrev": "south",
+			"distance": "~ten days from Tāmraliptī side"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit before settling at Nālandā; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Bodh Gaya, Bihar",
+			"coordinates": {
+				"lat": 24.6959,
+				"lon": 84.9911,
+				"note": "Mahabodhi Temple, Bodh Gaya. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "The Mahābodhi complex; I-tsing's note that it is Sthavira-yet-Mahāyāna matches Xuanzang's report that its monastery studied both vehicles (see Xuanzang entry 79 and observation yijing-obs-014). His Kao Seng Chuan explains the Sthavira presence: the temple and Vajrāsana were erected by a king of Ceylon, and Ceylonese monks traditionally lodged there. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxii)",
+			"quote": "worshipped the image of the real face (of the Buddha)."
+		},
+		"supplementarySources": [
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chüan 1 (p. 51)",
+				"quote": "The Chin-kang-tso, Vajrasana and the Mahabodhi temple had been erected by the King of Ceylon. In olden days the monks coming from Ceylon always remained in this temple.",
+				"note": "Explains the Sthavira (Ceylonese) school I-tsing records here in the Record."
+			}
+		]
+	},
+	{
+		"id": "yijing-008-grdhrakuta",
+		"pilgrim": "Yijing",
+		"sequence": 8,
+		"canonicalId": "grdhrakuta",
+		"names": {
+			"primary": "Vulture Peak",
+			"asGiven": "the Gṛdhrakūṭa (Vulture) mountain",
+			"variants": [
+				"Grdhrakuta",
+				"Vulture Peak",
+				"Griddhakuta",
+				"Gṛdhrakūṭa (Vulture Peak)",
+				"Gṛdhrakūṭa"
+			]
+		},
+		"type": [
+			"mountain",
+			"holy-site"
+		],
+		"firsthand": true,
+		"yana": [
+			"Mahāyāna",
+			"Śrāvakayāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "The Vulture Peak near Rājagṛha — the very goal I-tsing had vowed to reach when he left China. Coming up from Nālandā he ascended the mountain and saw the rock where the Buddha's garments were dried (its woven pattern still visible), before going on to the Mahābodhi.",
+		"anecdotes": [],
+		"features": [
+			"the Buddha's robe-drying rock",
+			"the long-vowed goal of the pilgrimage"
+		],
+		"figures": [
+			"Yijing",
+			"Buddha"
+		],
+		"route": {
+			"fromPlace": "Nālandā",
+			"directionFromPrev": "a few days' ascent",
+			"distance": "—"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit before settling at Nālandā; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Rajgir (Griddhakuta hill), Bihar",
+			"coordinates": {
+				"lat": 25.001,
+				"lon": 85.447,
+				"note": "Griddhakuta (Vulture Peak) hill, Rajgir. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Gṛdhrakūṭa = the Vulture Peak at Rajgir, also central to Xuanzang's Rājagṛha entry. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxii)",
+			"quote": "we ascended the Gṛdhrakūṭa (Vulture) mountain, where we saw the spot on which the garments were folded"
+		}
+	},
+	{
+		"id": "yijing-009-vaisali",
+		"pilgrim": "Yijing",
+		"sequence": 9,
+		"canonicalId": "vaisali",
+		"names": {
+			"primary": "Vaishali",
+			"asGiven": "a house … as 'Fan-chang' (in Vaiśālī)",
+			"variants": [
+				"Vaisali",
+				"Fan-chang",
+				"Vimalakīrti's room",
+				"Vaiśālī"
+			]
+		},
+		"type": [
+			"city",
+			"holy-site"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "On his circuit of all the holy places, I-tsing passed through Vaiśālī, where he saw the house known to the Chinese as 'Fan-chang' — said to be the ten-cubit room of Vimalakīrti, the lay sage of the Mahāyāna sūtra. (The term Fan-chang later came to mean any abbot's quarters or monastery.)",
+		"anecdotes": [
+			{
+				"title": "Vimalakīrti's ten-cubit room (Fan-chang)",
+				"kind": "legend",
+				"summary": "At Vaiśālī stood the room said to be that of Vimalakīrti; the envoy Wang Xuance had measured it at ten cubits square ('Fan-chang'), and from this the word came to mean an abbot's quarters and, later, any monastery.",
+				"figures": [
+					"Vimalakīrti"
+				]
+			}
+		],
+		"features": [
+			"the Fan-chang (Vimalakīrti's room)"
+		],
+		"figures": [
+			"Yijing",
+			"Vimalakīrti"
+		],
+		"route": {
+			"fromPlace": "the Mahābodhi region",
+			"directionFromPrev": "on the holy-places circuit",
+			"distance": "—"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit between the Diamond Seat and Kuśinagara; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Vaishali (Basarh), Bihar",
+			"coordinates": {
+				"lat": 25.992,
+				"lon": 85.128,
+				"note": "Basarh (Vaishali), Bihar. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Vaiśālī, also Xuanzang's site of Vimalakīrti; 'Fan-chang' = the room measured by Wang Xuance, Harṣa's envoy. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxii)",
+			"quote": "I went round to worship all the holy places"
+		}
+	},
+	{
+		"id": "yijing-010-kusinagara",
+		"pilgrim": "Yijing",
+		"sequence": 10,
+		"canonicalId": "kusinagara",
+		"names": {
+			"primary": "Kushinagar",
+			"asGiven": "Kuśinagara",
+			"variants": [
+				"Kusinagara",
+				"Kushinagar",
+				"Parinirvāṇa Vihāra",
+				"Kuśinagara"
+			]
+		},
+		"type": [
+			"holy-site"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "The place of the Buddha's parinirvāṇa, which I-tsing reached on his holy-places circuit, keeping himself devout and sincere. It was at the Parinirvāṇa Vihāra here that his companion the master Mahāyānapradīpa later died.",
+		"anecdotes": [],
+		"features": [
+			"the Buddha's parinirvāṇa",
+			"the Parinirvāṇa Vihāra"
+		],
+		"figures": [
+			"Yijing",
+			"Buddha",
+			"Mahāyānapradīpa"
+		],
+		"route": {
+			"fromPlace": "Vaiśālī",
+			"directionFromPrev": "on the holy-places circuit",
+			"distance": "—"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Kushinagar, Uttar Pradesh",
+			"coordinates": {
+				"lat": 26.74,
+				"lon": 83.887,
+				"note": "Kushinagar, Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Kuśinagara = Kushinagar, the parinirvāṇa site, also in Xuanzang's record. Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxii)",
+			"quote": "and came to Kuśinagara, everywhere keeping myself devout and sincere."
+		}
+	},
+	{
+		"id": "yijing-011-deer-park",
+		"pilgrim": "Yijing",
+		"sequence": 11,
+		"canonicalId": "sarnath",
+		"names": {
+			"primary": "Sarnath (Deer Park)",
+			"asGiven": "the Deer Park (Mṛigadāva at Benares)",
+			"variants": [
+				"Mrigadava",
+				"Sarnath",
+				"Deer Park",
+				"Benares",
+				"The Deer Park (Mṛigadāva, Benares)",
+				"Mṛigadāva"
+			]
+		},
+		"type": [
+			"holy-site"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "The Deer Park at Benares (Sarnath), site of the Buddha's first sermon, which I-tsing entered on his circuit of the holy places.",
+		"anecdotes": [],
+		"features": [
+			"site of the first turning of the Dharma-wheel"
+		],
+		"figures": [
+			"Yijing",
+			"Buddha"
+		],
+		"route": {
+			"fromPlace": "Kuśinagara",
+			"directionFromPrev": "on the holy-places circuit",
+			"distance": "—"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "Sarnath, near Varanasi, Uttar Pradesh",
+			"coordinates": {
+				"lat": 25.3811,
+				"lon": 83.0244,
+				"note": "Deer Park, Sarnath, near Varanasi. Standard scholarly identification; coordinates of the known site/city."
+			},
+			"geoConfidence": "high",
+			"notes": "Mṛigadāva = the Deer Park at Sarnath, the first-sermon site (cf. Xuanzang's Vārāṇasī). Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxii)",
+			"quote": "I entered into the Deer Park (Mṛigadāva at Benares)"
+		}
+	},
+	{
+		"id": "yijing-012-kukkutapadagiri",
+		"pilgrim": "Yijing",
+		"sequence": 12,
+		"canonicalId": "kukkutapada",
+		"names": {
+			"primary": "Cock's Foot Mountain",
+			"asGiven": "the Cock Mountain (Kukkuṭapadagiri near Gayā)",
+			"variants": [
+				"Kukkutapadagiri",
+				"Cock's Foot Mountain",
+				"Gurupada",
+				"Cock Mountain (Kukkuṭapādagiri)",
+				"Kukkuṭapāda"
+			]
+		},
+		"type": [
+			"mountain",
+			"holy-site"
+		],
+		"firsthand": true,
+		"yana": [
+			"Śrāvakayāna",
+			"Mahāyāna"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "The 'Cock's Foot' Mountain near Gayā, where Mahākāśyapa awaits Maitreya — another goal I-tsing had set his hopes on at the journey's outset. He ascended it on his circuit of the holy places.",
+		"anecdotes": [],
+		"features": [
+			"Mahākāśyapa awaiting Maitreya",
+			"a goal set at the journey's start"
+		],
+		"figures": [
+			"Yijing"
+		],
+		"route": {
+			"fromPlace": "the Deer Park (Benares)",
+			"directionFromPrev": "on the holy-places circuit",
+			"distance": "—"
+		},
+		"date": {
+			"year": 674,
+			"yearEarliest": 673,
+			"yearLatest": 675,
+			"approx": true,
+			"text": "c. 674 CE",
+			"basis": "On the holy-places circuit; journey 671–695."
+		},
+		"scholarlyNotes": {
+			"modernName": "near Gaya, Bihar",
+			"coordinates": {
+				"lat": 24.78,
+				"lon": 85.53,
+				"note": "Gurpa/Kurkihar hill east of Bodh Gaya (usual identification)."
+			},
+			"geoConfidence": "medium",
+			"notes": "Kukkuṭapādagiri = the Cock's Foot Mountain of Mahākāśyapa, east of Bodh Gaya (cf. Xuanzang entry 80). Coordinates are in data/canonical/places.json."
+		},
+		"source": {
+			"work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+			"ref": "Life and Travels of I-tsing — the holy places (p. xxxiii)",
+			"quote": "and ascended the Cock Mountain (Kukkuṭapadagiri near Gayā)"
+		}
+	},
+	{
+		"id": "yijing-013-mrgasthapana",
+		"pilgrim": "Yijing",
+		"sequence": 13,
+		"canonicalId": "mrgasthapana",
+		"names": {
+			"primary": "Mṛgasthāpana Monastery",
+			"asGiven": "Mrgasthapana … the Deer Park (monastery)",
+			"variants": [
+				"Mrgasthapana",
+				"Mṛgaśikhāvana",
+				"Lü-yüan",
+				"the Deer Park monastery (Bengal)",
+				"Chih-na (the Chinese monastery)"
+			]
+		},
+		"type": [
+			"monastery"
+		],
+		"firsthand": false,
+		"yana": [
+			"unknown"
+		],
+		"sect": [],
+		"monasteries": {
+			"count": 2,
+			"text": "the Deer Park monastery, and near it the ruined Chinese (Chih-na) monastery of King Śrī-Gupta",
+			"approx": true
+		},
+		"monks": {
+			"count": null,
+			"text": null,
+			"approx": false
+		},
+		"activity": "A monastery on the Ganges about forty yojanas downstream (east) of Nālandā, recorded in I-tsing's Kao Seng Chuan. Near it lay the ruined foundations of the Chih-na — 'Chinese' — monastery, built by King Śrī-Gupta some five hundred years earlier for monks who had come from China via Sichuan, and endowed with twenty-four villages. By I-tsing's century the Chinese monks were long dead and only three villages remained with the Deer Park monastery; the king of Eastern India, Devavarman, was said to be willing to restore the temple and its land if pilgrim monks came again from China.",
+		"anecdotes": [
+			{
+				"title": "The lost Chinese monastery of King Śrī-Gupta",
+				"kind": "historical",
+				"summary": "Some five hundred years earlier, more than twenty Chinese monks reached the Mahābodhi via Sichuan; King Śrī-Gupta built them the Chih-na ('Chinese') monastery and endowed it with twenty-four villages. After the monks died the monastery fell to ruin and the land passed to others — but King Devavarman of Eastern India offered to return the temple and its villages should monks come again from the land of the Son of Heaven.",
+				"figures": [
+					"Śrī-Gupta",
+					"Devavarman"
+				]
+			}
+		],
+		"features": [
+			"forty yojanas east of Nālandā, down the Ganges",
+			"ruined foundations of the Chih-na (Chinese) monastery",
+			"twenty-four endowed villages, of which three remained"
+		],
+		"figures": [
+			"Śrī-Gupta",
+			"Devavarman"
+		],
+		"route": {
+			"fromPlace": "Nālandā",
+			"directionFromPrev": "east, down the Ganges",
+			"distance": "about forty yojanas"
+		},
+		"date": {
+			"year": 675,
+			"yearEarliest": 673,
+			"yearLatest": 685,
+			"approx": true,
+			"text": "c. 675–685 CE",
+			"basis": "Described in the Kao Seng Chuan alongside the Nālandā account, i.e. during I-tsing's Indian years (673–685); the visit it records cannot be dated more precisely."
+		},
+		"scholarlyNotes": {
+			"modernName": "Varendrabhumi (northern Bengal) — uncertain",
+			"coordinates": {
+				"lat": 24.8,
+				"lon": 88.9,
+				"note": "Foucher identified the Mṛgasthāpana stūpa with a site in Varendrabhumi, northern Bengal; the location is very approximate."
+			},
+			"geoConfidence": "low",
+			"notes": "Despite its Chinese name Lü-yüan ('Deer Park'), this is not Sārnāth: the text places it forty yojanas east of Nālandā down the Ganges. Foucher identified it with the Mṛgasthāpana stūpa of Varendrabhumi (northern Bengal). 'The pilgrim' whose visit the passage describes may be I-ching himself or the monk whose biography hosts it (Hui-lun), so the entry is marked as reported rather than firsthand. Lahiri notes the King Devavarman mentioned may be Devakhadga of the Khadga dynasty of Samataṭa."
+		},
+		"source": {
+			"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+			"ref": "Chüan 1 (p. 49)",
+			"quote": "In Chinese it is known as Lü-yüan which means the Deer Park (monastery). Not very far from this monastery there was another monastery which was in ruins"
+		},
+		"supplementarySources": [
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chüan 1 (p. 50)",
+				"quote": "They were received by the King with great respect for their piety. The king donated them a village of considerable extent and made an endowment of twenty-four villages",
+				"note": "King Śrī-Gupta's endowment for the Chinese monks."
+			},
+			{
+				"work": "Biography of Eminent Monks Who Went to the Western World in Search of the Law During the Great T'ang Dynasty (Lahiri)",
+				"ref": "Chüan 1 (p. 50)",
+				"quote": "Afterwards all the Chinese monks died. This village was partitioned and the land came into possession of aliens.",
+				"note": "The fate of the Chih-na monastery by I-tsing's century."
+			}
+		]
+	}
+]

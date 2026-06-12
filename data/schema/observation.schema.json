@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://journey-to-the-west/data/schema/observation.schema.json",
+  "title": "Thematic observation (esp. Yijing's school/yana commentary)",
+  "description": "Non-place-bound claims a pilgrim makes about the distribution of schools, yana, or monastic practice across a region.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "pilgrim", "topic", "region", "claim", "yana", "sect", "source"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^(faxian|xuanzang|yijing)-obs-[0-9]{3}$" },
+      "pilgrim": { "enum": ["Faxian", "Xuanzang", "Yijing"] },
+      "topic": { "enum": ["school-distribution", "yana", "monastic-practice", "other"] },
+      "region": { "type": "string", "minLength": 1 },
+      "claim": { "type": "string", "minLength": 1 },
+      "yana": {
+        "type": "array",
+        "items": { "enum": ["Mahāyāna", "Śrāvakayāna", "Vajrayana", "non-Buddhist", "unknown"] }
+      },
+      "sect": { "type": "array", "items": { "type": "string" } },
+      "source": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["work", "ref", "quote"],
+        "properties": {
+          "work": { "type": "string", "minLength": 1 },
+          "ref": { "type": "string", "minLength": 1 },
+          "quote": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

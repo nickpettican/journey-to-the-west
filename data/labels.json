@@ -1,0 +1,24 @@
+{
+  "_note": "UI display labels for the ASCII enum keys used in places.json, observations.json and canonical/places.json. 'Sthavira' renders as 'Sthavira (Theravada)' because I-tsing's Sthavira = the Theravada/Vibhajyavada lineage (yijing obs-021); 'Sarvastivada' is sensu lato — in N./C. India it may include the Mulasarvastivada (see EXTRACTION_GUIDE hard-rule 7, yijing obs-016). Per-place nuance lives in canonical traditionNote.",
+  "yana": {
+    "Mahayana": "Mahāyāna",
+    "Sravakayana": "Śrāvakayāna",
+    "Vajrayana": "Vajrayāna",
+    "non-Buddhist": "non-Buddhist",
+    "unknown": "unknown"
+  },
+  "sect": {
+    "Sarvastivada": "Sarvāstivāda",
+    "Mulasarvastivada": "Mūlasarvāstivāda",
+    "Sthavira": "Sthavira (Theravāda)",
+    "Theravada": "Theravāda",
+    "Sammitiya": "Sāṃmitīya",
+    "Mahasamghika": "Mahāsāṃghika",
+    "Dharmaguptaka": "Dharmaguptaka",
+    "Mahisasaka": "Mahīśāsaka",
+    "Kasyapiya": "Kāśyapīya",
+    "Lokottaravada": "Lokottaravāda",
+    "Mahavihara": "Mahāvihāra",
+    "Abhayagiri": "Abhayagiri"
+  }
+}

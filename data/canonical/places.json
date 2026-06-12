@@ -1,0 +1,6812 @@
+[
+  {
+    "canonicalId": "changan",
+    "name": "Chang'an",
+    "modernName": "Xi'an, Shaanxi",
+    "region": null,
+    "type": [
+      "city"
+    ],
+    "coordinates": {
+      "lat": 34.27,
+      "lon": 108.95,
+      "geoConfidence": "high",
+      "basis": "Xi'an (Chang'an), Shaanxi, China."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-001-changan",
+        "sequence": 1,
+        "firsthand": true,
+        "year": 399,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "keenkwei",
+    "name": "K’een-kwei",
+    "modernName": "Lanzhou region, Gansu",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 36.06,
+      "lon": 103.79,
+      "geoConfidence": "low",
+      "basis": "Lanzhou region, Gansu (uncertain)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-002-keenkwei",
+        "sequence": 2,
+        "firsthand": true,
+        "year": 399,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "nowtan",
+    "name": "Now-t’an",
+    "modernName": "Gansu (Southern Leang)",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 37.93,
+      "lon": 102.64,
+      "geoConfidence": "low",
+      "basis": "Southern Liang (Wuwei region), Gansu (uncertain)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-003-nowtan",
+        "sequence": 3,
+        "firsthand": true,
+        "year": 400,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "changyih",
+    "name": "Chang-yih",
+    "modernName": "Zhangye, Gansu",
+    "region": null,
+    "type": [
+      "town"
+    ],
+    "coordinates": {
+      "lat": 38.93,
+      "lon": 100.45,
+      "geoConfidence": "high",
+      "basis": "Zhangye, Gansu, China."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-004-changyih",
+        "sequence": 4,
+        "firsthand": true,
+        "year": 400,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "tunhwang",
+    "name": "Dunhuang",
+    "modernName": "Dunhuang, Gansu",
+    "region": null,
+    "type": [
+      "town"
+    ],
+    "coordinates": {
+      "lat": 40.14,
+      "lon": 94.66,
+      "geoConfidence": "high",
+      "basis": "Dunhuang, Gansu, China."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-005-tunhwang",
+        "sequence": 5,
+        "firsthand": true,
+        "year": 400,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "shenshen",
+    "name": "Shen-shen",
+    "modernName": "near Lop Nor, Xinjiang",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 39.02,
+      "lon": 88.17,
+      "geoConfidence": "low",
+      "basis": "Shanshan/Loulan (Charklik/Ruoqiang region), Xinjiang (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-006-shenshen",
+        "sequence": 6,
+        "firsthand": true,
+        "year": 400,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "wooe",
+    "name": "Woo-e",
+    "modernName": "near Karashahr/Kucha, Xinjiang",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 42.06,
+      "lon": 86.57,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (Karashahr region, Tarim basin); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-007-wooe",
+        "sequence": 7,
+        "firsthand": true,
+        "year": 401,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "khotan",
+    "name": "Gostana",
+    "modernName": "Hotan (Khotan), Xinjiang",
+    "region": "Central Asia (southern Tarim)",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 37.11,
+      "lon": 79.93,
+      "geoConfidence": "high",
+      "basis": "Hotan (Khotan), Xinjiang. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": "Xuanzang calls it mostly Mahāyāna; I-tsing names Kustana (Khotan) as a place where the Mūlasarvāstivāda subdivisions (Dharmaguptaka/Mahīśāsaka/Kāśyapīya) are practised (obs-017).",
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-008-khoten",
+        "sequence": 8,
+        "firsthand": true,
+        "year": 401,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-145-gostana",
+        "sequence": 145,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "tszehoh",
+    "name": "Tsze-hoh",
+    "modernName": "Tashkurgan or Yarkand (uncertain)",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 38.42,
+      "lon": 77.27,
+      "geoConfidence": "low",
+      "basis": "Tashkurgan or Yarkand region, southern Tarim (uncertain)."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-009-tszehoh",
+        "sequence": 9,
+        "firsthand": true,
+        "year": 401,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "yuhwuy",
+    "name": "Yu-hwuy",
+    "modernName": "Pamir/Karakoram (Onion range)",
+    "region": null,
+    "type": [
+      "mountain",
+      "region"
+    ],
+    "coordinates": {
+      "lat": 38.0,
+      "lon": 75.0,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (Pamir / Tsung-ling (Onion) range); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-010-yuhwuy",
+        "sequence": 10,
+        "firsthand": true,
+        "year": 402,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "keehcha",
+    "name": "K’eeh-ch’a",
+    "modernName": "Skardu (uncertain)",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 75.63,
+      "geoConfidence": "low",
+      "basis": "Skardu region, upper Indus (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-011-keehcha",
+        "sequence": 11,
+        "firsthand": true,
+        "year": 402,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "darada",
+    "name": "Darada",
+    "modernName": "Darel valley (upper Indus)",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 35.76,
+      "lon": 73.6,
+      "geoConfidence": "low",
+      "basis": "Darel valley, upper Indus (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-012-darada",
+        "sequence": 12,
+        "firsthand": true,
+        "year": 402,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "indus-crossing",
+    "name": "The Indus crossing",
+    "modernName": "upper Indus gorge (Skardu–Rongdo)",
+    "region": null,
+    "type": [
+      "river"
+    ],
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 75.6,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (upper Indus gorge near Skardu); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-013-indus-crossing",
+        "sequence": 13,
+        "firsthand": true,
+        "year": 402,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "udyana",
+    "name": "Udyāna",
+    "modernName": "Swat valley, Pakistan",
+    "region": "North India (Uḍyāna/Swat)",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 34.78,
+      "lon": 72.36,
+      "geoConfidence": "high",
+      "basis": "Swat valley (Mingora region), Pakistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Dharmaguptaka",
+      "Kasyapiya",
+      "Mahasamghika",
+      "Mahisasaka",
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": "One of only three Indian places (with Kharachar/Karashahr and Khotan) where I-tsing records the Mūlasarvāstivāda subdivisions prevailing (obs-017); Xuanzang independently lists all five schools here.",
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-014-udyana",
+        "sequence": 14,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-038-udyana",
+        "sequence": 38,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Dharmaguptaka",
+          "Mahisasaka",
+          "Kasyapiya",
+          "Sarvastivada",
+          "Mahasamghika"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "soohoto",
+    "name": "Soo-ho-to",
+    "modernName": "between the Indus and the Swat (uncertain)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.46,
+      "lon": 72.05,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (hill country between the Indus and the Swat); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-015-soohoto",
+        "sequence": 15,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "gandhara",
+    "name": "Gandhāra",
+    "modernName": "Gandhara (Peshawar–Swabi region), Pakistan",
+    "region": "North India (Gandhāra)",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 34.15,
+      "lon": 71.74,
+      "geoConfidence": "medium",
+      "basis": "Gandhara (Charsadda/Peshawar plain), Pakistan."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-016-gandhara",
+        "sequence": 16,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-037-gandhara",
+        "sequence": 37,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "taxila",
+    "name": "Takṣaśilā",
+    "modernName": "Taxila (Shahdheri), Pakistan",
+    "region": "North India",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 33.74,
+      "lon": 72.79,
+      "geoConfidence": "high",
+      "basis": "Taxila (Shahdheri), Pakistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-017-takshasila",
+        "sequence": 17,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-040-taksasila",
+        "sequence": 40,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "purushapura",
+    "name": "Purushapura",
+    "modernName": "Peshawar, Pakistan",
+    "region": "North India (Gandhāra)",
+    "type": [
+      "city",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 34.01,
+      "lon": 71.58,
+      "geoConfidence": "high",
+      "basis": "Peshawar (Purushapura), Pakistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-018-purushapura",
+        "sequence": 18,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "nagarahara",
+    "name": "Nagarahāra",
+    "modernName": "Hidda / Jalalabad region, Afghanistan",
+    "region": "North India",
+    "type": [
+      "city",
+      "country",
+      "holy-site"
+    ],
+    "coordinates": {
+      "lat": 34.43,
+      "lon": 70.45,
+      "geoConfidence": "high",
+      "basis": "Hidda/Jalalabad (Nagarahara), Afghanistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-019-nagara",
+        "sequence": 19,
+        "firsthand": true,
+        "year": 403,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-036-nagarahara",
+        "sequence": 36,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "little-snowy-mountains",
+    "name": "The Little Snowy Mountains",
+    "modernName": "Safed Koh range, Afghanistan/Pakistan",
+    "region": null,
+    "type": [
+      "mountain"
+    ],
+    "coordinates": {
+      "lat": 34.05,
+      "lon": 70.1,
+      "geoConfidence": "low",
+      "basis": "Safed Koh range, Afghanistan/Pakistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-020-little-snowy-mountains",
+        "sequence": 20,
+        "firsthand": true,
+        "year": 404,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "loe",
+    "name": "Lo-e",
+    "modernName": "eastern Afghanistan (Rohi)",
+    "region": null,
+    "type": [
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 33.8,
+      "lon": 70.2,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (eastern Afghanistan (Rohi)); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-021-loe",
+        "sequence": 21,
+        "firsthand": true,
+        "year": 404,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "varnu-bannu",
+    "name": "Varṇu",
+    "modernName": "Bannu, Pakistan",
+    "region": "North-West frontier",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 32.99,
+      "lon": 70.6,
+      "geoConfidence": "medium",
+      "basis": "Bannu, Pakistan (Faxian's Poh-na ≈ Xuanzang's Varṇu)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-022-pohna",
+        "sequence": 22,
+        "firsthand": true,
+        "year": 404,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-123-varnu",
+        "sequence": 123,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "bhida",
+    "name": "Bhida",
+    "modernName": "Punjab (part)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.5,
+      "lon": 74.5,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (central Punjab); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-023-bhida",
+        "sequence": 23,
+        "firsthand": true,
+        "year": 404,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "mathura",
+    "name": "Mathurā",
+    "modernName": "Mathura, Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "holy-site"
+    ],
+    "coordinates": {
+      "lat": 27.492,
+      "lon": 77.673,
+      "geoConfidence": "high",
+      "basis": "Mathura, Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-024-mathura",
+        "sequence": 24,
+        "firsthand": true,
+        "year": 405,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-052-mathura",
+        "sequence": 52,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sankasya",
+    "name": "Kapitha",
+    "modernName": "Sankisa (Samkassam), Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 27.33,
+      "lon": 79.27,
+      "geoConfidence": "high",
+      "basis": "Sankisa (Sankasya), Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-025-sankasya",
+        "sequence": 25,
+        "firsthand": true,
+        "year": 405,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-060-kapitha",
+        "sequence": 60,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kanyakubja",
+    "name": "Kanyākubja",
+    "modernName": "Kannauj, Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 27.055,
+      "lon": 79.918,
+      "geoConfidence": "high",
+      "basis": "Kannauj, Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-026-kanyakubja",
+        "sequence": 26,
+        "firsthand": true,
+        "year": 405,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-061-kanyakubja",
+        "sequence": 61,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "ale",
+    "name": "A-le",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "town"
+    ],
+    "coordinates": {
+      "lat": 26.924,
+      "lon": 81.059,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Kanyakubja and Sha-che); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-027-ale",
+        "sequence": 27,
+        "firsthand": true,
+        "year": 405,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "ayodhya",
+    "name": "Ayodhyā",
+    "modernName": "Saket (Ayodhya region), Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 26.792,
+      "lon": 82.199,
+      "geoConfidence": "medium",
+      "basis": "Ayodhya/Saket, Uttar Pradesh (Faxian's Sha-che ≈ Xuanzang's Ayodhyā)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-028-shache",
+        "sequence": 28,
+        "firsthand": true,
+        "year": 405,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-062-ayodhya",
+        "sequence": 62,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sravasti",
+    "name": "Śrāvastī",
+    "modernName": "Sahet-Mahet (Sravasti), Uttar Pradesh",
+    "region": "Central India (N. Kosala)",
+    "type": [
+      "city",
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 27.519,
+      "lon": 82.04,
+      "geoConfidence": "high",
+      "basis": "Sahet-Mahet (Sravasti). Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-029-sravasti",
+        "sequence": 29,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-067-sravasti",
+        "sequence": 67,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "toowei",
+    "name": "Too-wei",
+    "modernName": "Tadwa (near Sahet-Mahet)",
+    "region": null,
+    "type": [
+      "holy-site",
+      "town"
+    ],
+    "coordinates": {
+      "lat": 27.52,
+      "lon": 82.05,
+      "geoConfidence": "low",
+      "basis": "Tadwa near Sahet-Mahet, Uttar Pradesh, India (uncertain)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-030-toowei",
+        "sequence": 30,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "napeikea",
+    "name": "Na-pei-kea",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "holy-site",
+      "town"
+    ],
+    "coordinates": {
+      "lat": 27.145,
+      "lon": 82.685,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Too-wei and Kapilavastu); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-031-napeikea",
+        "sequence": 31,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kapilavastu",
+    "name": "Kapilavastu",
+    "modernName": "Kapilavastu (Nepal/UP border region)",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 27.571,
+      "lon": 83.052,
+      "geoConfidence": "medium",
+      "basis": "Tilaurakot/Piprahwa area (identification debated)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-032-kapilavastu",
+        "sequence": 32,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-068-kapilavastu",
+        "sequence": 68,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "lumbini",
+    "name": "Lumbini",
+    "modernName": "Lumbini, Nepal",
+    "region": "Central India",
+    "type": [
+      "holy-site"
+    ],
+    "coordinates": {
+      "lat": 27.4693,
+      "lon": 83.276,
+      "geoConfidence": "high",
+      "basis": "Lumbini, Nepal. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-033-lumbini",
+        "sequence": 33,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "ramagrama",
+    "name": "Rāma[grāma]",
+    "modernName": "Ramagrama (Nepal terai)",
+    "region": "Central India",
+    "type": [
+      "country",
+      "kingdom",
+      "stupa-site"
+    ],
+    "coordinates": {
+      "lat": 27.45,
+      "lon": 83.69,
+      "geoConfidence": "medium",
+      "basis": "Ramagrama stupa, Nepal terai (approximate)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-034-rama",
+        "sequence": 34,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-069-ramagrama",
+        "sequence": 69,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kusinagara",
+    "name": "Kuśinagara",
+    "modernName": "Kushinagar, Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "holy-site"
+    ],
+    "coordinates": {
+      "lat": 26.74,
+      "lon": 83.887,
+      "geoConfidence": "high",
+      "basis": "Kushinagar, Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 3,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-035-kusinagara",
+        "sequence": 35,
+        "firsthand": true,
+        "year": 406,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-070-kusinagara",
+        "sequence": 70,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-010-kusinagara",
+        "sequence": 10,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "vaisali",
+    "name": "Vaiśālī",
+    "modernName": "Vaishali (Basarh), Bihar",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 25.992,
+      "lon": 85.128,
+      "geoConfidence": "high",
+      "basis": "Basarh (Vaishali), Bihar. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 3,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-036-vaisali",
+        "sequence": 36,
+        "firsthand": true,
+        "year": 407,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-073-vaisali",
+        "sequence": 73,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-009-vaisali",
+        "sequence": 9,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "ganges-confluence",
+    "name": "Confluence of the five rivers",
+    "modernName": "near Patna, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "river"
+    ],
+    "coordinates": {
+      "lat": 25.62,
+      "lon": 85.2,
+      "geoConfidence": "low",
+      "basis": "The Ganges confluence near Patna (approximate)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-037-five-rivers-confluence",
+        "sequence": 37,
+        "firsthand": true,
+        "year": 407,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "pataliputra",
+    "name": "Pāṭaliputra",
+    "modernName": "Patna, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "city",
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.611,
+      "lon": 85.144,
+      "geoConfidence": "high",
+      "basis": "Patna (Pataliputra), Bihar. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Mahasamghika",
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-038-pataliputtra",
+        "sequence": 38,
+        "firsthand": true,
+        "year": 407,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Mahasamghika",
+          "Sarvastivada"
+        ]
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-076-magadha-pataliputra",
+        "sequence": 76,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Mahāyāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "indrasailaguha",
+    "name": "Indra-sila-guha hill",
+    "modernName": "Giryek, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "cave",
+      "mountain"
+    ],
+    "coordinates": {
+      "lat": 25.05,
+      "lon": 85.52,
+      "geoConfidence": "medium",
+      "basis": "Indrasailaguha (Giryek), Bihar (usual identification)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-039-indrasila-hill",
+        "sequence": 39,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "nalanda",
+    "name": "Nālandā Monastery",
+    "modernName": "Nalanda (Baragaon), Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "holy-site",
+      "monastery",
+      "town"
+    ],
+    "coordinates": {
+      "lat": 25.1362,
+      "lon": 85.4439,
+      "geoConfidence": "high",
+      "basis": "Nalanda Mahavihara ruins, Bargaon. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 3,
+    "traditionNote": "Doctrinally a Mahāyāna university; its Vinaya/ordination tradition is the Mūlasarvāstivāda on I-tsing's ten-year firsthand testimony (Yijing obs-019/020). Xuanzang names no school here.",
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-040-nalanda",
+        "sequence": 40,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-082-nalanda",
+        "sequence": 82,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-006-nalanda",
+        "sequence": 6,
+        "firsthand": true,
+        "year": 675,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "rajagrha",
+    "name": "Rājagṛha",
+    "modernName": "Rajgir, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "cave",
+      "city",
+      "holy-site",
+      "mountain",
+      "stupa-site"
+    ],
+    "coordinates": {
+      "lat": 25.0281,
+      "lon": 85.4206,
+      "geoConfidence": "high",
+      "basis": "Rajgir (old Rajagriha), Bihar. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-041-rajagriha",
+        "sequence": 41,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-043-srataparna-cave",
+        "sequence": 43,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-081-rajagrha",
+        "sequence": 81,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "grdhrakuta",
+    "name": "Gṛdhrakūṭa (Vulture Peak)",
+    "modernName": "Vulture Peak, Rajgir, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "cave",
+      "holy-site",
+      "mountain"
+    ],
+    "coordinates": {
+      "lat": 25.001,
+      "lon": 85.447,
+      "geoConfidence": "high",
+      "basis": "Griddhakuta (Vulture Peak) hill, Rajgir. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-042-gridhrakuta",
+        "sequence": 42,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-008-grdhrakuta",
+        "sequence": 8,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "bodh-gaya",
+    "name": "The Bodhi Tree (Bodh Gayā)",
+    "modernName": "Bodh Gaya / Gaya, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "city",
+      "holy-site",
+      "monastery",
+      "stupa-site"
+    ],
+    "coordinates": {
+      "lat": 24.6959,
+      "lon": 84.9911,
+      "geoConfidence": "high",
+      "basis": "Mahabodhi Temple, Bodh Gaya. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 3,
+    "traditionNote": "The Mahābodhi monastery followed the Sthavira (Theravāda) Vinaya yet also the Mahāyāna — a Sinhalese royal foundation. Independently confirmed by Xuanzang (entry 79) and I-tsing (obs-014).",
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-044-bodhgaya",
+        "sequence": 44,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-079-bodhi-tree",
+        "sequence": 79,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-007-mahabodhi",
+        "sequence": 7,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kukkutapada",
+    "name": "Kukkuṭapāda Mountain",
+    "modernName": "Kurkihar/Gurpa hill, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "holy-site",
+      "mountain",
+      "stupa-site"
+    ],
+    "coordinates": {
+      "lat": 24.78,
+      "lon": 85.53,
+      "geoConfidence": "medium",
+      "basis": "Gurpa/Kurkihar hill east of Bodh Gaya (usual identification)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 3,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-045-gurupada",
+        "sequence": 45,
+        "firsthand": true,
+        "year": 408,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-080-kukkutapada",
+        "sequence": 80,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-012-kukkutapadagiri",
+        "sequence": 12,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sarnath",
+    "name": "Vārāṇasī / Sarnath (Deer Park)",
+    "modernName": "Varanasi (Sarnath), Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "city",
+      "country",
+      "holy-site"
+    ],
+    "coordinates": {
+      "lat": 25.3811,
+      "lon": 83.0244,
+      "geoConfidence": "high",
+      "basis": "Deer Park, Sarnath, near Varanasi. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "unknown"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 3,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-046-varanasi",
+        "sequence": 46,
+        "firsthand": true,
+        "year": 409,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-071-varanasi",
+        "sequence": 71,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-011-deer-park",
+        "sequence": 11,
+        "firsthand": true,
+        "year": 674,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kausambi",
+    "name": "Kauśāmbī",
+    "modernName": "Kosam, Uttar Pradesh",
+    "region": "Central India",
+    "type": [
+      "country",
+      "holy-site",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 25.35,
+      "lon": 81.39,
+      "geoConfidence": "high",
+      "basis": "Kosam (Kausambi), Uttar Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-047-kausambi",
+        "sequence": 47,
+        "firsthand": true,
+        "year": 409,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-065-kausambi",
+        "sequence": 65,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "dakshina",
+    "name": "Dakshina (the Deccan)",
+    "modernName": "the Deccan (uncertain)",
+    "region": null,
+    "type": [
+      "country",
+      "monastery"
+    ],
+    "coordinates": {
+      "lat": 17.5,
+      "lon": 78.5,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (the Deccan (reported, not visited)); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-048-dakshina",
+        "sequence": 48,
+        "firsthand": false,
+        "year": null,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "champa",
+    "name": "Campā",
+    "modernName": "Champanagar (near Bhagalpur), Bihar",
+    "region": "Central/East India",
+    "type": [
+      "city",
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 25.25,
+      "lon": 87.02,
+      "geoConfidence": "high",
+      "basis": "Champanagar near Bhagalpur, Bihar. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 2,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-049-champa",
+        "sequence": 49,
+        "firsthand": true,
+        "year": 410,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-085-campa",
+        "sequence": 85,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "tamralipti",
+    "name": "Tāmraliptī",
+    "modernName": "Tamluk, West Bengal",
+    "region": "East India",
+    "type": [
+      "city",
+      "country",
+      "port"
+    ],
+    "coordinates": {
+      "lat": 22.3,
+      "lon": 87.92,
+      "geoConfidence": "high",
+      "basis": "Tamluk (Tamralipti), West Bengal. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 3,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-050-tamalipti",
+        "sequence": 50,
+        "firsthand": true,
+        "year": 410,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-090-tamralipti",
+        "sequence": 90,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      },
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-005-tamralipti",
+        "sequence": 5,
+        "firsthand": true,
+        "year": 673,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "simhala",
+    "name": "Siṃhala",
+    "modernName": "Sri Lanka (Anuradhapura)",
+    "region": "Ceylon (Siṃhala)",
+    "type": [
+      "country",
+      "kingdom",
+      "port"
+    ],
+    "coordinates": {
+      "lat": 8.3114,
+      "lon": 80.4037,
+      "geoConfidence": "high",
+      "basis": "Anuradhapura, Sri Lanka (the ancient capital). Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Abhayagiri",
+      "Mahavihara",
+      "Mahisasaka",
+      "Sthavira"
+    ],
+    "pilgrimCount": 2,
+    "traditionNote": "Ceylon = Sthavira (Theravāda) universally per I-tsing (obs-004/021); Xuanzang names its two sects, Mahāvihāra and Abhayagiri; Faxian records Mahīśāsaka and Theravāda texts. Modern Theravāda descends specifically from the Mahāvihāra.",
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-051-ceylon",
+        "sequence": 51,
+        "firsthand": true,
+        "year": 412,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Mahisasaka",
+          "Theravada"
+        ]
+      },
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-101-simhala",
+        "sequence": 101,
+        "firsthand": false,
+        "year": null,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sthavira",
+          "Mahavihara",
+          "Abhayagiri"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "java",
+    "name": "Java-dvipa",
+    "modernName": "Java (or Sumatra), Indonesia",
+    "region": null,
+    "type": [
+      "non-buddhist-site",
+      "region"
+    ],
+    "coordinates": {
+      "lat": -6.2,
+      "lon": 106.85,
+      "geoConfidence": "low",
+      "basis": "Java/Sumatra, Indonesia (identification debated)."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-052-java",
+        "sequence": 52,
+        "firsthand": true,
+        "year": 413,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "changkwang-return",
+    "name": "Ch'ang-kwang (Mount Lao), China",
+    "modernName": "Mount Lao / Qingdao region, Shandong",
+    "region": null,
+    "type": [
+      "port",
+      "region"
+    ],
+    "coordinates": {
+      "lat": 36.1,
+      "lon": 120.63,
+      "geoConfidence": "medium",
+      "basis": "Mount Lao (Laoshan) near Qingdao, Shandong, China."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Faxian",
+        "placeId": "faxian-053-changkwang-return",
+        "sequence": 53,
+        "firsthand": true,
+        "year": 414,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "agni",
+    "name": "Agni",
+    "modernName": "Karashahr (Yanqi), Xinjiang, China",
+    "region": "Central Asia (Tarim)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 42.06,
+      "lon": 86.57,
+      "geoConfidence": "high",
+      "basis": "Karashahr (Yanqi), Xinjiang. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": "I-tsing names Kharachar (Karashahr) as one of three places where the Mūlasarvāstivāda subdivisions prevail (obs-017); Xuanzang records the Sarvāstivāda here.",
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-001-agni",
+        "sequence": 1,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kuci",
+    "name": "Kuci",
+    "modernName": "Kucha (Qiuci), Xinjiang, China",
+    "region": "Central Asia (Tarim)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 41.71,
+      "lon": 82.96,
+      "geoConfidence": "high",
+      "basis": "Kucha (Qiuci), Xinjiang. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-002-kuci",
+        "sequence": 2,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "baluka",
+    "name": "Bālukā",
+    "modernName": "Aksu (Gumo), Xinjiang, China",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 41.17,
+      "lon": 80.26,
+      "geoConfidence": "high",
+      "basis": "Aksu (Gumo), Xinjiang, China."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-003-baluka",
+        "sequence": 3,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "nujkend",
+    "name": "Nujkend",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 42.5,
+      "lon": 71.5,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (Chu/Talas valley, west of the Tianshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-004-nujkend",
+        "sequence": 4,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "shash",
+    "name": "Shash",
+    "modernName": "Tashkent (Chach), Uzbekistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 41.299,
+      "lon": 69.24,
+      "geoConfidence": "high",
+      "basis": "Tashkent (Chach), Uzbekistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-005-shash",
+        "sequence": 5,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "feihan",
+    "name": "Feihan",
+    "modernName": "Ferghana valley, Uzbekistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 40.39,
+      "lon": 71.78,
+      "geoConfidence": "medium",
+      "basis": "Ferghana valley (Fergana), Uzbekistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-006-feihan",
+        "sequence": 6,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sutrushana",
+    "name": "Sutrūshana",
+    "modernName": "Ura-Tyube (Ustrushana), Tajikistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.92,
+      "lon": 69.01,
+      "geoConfidence": "medium",
+      "basis": "Ura-Tyube (Ustrushana), Tajikistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-007-sutrushana",
+        "sequence": 7,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "samarkand",
+    "name": "Samarkand",
+    "modernName": "Samarkand, Uzbekistan",
+    "region": "Transoxiana",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.65,
+      "lon": 66.96,
+      "geoConfidence": "high",
+      "basis": "Samarkand, Uzbekistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-008-samarkand",
+        "sequence": 8,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "mimohe",
+    "name": "Mimohe",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.674,
+      "lon": 66.452,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Samarkand and Bukhara); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-009-mimohe",
+        "sequence": 9,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kaputana",
+    "name": "Kapūtānā",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.698,
+      "lon": 65.944,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Samarkand and Bukhara); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-010-kaputana",
+        "sequence": 10,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kusanika",
+    "name": "Kuṣāṇika",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.722,
+      "lon": 65.436,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Samarkand and Bukhara); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-011-kusanika",
+        "sequence": 11,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "khagan",
+    "name": "Khagan",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.746,
+      "lon": 64.928,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Samarkand and Bukhara); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-012-khagan",
+        "sequence": 12,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "bukhara",
+    "name": "Bukhārā",
+    "modernName": "Bukhara, Uzbekistan",
+    "region": "Transoxiana",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.77,
+      "lon": 64.42,
+      "geoConfidence": "high",
+      "basis": "Bukhara, Uzbekistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-013-bukhara",
+        "sequence": 13,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "betik",
+    "name": "Betik",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 40.575,
+      "lon": 62.39,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Bukhara and Horismika); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-014-betik",
+        "sequence": 14,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "horismika",
+    "name": "Horiṣmīka",
+    "modernName": "Khwarezm (Khorezm), Uzbekistan/Turkmenistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 41.38,
+      "lon": 60.36,
+      "geoConfidence": "low",
+      "basis": "Khwarezm (Khiva/Khorezm), lower Amu Darya."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-015-horismika",
+        "sequence": 15,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kasanna",
+    "name": "Kasanna",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.302,
+      "lon": 63.819,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Horismika and Tirmidh); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-016-kasanna",
+        "sequence": 16,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "tirmidh",
+    "name": "Tirmidh",
+    "modernName": "Termez, Uzbekistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.224,
+      "lon": 67.278,
+      "geoConfidence": "high",
+      "basis": "Termez on the Amu Darya, Uzbekistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-017-tirmidh",
+        "sequence": 17,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sahaniyan",
+    "name": "Sahāniyan",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.325,
+      "lon": 67.695,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Tirmidh and Khuttalan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-018-sahaniyan",
+        "sequence": 18,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kharun",
+    "name": "Kharūn",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.426,
+      "lon": 68.112,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Tirmidh and Khuttalan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-019-kharun",
+        "sequence": 19,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "shuman",
+    "name": "Shūmān",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.527,
+      "lon": 68.529,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Tirmidh and Khuttalan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-020-shuman",
+        "sequence": 20,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kuvayana",
+    "name": "Kuvāyāna",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.628,
+      "lon": 68.946,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Tirmidh and Khuttalan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-021-kuvayana",
+        "sequence": 21,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "wakhsh",
+    "name": "Wakhsh",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.729,
+      "lon": 69.363,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Tirmidh and Khuttalan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-022-wakhsh",
+        "sequence": 22,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "khuttalan",
+    "name": "Khuttalān",
+    "modernName": "Khatlon region (Khuttal), Tajikistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.83,
+      "lon": 69.78,
+      "geoConfidence": "low",
+      "basis": "Khatlon (Khuttal), Tajikistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-023-khuttalan",
+        "sequence": 23,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "komidai",
+    "name": "Komidai",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.98,
+      "lon": 69.245,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Khuttalan and Baghlan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-024-komidai",
+        "sequence": 24,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "baghlan",
+    "name": "Baghlan",
+    "modernName": "Baghlan, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.13,
+      "lon": 68.71,
+      "geoConfidence": "medium",
+      "basis": "Baghlan, Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-025-baghlan",
+        "sequence": 25,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "hrum-simingan",
+    "name": "Hrum-Simingān",
+    "modernName": "Samangan, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.26,
+      "lon": 68.01,
+      "geoConfidence": "medium",
+      "basis": "Samangan (Aybak), Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-026-hrum-simingan",
+        "sequence": 26,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "khulm",
+    "name": "Khulm",
+    "modernName": "Khulm (Tashkurgan), Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.7,
+      "lon": 67.69,
+      "geoConfidence": "medium",
+      "basis": "Khulm (Tashkurgan), Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-027-khulm",
+        "sequence": 27,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "baktra",
+    "name": "Baktra",
+    "modernName": "Balkh (Bactra), Afghanistan",
+    "region": "Tukhāra",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.76,
+      "lon": 66.9,
+      "geoConfidence": "high",
+      "basis": "Balkh (Bactra), Afghanistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-028-baktra",
+        "sequence": 28,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "zumathan",
+    "name": "Zumathān",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.515,
+      "lon": 66.325,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Baktra and Guzganan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-029-zumathan",
+        "sequence": 29,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "guzganan",
+    "name": "Gūzgānān",
+    "modernName": "Juzjan (Guzgan), Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.27,
+      "lon": 65.75,
+      "geoConfidence": "low",
+      "basis": "Juzjan (Sheberghan region), Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-030-guzganan",
+        "sequence": 30,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "talaqan",
+    "name": "Talaqān",
+    "modernName": "Taloqan, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.74,
+      "lon": 69.53,
+      "geoConfidence": "low",
+      "basis": "Taloqan, Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-031-talaqan",
+        "sequence": 31,
+        "firsthand": false,
+        "year": 630,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kacik",
+    "name": "Kacik",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 35.78,
+      "lon": 68.68,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Talaqan and Bamiyana); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-032-kacik",
+        "sequence": 32,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "bamiyana",
+    "name": "Bāmīyāna",
+    "modernName": "Bamiyan, Afghanistan",
+    "region": "Hindu Kush",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.82,
+      "lon": 67.83,
+      "geoConfidence": "high",
+      "basis": "Bamiyan, Afghanistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Lokottaravada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-033-bamiyana",
+        "sequence": 33,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Lokottaravada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kapisi",
+    "name": "Kāpiśī",
+    "modernName": "Kapisa (Begram), Afghanistan",
+    "region": "Kāpiśī (Hindu Kush)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.99,
+      "lon": 69.31,
+      "geoConfidence": "medium",
+      "basis": "Begram (Kapisi), Afghanistan."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-034-kapisi",
+        "sequence": 34,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "lampa",
+    "name": "Lampā",
+    "modernName": "Laghman, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.66,
+      "lon": 70.2,
+      "geoConfidence": "medium",
+      "basis": "Laghman, Afghanistan."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-035-lampa",
+        "sequence": 35,
+        "firsthand": true,
+        "year": 630,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "balura",
+    "name": "Balūra",
+    "modernName": "Baltistan (Bolor), Pakistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 35.3,
+      "lon": 75.62,
+      "geoConfidence": "low",
+      "basis": "Baltistan (Bolor), upper Indus, Pakistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-039-balura",
+        "sequence": 39,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "simhapura",
+    "name": "Siṃhapura",
+    "modernName": "Salt Range (SE of Taxila), Pakistan",
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 32.7,
+      "lon": 72.9,
+      "geoConfidence": "low",
+      "basis": "Salt Range south-east of Taxila, Pakistan (uncertain)."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-041-simhapura",
+        "sequence": 41,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "urasa",
+    "name": "Uraśā",
+    "modernName": "Hazara (Urasa), Pakistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.2,
+      "lon": 73.2,
+      "geoConfidence": "low",
+      "basis": "Hazara (Urasa), Pakistan."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-042-urasa",
+        "sequence": 42,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kasmira",
+    "name": "Kaśmīra",
+    "modernName": "Kashmir valley, India",
+    "region": "North India (Kaśmīra)",
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 34.08,
+      "lon": 74.8,
+      "geoConfidence": "high",
+      "basis": "Kashmir valley (Srinagar region). Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Mahasamghika",
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": "Sarvāstivāda/Vaibhāṣika abhidharma homeland (Kaniṣka's Council & the Mahāvibhāṣā); matches I-tsing's 'N. India = Sarvāstivāda, some Mahāsāṃghika' (obs-003). The label is sensu lato — Kashmir was also a Mūlasarvāstivāda-Vinaya transmission route to Tibet.",
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-043-kasmira",
+        "sequence": 43,
+        "firsthand": true,
+        "year": 631,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Sarvastivada",
+          "Mahasamghika"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "parnotsa",
+    "name": "Parṇotsa",
+    "modernName": "Poonch (Punach), Kashmir",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 33.77,
+      "lon": 74.09,
+      "geoConfidence": "low",
+      "basis": "Poonch (Punach), Kashmir."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-044-parnotsa",
+        "sequence": 44,
+        "firsthand": true,
+        "year": 633,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "rajapura",
+    "name": "Rājapura",
+    "modernName": "Rajauri (Rajapuri), India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 33.38,
+      "lon": 74.31,
+      "geoConfidence": "low",
+      "basis": "Rajauri (Rajapuri), India."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-045-rajapura",
+        "sequence": 45,
+        "firsthand": true,
+        "year": 633,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "takka",
+    "name": "Ṭakka",
+    "modernName": "Sialkot (Śākala), Pakistan",
+    "region": null,
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 32.5,
+      "lon": 74.53,
+      "geoConfidence": "medium",
+      "basis": "Sialkot (Śākala), Pakistan."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-046-takka",
+        "sequence": 46,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "cinabhukti",
+    "name": "Cīnabhukti",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.92,
+      "lon": 74.61,
+      "geoConfidence": "low",
+      "basis": "Eastern Punjab (Firozpur region), India (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-047-cinabhukti",
+        "sequence": 47,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "jalamdhara",
+    "name": "Jālaṃdhara",
+    "modernName": "Jalandhar, Punjab, India",
+    "region": null,
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 31.33,
+      "lon": 75.58,
+      "geoConfidence": "high",
+      "basis": "Jalandhar, Punjab, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-048-jalamdhara",
+        "sequence": 48,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kuluta",
+    "name": "Kulūta",
+    "modernName": "Kullu valley, Himachal Pradesh, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 31.96,
+      "lon": 77.11,
+      "geoConfidence": "high",
+      "basis": "Kullu valley, Himachal Pradesh, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-049-kuluta",
+        "sequence": 49,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "satadru",
+    "name": "Śatadru",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.6,
+      "lon": 76.4,
+      "geoConfidence": "low",
+      "basis": "On the Sutlej (Śatadru) River, Punjab (site uncertain)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-050-satadru",
+        "sequence": 50,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "pariyatra",
+    "name": "Pāriyātra",
+    "modernName": "Bairat (Pāriyātra), Rajasthan, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 27.45,
+      "lon": 76.17,
+      "geoConfidence": "medium",
+      "basis": "Bairat (Pāriyātra), Rajasthan, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-051-pariyatra",
+        "sequence": 51,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sthanesvara",
+    "name": "Sthāneśvara",
+    "modernName": "Thanesar, Haryana, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 29.97,
+      "lon": 76.82,
+      "geoConfidence": "high",
+      "basis": "Thanesar, Haryana, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-053-sthanesvara",
+        "sequence": 53,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "srughna",
+    "name": "Śrughna",
+    "modernName": "Sugh (near the Yamunā), Haryana, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.18,
+      "lon": 77.3,
+      "geoConfidence": "low",
+      "basis": "Sugh near the Yamunā, Haryana, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-054-srughna",
+        "sequence": 54,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "matipura",
+    "name": "Matipura",
+    "modernName": "Mandawar (near Bijnor), Uttar Pradesh, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 29.45,
+      "lon": 78.07,
+      "geoConfidence": "medium",
+      "basis": "Mandawar (near Bijnor), Uttar Pradesh, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-055-matipura",
+        "sequence": 55,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "brahmapura",
+    "name": "Brahmapura",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.07,
+      "lon": 79.02,
+      "geoConfidence": "low",
+      "basis": "Garhwal/Kumaon foothills, Uttarakhand, India (uncertain)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-056-brahmapura",
+        "sequence": 56,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "govisana",
+    "name": "Goviṣāṇa",
+    "modernName": "Kashipur (Goviṣāṇa), Uttarakhand, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 29.21,
+      "lon": 78.96,
+      "geoConfidence": "medium",
+      "basis": "Kashipur (Goviṣāṇa), Uttarakhand, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-057-govisana",
+        "sequence": 57,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "ahicchattra",
+    "name": "Ahicchattra",
+    "modernName": "Ahichhatra (Ramnagar), Uttar Pradesh, India",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 28.37,
+      "lon": 79.13,
+      "geoConfidence": "high",
+      "basis": "Ahichhatra (Ramnagar), Uttar Pradesh, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-058-ahicchattra",
+        "sequence": 58,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "vilasana",
+    "name": "Vilaśāṇa",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 27.85,
+      "lon": 79.2,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Ahicchattra and Kapitha); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-059-vilasana",
+        "sequence": 59,
+        "firsthand": true,
+        "year": 634,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "ayamukha",
+    "name": "Ayamukha",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 26.111,
+      "lon": 82.024,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Ayodhya and Prayaga); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-063-ayamukha",
+        "sequence": 63,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "prayaga",
+    "name": "Prayāga",
+    "modernName": "Prayagraj (Allahabad), Uttar Pradesh, India",
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 25.43,
+      "lon": 81.85,
+      "geoConfidence": "high",
+      "basis": "Prayagraj (Allahabad), Uttar Pradesh, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-064-prayaga",
+        "sequence": 64,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "visaka",
+    "name": "Viṣaka",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 26.434,
+      "lon": 81.715,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Kausambi and Sravasti); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-066-visaka",
+        "sequence": 66,
+        "firsthand": true,
+        "year": 635,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "garjanapati",
+    "name": "Garjanapati",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.58,
+      "lon": 83.58,
+      "geoConfidence": "low",
+      "basis": "Ganges east of Varanasi (Ghazipur region), India (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-072-garjanapati",
+        "sequence": 72,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "vrji",
+    "name": "Vṛji",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 26.62,
+      "lon": 85.5,
+      "geoConfidence": "low",
+      "basis": "Vajji territory, northern Bihar, India (capital uncertain)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-074-vrji",
+        "sequence": 74,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "nepala",
+    "name": "Nepāla",
+    "modernName": "Kathmandu valley, Nepal",
+    "region": null,
+    "type": [
+      "country",
+      "kingdom"
+    ],
+    "coordinates": {
+      "lat": 27.71,
+      "lon": 85.32,
+      "geoConfidence": "high",
+      "basis": "Kathmandu valley, Nepal."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-075-nepala",
+        "sequence": 75,
+        "firsthand": true,
+        "year": 636,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "tiladhaka",
+    "name": "Tilaḍhāka Monastery",
+    "modernName": "Telhara (Tilāḍha), Bihar, India",
+    "region": null,
+    "type": [
+      "monastery"
+    ],
+    "coordinates": {
+      "lat": 25.1,
+      "lon": 85.1,
+      "geoConfidence": "low",
+      "basis": "Telhara (Tilāḍha), Nalanda district, Bihar, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-077-tiladhaka",
+        "sequence": 77,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "gaya",
+    "name": "Gayā",
+    "modernName": "Gaya, Bihar",
+    "region": "Central India (Magadha)",
+    "type": [
+      "city",
+      "holy-site",
+      "mountain"
+    ],
+    "coordinates": {
+      "lat": 24.796,
+      "lon": 85.0079,
+      "geoConfidence": "high",
+      "basis": "Gaya town, Bihar. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-078-gaya",
+        "sequence": 78,
+        "firsthand": true,
+        "year": 637,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kapotaka-cluster",
+    "name": "Kapotaka Monastery and the eastern Magadha sites",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "monastery",
+      "mountain",
+      "stupa-site"
+    ],
+    "coordinates": {
+      "lat": 25.253,
+      "lon": 85.957,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Nalanda Monastery and Iranaparvata); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-083-kapotaka-cluster",
+        "sequence": 83,
+        "firsthand": true,
+        "year": 642,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "iranaparvata",
+    "name": "Īraṇaparvata",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.37,
+      "lon": 86.47,
+      "geoConfidence": "low",
+      "basis": "Near Monghyr (Munger) on the Ganges, Bihar, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sarvastivada",
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-084-iranaparvata",
+        "sequence": 84,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya",
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kajangala",
+    "name": "Kajaṅgala",
+    "modernName": "Rajmahal–Kankjol area, Bengal–Bihar border",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.05,
+      "lon": 87.65,
+      "geoConfidence": "low",
+      "basis": "Rajmahal–Kankjol area, Bengal–Bihar border."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-086-kajangala",
+        "sequence": 86,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "pundravardhana",
+    "name": "Puṇḍravardhana",
+    "modernName": "Mahasthangarh (Bogra), Bangladesh",
+    "region": "East India",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 24.967,
+      "lon": 89.343,
+      "geoConfidence": "high",
+      "basis": "Mahasthangarh (Bogra), Bangladesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-087-pundravardhana",
+        "sequence": 87,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kamarupa",
+    "name": "Kāmarūpa",
+    "modernName": "Assam (Prāgjyotiṣa / Guwahati region)",
+    "region": "East India",
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 26.18,
+      "lon": 91.75,
+      "geoConfidence": "medium",
+      "basis": "Guwahati region (Kamarupa/Pragjyotisha), Assam."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-088-kamarupa",
+        "sequence": 88,
+        "firsthand": true,
+        "year": 643,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "samatata",
+    "name": "Samataṭa",
+    "modernName": "south-east Bengal (Comilla / Mainamati), Bangladesh",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 23.46,
+      "lon": 91.18,
+      "geoConfidence": "medium",
+      "basis": "Comilla/Mainamati, south-east Bangladesh."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-089-samatata",
+        "sequence": 89,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "karnasuvarna",
+    "name": "Karṇasuvarṇa",
+    "modernName": "Karnasuvarna (Rangamati, near Murshidabad), West Bengal",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 24.13,
+      "lon": 88.16,
+      "geoConfidence": "high",
+      "basis": "Rangamati/Chiruti near Murshidabad, West Bengal, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-091-karnasuvarna",
+        "sequence": 91,
+        "firsthand": true,
+        "year": 638,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "uda",
+    "name": "Uḍa",
+    "modernName": "Odisha (Oḍra)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 20.24,
+      "lon": 85.84,
+      "geoConfidence": "medium",
+      "basis": "Odisha (Oḍra) — Lalitgiri/Udayagiri area."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-092-uda",
+        "sequence": 92,
+        "firsthand": true,
+        "year": 639,
+        "yana": [
+          "Mahāyāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kongoda",
+    "name": "Koṅgoda",
+    "modernName": "Ganjam region, southern Odisha",
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 19.39,
+      "lon": 84.99,
+      "geoConfidence": "medium",
+      "basis": "Ganjam district, southern Odisha, India."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-093-kongoda",
+        "sequence": 93,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kalinga",
+    "name": "Kaliṅga",
+    "modernName": "coastal Odisha / northern Andhra (Kalinga)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 19.3,
+      "lon": 84.79,
+      "geoConfidence": "medium",
+      "basis": "Coastal Odisha (Kalinga)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-094-kalinga",
+        "sequence": 94,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kosala-south",
+    "name": "Kosala (Dakṣiṇa)",
+    "modernName": "Dakṣiṇa Kosala, Chhattisgarh (Sirpur region)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 21.34,
+      "lon": 81.69,
+      "geoConfidence": "low",
+      "basis": "Dakṣiṇa Kosala (Sirpur region), Chhattisgarh, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-095-kosala-south",
+        "sequence": 95,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "Mahāyāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "andhra",
+    "name": "Andhra",
+    "modernName": "Vengi (Pedavegi), Andhra Pradesh",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 16.72,
+      "lon": 80.95,
+      "geoConfidence": "medium",
+      "basis": "Vengi (Pedavegi), Andhra Pradesh, India."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-096-andhra",
+        "sequence": 96,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "dhanakataka",
+    "name": "Dhānakaṭaka",
+    "modernName": "Amaravati / Dharanikota, Andhra Pradesh",
+    "region": "South India",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 16.574,
+      "lon": 80.358,
+      "geoConfidence": "high",
+      "basis": "Amaravati/Dharanikota, Andhra Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Mahasamghika"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-097-dhanakataka",
+        "sequence": 97,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Mahasamghika"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "cola",
+    "name": "Cola",
+    "modernName": "Rayalaseema / Cuddapah region, Andhra Pradesh, India",
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 14.47,
+      "lon": 78.82,
+      "geoConfidence": "low",
+      "basis": "Rayalaseema/Cuddapah region, Andhra Pradesh, India (uncertain)."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-098-cola",
+        "sequence": 98,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "dravida",
+    "name": "Draviḍa",
+    "modernName": "Kanchipuram, Tamil Nadu",
+    "region": "South India",
+    "type": [
+      "city",
+      "country"
+    ],
+    "coordinates": {
+      "lat": 12.84,
+      "lon": 79.7,
+      "geoConfidence": "high",
+      "basis": "Kanchipuram (Dravida), Tamil Nadu. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-099-dravida",
+        "sequence": 99,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "malakuta",
+    "name": "Malakūṭa",
+    "modernName": "far southern Tamil Nadu (Pāṇḍya / Kumāri region)",
+    "region": null,
+    "type": [
+      "country",
+      "mountain"
+    ],
+    "coordinates": {
+      "lat": 9.93,
+      "lon": 78.12,
+      "geoConfidence": "medium",
+      "basis": "Pāṇḍya country (Madurai region), far-southern Tamil Nadu, India."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-100-malakuta",
+        "sequence": 100,
+        "firsthand": true,
+        "year": 640,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "konkanapura",
+    "name": "Koṅkaṇapura",
+    "modernName": "Konkan coast (Banavasi region)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 14.53,
+      "lon": 75.02,
+      "geoConfidence": "low",
+      "basis": "Konkan / Banavasi region, Karnataka, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-102-konkanapura",
+        "sequence": 102,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "maharashtra",
+    "name": "Mahārāṣṭra",
+    "modernName": "Maharashtra (the Deccan)",
+    "region": null,
+    "type": [
+      "cave",
+      "country"
+    ],
+    "coordinates": {
+      "lat": 20.55,
+      "lon": 75.7,
+      "geoConfidence": "medium",
+      "basis": "Maharashtra (the cliff-monastery = Ajanta, ~20.55N 75.70E)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-103-maharashtra",
+        "sequence": 103,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "bharukacchapa",
+    "name": "Bharukacchapa",
+    "modernName": "Bharuch (Broach), Gujarat",
+    "region": "West India (Lāṭa)",
+    "type": [
+      "country",
+      "port"
+    ],
+    "coordinates": {
+      "lat": 21.7,
+      "lon": 72.99,
+      "geoConfidence": "high",
+      "basis": "Bharuch (Broach), Gujarat. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-104-bharukacchapa",
+        "sequence": 104,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "malava",
+    "name": "Mālava",
+    "modernName": "Malwa (western Madhya Pradesh / Gujarat border)",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 23.5,
+      "lon": 75.1,
+      "geoConfidence": "low",
+      "basis": "Malwa, western Madhya Pradesh (capital on the Mahī) (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-105-malava",
+        "sequence": 105,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "atali",
+    "name": "Aṭali",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 22.963,
+      "lon": 74.027,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Malava and Valabhi); not a precise identification."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-106-atali",
+        "sequence": 106,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kita",
+    "name": "Kiṭa",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 22.427,
+      "lon": 72.953,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Malava and Valabhi); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-107-kita",
+        "sequence": 107,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "valabhi",
+    "name": "Valabhi",
+    "modernName": "Valabhi (Vala), Gujarat",
+    "region": "West India (Lāṭa)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 21.89,
+      "lon": 71.88,
+      "geoConfidence": "high",
+      "basis": "Vala (Valabhi), Gujarat. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-108-valabhi",
+        "sequence": 108,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "anandapura",
+    "name": "Ānandapura",
+    "modernName": "Vadnagar, Gujarat",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 23.79,
+      "lon": 72.64,
+      "geoConfidence": "medium",
+      "basis": "Vadnagar (Ānandapura), Gujarat, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-109-anandapura",
+        "sequence": 109,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "surattha",
+    "name": "Suraṭṭha",
+    "modernName": "Saurashtra (Junagadh region), Gujarat",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 21.52,
+      "lon": 70.46,
+      "geoConfidence": "high",
+      "basis": "Saurashtra (Junagadh/Girnar), Gujarat, India."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sthavira"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-110-surattha",
+        "sequence": 110,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sthavira"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "gurjara",
+    "name": "Gūrjara",
+    "modernName": "Bhinmal (Bhillamāla), Rajasthan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.0,
+      "lon": 72.26,
+      "geoConfidence": "high",
+      "basis": "Bhinmal (Bhillamāla), Rajasthan, India."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-111-gurjara",
+        "sequence": 111,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "ujjayani",
+    "name": "Ujjayanī",
+    "modernName": "Ujjain, Madhya Pradesh",
+    "region": "West India (Mālava)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 23.18,
+      "lon": 75.78,
+      "geoConfidence": "high",
+      "basis": "Ujjain, Madhya Pradesh. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-112-ujjayani",
+        "sequence": 112,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "zhizhituo",
+    "name": "Zhizhituo",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 24.687,
+      "lon": 73.473,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Ujjayani and Sindhu); not a precise identification."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-113-zhizhituo",
+        "sequence": 113,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "mahesvarapura",
+    "name": "Maheśvarapura",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 26.193,
+      "lon": 71.167,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Ujjayani and Sindhu); not a precise identification."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-114-mahesvarapura",
+        "sequence": 114,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sindhu",
+    "name": "Sindhu",
+    "modernName": "Sindh, Pakistan",
+    "region": "West India",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 27.7,
+      "lon": 68.86,
+      "geoConfidence": "medium",
+      "basis": "Sindh, lower Indus (Aror/Sukkur region)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-115-sindhu",
+        "sequence": 115,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "mulasthanapura",
+    "name": "Mūlasthānapura",
+    "modernName": "Multan, Pakistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 30.2,
+      "lon": 71.47,
+      "geoConfidence": "high",
+      "basis": "Multan (Mūlasthāna), Pakistan."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-116-mulasthanapura",
+        "sequence": 116,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "parvata",
+    "name": "Parvata",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 28.767,
+      "lon": 69.847,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Mulasthanapura and Langala); not a precise identification."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-117-parvata",
+        "sequence": 117,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "audumbatira",
+    "name": "Audumbatira",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 27.333,
+      "lon": 68.223,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Mulasthanapura and Langala); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-118-audumbatira",
+        "sequence": 118,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "langala",
+    "name": "Laṅgala",
+    "modernName": "Makran / Las Bela coast, Baluchistan, Pakistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 25.9,
+      "lon": 66.6,
+      "geoConfidence": "low",
+      "basis": "Makran / Las Bela coast, Baluchistan, Pakistan (uncertain)."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-119-langala",
+        "sequence": 119,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "parsa",
+    "name": "Pārsa",
+    "modernName": "Persia (Iran)",
+    "region": "Persia (appendix)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 32.65,
+      "lon": 51.67,
+      "geoConfidence": "low",
+      "basis": "Sasanian Persia (Iran) — appendix, not visited; region only."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-120-parsa",
+        "sequence": 120,
+        "firsthand": false,
+        "year": null,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "patasila",
+    "name": "Pātāsila",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 31.5,
+      "lon": 69.5,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (north-west frontier, Sulaiman corridor); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-121-patasila",
+        "sequence": 121,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "avanda",
+    "name": "Avaṇḍa",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 32.5,
+      "lon": 70.0,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (north-west frontier near Varnu); not a precise identification."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Sammitiya"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-122-avanda",
+        "sequence": 122,
+        "firsthand": true,
+        "year": 641,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Sammitiya"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "jaguda",
+    "name": "Jāguḍa",
+    "modernName": "Ghazni / Zabul, Afghanistan",
+    "region": "Zābulistān",
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 33.55,
+      "lon": 68.42,
+      "geoConfidence": "high",
+      "basis": "Ghazni, Afghanistan. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-124-jaguda",
+        "sequence": 124,
+        "firsthand": true,
+        "year": 643,
+        "yana": [
+          "Mahāyāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "vrjisthana",
+    "name": "Vṛjiṣṭhāna",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 34.0,
+      "lon": 68.4,
+      "geoConfidence": "low",
+      "basis": "North of Ghazni toward the Hindu Kush (uncertain)."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-125-vrjisthana",
+        "sequence": 125,
+        "firsthand": true,
+        "year": 643,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "andarab",
+    "name": "Andarāb",
+    "modernName": "Andarab, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 35.6,
+      "lon": 69.3,
+      "geoConfidence": "medium",
+      "basis": "Andarab, Afghanistan."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [
+      "Mahasamghika"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-126-andarab",
+        "sequence": 126,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": [
+          "Mahasamghika"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "khost",
+    "name": "Khost",
+    "modernName": "Khost region, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 33.34,
+      "lon": 69.92,
+      "geoConfidence": "medium",
+      "basis": "Khost, Afghanistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-127-khost",
+        "sequence": 127,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "huoh",
+    "name": "Huoh",
+    "modernName": "the Kunduz / Khulm region, northern Afghanistan",
+    "region": "Tukhāra",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.73,
+      "lon": 68.86,
+      "geoConfidence": "medium",
+      "basis": "Kunduz/Khulm region, Afghanistan."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna",
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-128-huoh",
+        "sequence": 128,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Mahāyāna",
+          "Śrāvakayāna",
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "mungan",
+    "name": "Mungān",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.784,
+      "lon": 69.106,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-129-mungan",
+        "sequence": 129,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "alini",
+    "name": "Alini",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.839,
+      "lon": 69.351,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-130-alini",
+        "sequence": 130,
+        "firsthand": false,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "rahu",
+    "name": "Rāhu",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.893,
+      "lon": 69.597,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-131-rahu",
+        "sequence": 131,
+        "firsthand": false,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "krisma",
+    "name": "Krisma",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.947,
+      "lon": 69.843,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-132-krisma",
+        "sequence": 132,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "parghar",
+    "name": "Pārghar",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.001,
+      "lon": 70.089,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-133-parghar",
+        "sequence": 133,
+        "firsthand": false,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "himatala",
+    "name": "Himatala",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.056,
+      "lon": 70.334,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Huoh and Badakshan); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-134-himatala",
+        "sequence": 134,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "badakshan",
+    "name": "Badakshān",
+    "modernName": "Badakhshan, Afghanistan",
+    "region": "Tukhāra",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.11,
+      "lon": 70.58,
+      "geoConfidence": "medium",
+      "basis": "Badakhshan (Faizabad), Afghanistan."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-135-badakshan",
+        "sequence": 135,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "invakan",
+    "name": "Invakan",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.555,
+      "lon": 70.79,
+      "geoConfidence": "low",
+      "basis": "Approximate region centroid (route corridor between Badakshan and Kurana); not a precise identification."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-136-invakan",
+        "sequence": 136,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kurana",
+    "name": "Kuraṇa",
+    "modernName": "Kuran-wa-Munjan, Badakhshan, Afghanistan",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.0,
+      "lon": 71.0,
+      "geoConfidence": "low",
+      "basis": "Kuran-wa-Munjan, Badakhshan, Afghanistan (uncertain)."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-137-kurana",
+        "sequence": 137,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "dharmasthiti",
+    "name": "Dharmasthiti",
+    "modernName": "the Wakhan corridor",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.72,
+      "lon": 71.61,
+      "geoConfidence": "low",
+      "basis": "The Wakhan (Ishkashim region), upper Oxus."
+    },
+    "reconciledYana": [
+      "non-Buddhist",
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-138-dharmasthiti",
+        "sequence": 138,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sikni",
+    "name": "Śikni",
+    "modernName": "Shighnan (the Pamir)",
+    "region": null,
+    "type": [
+      "country",
+      "non-buddhist-site"
+    ],
+    "coordinates": {
+      "lat": 37.55,
+      "lon": 71.55,
+      "geoConfidence": "medium",
+      "basis": "Shighnan, the Pamir (Panj/Oxus)."
+    },
+    "reconciledYana": [
+      "non-Buddhist"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-139-sikni",
+        "sequence": 139,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "non-Buddhist"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "shangmi",
+    "name": "Shangmi",
+    "modernName": "Mastuj / Chitral region",
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 36.29,
+      "lon": 72.52,
+      "geoConfidence": "medium",
+      "basis": "Mastuj/Chitral region, Pakistan."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-140-shangmi",
+        "sequence": 140,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kabhanda",
+    "name": "Kabhanda",
+    "modernName": "Tashkurgan (Sarikol), Xinjiang",
+    "region": "Central Asia (Pamir)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.78,
+      "lon": 75.23,
+      "geoConfidence": "high",
+      "basis": "Tashkurgan (Sarikol), Xinjiang. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-141-kabhanda",
+        "sequence": 141,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "wusha",
+    "name": "Wusha",
+    "modernName": null,
+    "region": null,
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 38.42,
+      "lon": 77.27,
+      "geoConfidence": "low",
+      "basis": "Between Tashkurgan and Yarkand, southern Tarim (uncertain)."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-142-wusha",
+        "sequence": 142,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kasha",
+    "name": "Kasha",
+    "modernName": "Kashgar, Xinjiang",
+    "region": "Central Asia (western Tarim)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 39.47,
+      "lon": 75.99,
+      "geoConfidence": "high",
+      "basis": "Kashgar, Xinjiang. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Sarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-143-kasha",
+        "sequence": 143,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Śrāvakayāna"
+        ],
+        "sect": [
+          "Sarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "cukuka",
+    "name": "Cukuka",
+    "modernName": "Karghalik (Yecheng), Xinjiang",
+    "region": "Central Asia (southern Tarim)",
+    "type": [
+      "country"
+    ],
+    "coordinates": {
+      "lat": 37.88,
+      "lon": 77.42,
+      "geoConfidence": "medium",
+      "basis": "Karghalik (Yecheng), Xinjiang."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Xuanzang",
+        "placeId": "xuanzang-144-cukuka",
+        "sequence": 144,
+        "firsthand": true,
+        "year": 644,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "kwangtung",
+    "name": "Canton (Kwang-tung)",
+    "modernName": "Guangzhou (Canton), China",
+    "region": "China",
+    "type": [
+      "city",
+      "port"
+    ],
+    "coordinates": {
+      "lat": 23.129,
+      "lon": 113.264,
+      "geoConfidence": "high",
+      "basis": "Guangzhou (Canton), China. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-001-kwangtung",
+        "sequence": 1,
+        "firsthand": true,
+        "year": 671,
+        "yana": [
+          "Mahāyāna"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "sribhoga",
+    "name": "Śrībhoga (Bhoga / Malayu)",
+    "modernName": "Palembang, Sumatra (Śrīvijaya)",
+    "region": "Southern Sea (Sumatra)",
+    "type": [
+      "city",
+      "port"
+    ],
+    "coordinates": {
+      "lat": -2.976,
+      "lon": 104.775,
+      "geoConfidence": "high",
+      "basis": "Palembang (Srivijaya), Sumatra. Standard scholarly identification; coordinates of the known site/city."
+    },
+    "reconciledYana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "reconciledSect": [
+      "Mulasarvastivada"
+    ],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-002-sribhoga",
+        "sequence": 2,
+        "firsthand": true,
+        "year": 671,
+        "yana": [
+          "Śrāvakayāna",
+          "Mahāyāna"
+        ],
+        "sect": [
+          "Mulasarvastivada"
+        ]
+      }
+    ]
+  },
+  {
+    "canonicalId": "kacha",
+    "name": "Ka-cha (Kedah)",
+    "modernName": "Kedah, Malay Peninsula (Atchin/Aceh coast)",
+    "region": null,
+    "type": [
+      "port"
+    ],
+    "coordinates": {
+      "lat": 6.12,
+      "lon": 100.37,
+      "geoConfidence": "medium",
+      "basis": "Kedah, Malay Peninsula."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-003-kacha",
+        "sequence": 3,
+        "firsthand": true,
+        "year": 672,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  },
+  {
+    "canonicalId": "naked-people",
+    "name": "The Country of the Naked People",
+    "modernName": "the Nicobar Islands",
+    "region": "Southern Sea (Nicobars)",
+    "type": [
+      "port",
+      "region"
+    ],
+    "coordinates": {
+      "lat": 8.0,
+      "lon": 93.5,
+      "geoConfidence": "medium",
+      "basis": "Nicobar Islands (region)."
+    },
+    "reconciledYana": [
+      "unknown"
+    ],
+    "reconciledSect": [],
+    "pilgrimCount": 1,
+    "traditionNote": null,
+    "visitedBy": [
+      {
+        "pilgrim": "Yijing",
+        "placeId": "yijing-004-naked-people",
+        "sequence": 4,
+        "firsthand": true,
+        "year": 672,
+        "yana": [
+          "unknown"
+        ],
+        "sect": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://journey-to-the-west/data/schema/place.schema.json",
+  "title": "Pilgrim place-entry (visit-centric)",
+  "description": "One record per pilgrim-per-place, faithful to a single source text. Same real-world place visited by multiple pilgrims yields multiple entries, linked later via canonicalId.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/place" },
+  "$defs": {
+    "countObj": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "count": { "type": ["integer", "null"], "minimum": 0 },
+        "text": { "type": ["string", "null"] },
+        "approx": { "type": "boolean" }
+      },
+      "required": ["count", "text", "approx"]
+    },
+    "place": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "pilgrim", "sequence", "canonicalId", "names", "type",
+        "firsthand", "yana", "sect", "monasteries", "monks", "activity",
+        "anecdotes", "features", "figures", "route", "date",
+        "scholarlyNotes", "source"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^(faxian|xuanzang|yijing)-[0-9]{3}-[a-z0-9-]+$" },
+        "pilgrim": { "enum": ["Faxian", "Xuanzang", "Yijing"] },
+        "sequence": { "type": "integer", "minimum": 0 },
+        "canonicalId": { "type": ["string", "null"] },
+        "names": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["primary", "asGiven", "variants"],
+          "properties": {
+            "primary": { "type": "string", "minLength": 1 },
+            "asGiven": { "type": "string", "minLength": 1 },
+            "variants": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "type": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "city", "town", "country", "kingdom", "monastery", "stupa-site",
+              "holy-site", "cave", "mountain", "river", "lake", "port",
+              "non-buddhist-site", "region", "other"
+            ]
+          }
+        },
+        "firsthand": { "type": "boolean" },
+        "yana": {
+          "type": "array",
+          "items": { "enum": ["Mahāyāna", "Śrāvakayāna", "Vajrayana", "non-Buddhist", "unknown"] }
+        },
+        "sect": { "type": "array", "items": { "type": "string" } },
+        "monasteries": { "$ref": "#/$defs/countObj" },
+        "monks": { "$ref": "#/$defs/countObj" },
+        "activity": { "type": ["string", "null"] },
+        "anecdotes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["title", "kind", "summary", "figures"],
+            "properties": {
+              "title": { "type": "string", "minLength": 1 },
+              "kind": { "enum": ["jataka", "miracle", "relic", "historical", "legend", "other"] },
+              "summary": { "type": "string", "minLength": 1 },
+              "figures": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        },
+        "features": { "type": "array", "items": { "type": "string" } },
+        "figures": { "type": "array", "items": { "type": "string" } },
+        "route": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fromPlace", "directionFromPrev", "distance"],
+          "properties": {
+            "fromPlace": { "type": ["string", "null"] },
+            "directionFromPrev": { "type": ["string", "null"] },
+            "distance": { "type": ["string", "null"] }
+          }
+        },
+        "date": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["year", "yearEarliest", "yearLatest", "approx", "text", "basis"],
+          "properties": {
+            "year": { "type": ["integer", "null"] },
+            "yearEarliest": { "type": ["integer", "null"] },
+            "yearLatest": { "type": ["integer", "null"] },
+            "approx": { "type": "boolean" },
+            "text": { "type": ["string", "null"] },
+            "basis": { "type": ["string", "null"] }
+          }
+        },
+        "scholarlyNotes": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["modernName", "coordinates", "geoConfidence", "notes"],
+          "properties": {
+            "modernName": { "type": ["string", "null"] },
+            "coordinates": {
+              "oneOf": [
+                { "type": "null" },
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["lat", "lon", "note"],
+                  "properties": {
+                    "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+                    "lon": { "type": "number", "minimum": -180, "maximum": 180 },
+                    "note": { "type": ["string", "null"] }
+                  }
+                }
+              ]
+            },
+            "geoConfidence": { "enum": ["high", "medium", "low", "unknown"] },
+            "notes": { "type": ["string", "null"] }
+          }
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["work", "ref", "quote"],
+          "properties": {
+            "work": { "type": "string", "minLength": 1 },
+            "ref": { "type": "string", "minLength": 1 },
+            "quote": { "type": "string", "minLength": 1 }
+          }
+        },
+        "supplementarySources": {
+          "description": "Optional verbatim corroborations from another work by the same pilgrim (e.g. Yijing's Kao Seng Chuan alongside his Record). Never replaces `source`; quotes are verbatim-checked like primary quotes.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["work", "ref", "quote"],
+            "properties": {
+              "work": { "type": "string", "minLength": 1 },
+              "ref": { "type": "string", "minLength": 1 },
+              "quote": { "type": "string", "minLength": 1 },
+              "note": { "type": ["string", "null"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}

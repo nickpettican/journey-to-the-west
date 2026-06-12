@@ -1,0 +1,400 @@
+[
+  {
+    "id": "yijing-obs-001",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Central India (Magadha)",
+    "claim": "In Magadha all four Nikāyas are practised side by side, but the Sarvāstivāda flourishes the most.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sarvastivada",
+      "Mahasamghika",
+      "Sthavira",
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 9)",
+      "quote": "In Magadha (Central India) the doctrines of the four Nikāyas are generally in practice, yet the Sarvāstivādanikāya flourishes the most."
+    }
+  },
+  {
+    "id": "yijing-obs-002",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Western India (Lāṭa and Sindhu)",
+    "claim": "In Lāṭa and Sindhu (Western India) the Sammitīya has the greatest number of followers, with a few members of the other three schools.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 10)",
+      "quote": "the Sammitinikaya has the greater number of followers, and there are some few members of the other three schools."
+    }
+  },
+  {
+    "id": "yijing-obs-003",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Northern India",
+    "claim": "In Northern India almost all belong to the Sarvāstivāda, though followers of the Mahāsāṃghika are sometimes met; the Sthavira and Sammitīya are not found there.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sarvastivada",
+      "Mahasamghika"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 10)",
+      "quote": "In the northern region (N. India) all belong to the Sarvāstivādanikāya"
+    }
+  },
+  {
+    "id": "yijing-obs-004",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Southern India",
+    "claim": "Towards the South all follow the Sthavira, though a few adherents of the other Nikāyas exist.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sthavira"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 10)",
+      "quote": "Towards the South (S. India), all follow the Sthaviranikāya, though there exist a few adherents of the other Nikāyas."
+    }
+  },
+  {
+    "id": "yijing-obs-005",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Eastern India (the eastern frontier countries)",
+    "claim": "In the eastern frontier countries the four Nikāyas are found side by side.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mahasamghika",
+      "Sthavira",
+      "Mulasarvastivada",
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 10)",
+      "quote": "In the eastern frontier countries (E. India), the four Nikāyas are found side by side"
+    }
+  },
+  {
+    "id": "yijing-obs-006",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "The islands of the Southern Sea (Sumatra, Java and neighbouring isles)",
+    "claim": "In the more than ten countries of the Southern Sea the Mūlasarvāstivāda has been almost universally adopted, with occasional Sammitīya and, recently, a few of the other two schools. This is I-tsing's own school and directly corroborates that the school Xuanzang's translator renders simply as 'Sarvāstivāda' was, for I-tsing, the Mūlasarvāstivāda.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mulasarvastivada",
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (pp. 10–11)",
+      "quote": "In the islands of the Southern Sea-consisting of more than ten countries-the Mūlasarvāstivādanikāya has been almost universally adopted"
+    }
+  },
+  {
+    "id": "yijing-obs-007",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Champa (Cochin-China / Lin-i)",
+    "claim": "In Champa Buddhists generally belong to the Sammitīya, with a few followers of the Sarvāstivāda.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sammitiya",
+      "Sarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 12)",
+      "quote": "In this country Buddhists generally belong to the Āryasammiti- nikāya, and there are also a few followers of the Sarvāstivādanikāya."
+    }
+  },
+  {
+    "id": "yijing-obs-008",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Funan / Poh-nan (Siam, with part of Cambodia)",
+    "claim": "In Funan Buddhism once flourished but a wicked king has expelled and exterminated the Buddhist community, so that no monks remain and only adherents of other religions live there.",
+    "yana": [
+      "non-Buddhist"
+    ],
+    "sect": [],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 12)",
+      "quote": "later on, Buddhism flourished there, but a wicked king has now expelled and exterminated them all, and there are no members of the Buddhist Brotherhood at all"
+    }
+  },
+  {
+    "id": "yijing-obs-009",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "China",
+    "claim": "In China Buddhists mostly follow the Dharmagupta school; the Mahāsāṃghika has long been kept in places of Shen-si, and the Sarvāstivāda formerly flourished in the south (Kiang-nan, Kwang-tung and Kwang-si).",
+    "yana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Dharmaguptaka",
+      "Mahasamghika",
+      "Sarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — distribution of the schools (p. 13)",
+      "quote": "In the Eastern Hsia (i.e. China) Buddhists practise mostly according to the Dharmagupta school"
+    }
+  },
+  {
+    "id": "yijing-obs-010",
+    "pilgrim": "Yijing",
+    "topic": "yana",
+    "region": "China",
+    "claim": "China in general belongs to the Mahāyāna.",
+    "yana": [
+      "Mahāyāna"
+    ],
+    "sect": [],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — The Mahāyāna and the Smaller Vehicle (p. xxv)",
+      "quote": "China in general belongs to the Mahāyāna."
+    }
+  },
+  {
+    "id": "yijing-obs-011",
+    "pilgrim": "Yijing",
+    "topic": "yana",
+    "region": "India (the remaining regions)",
+    "claim": "In the remaining places of India both vehicles are found — some practise according to the one, some according to the other (Northern India and the Southern Sea islands generally following the Śrāvakayāna, China the Mahāyāna).",
+    "yana": [
+      "Mahāyāna",
+      "Śrāvakayāna"
+    ],
+    "sect": [],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — The Mahāyāna and the Smaller Vehicle (p. xxv)",
+      "quote": "All the remaining places in India. Both Yānas are found, i.e. some practise according to the one, some according to the other."
+    }
+  },
+  {
+    "id": "yijing-obs-012",
+    "pilgrim": "Yijing",
+    "topic": "yana",
+    "region": "India (general — the nature of the Mahāyāna)",
+    "claim": "I-tsing distinguishes two kinds of Mahāyāna: the Mādhyamika (all things are an empty show) and the Yoga / Yogācāra (only inward thought is real); both equally conform to truth and lead to Nirvāṇa.",
+    "yana": [
+      "Mahāyāna"
+    ],
+    "sect": [],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — The Mahāyāna and the Smaller Vehicle (p. 15)",
+      "quote": "There are but two kinds of the so-called Mahāyāna. First, the Mādhyamika; second, the Yoga."
+    }
+  },
+  {
+    "id": "yijing-obs-013",
+    "pilgrim": "Yijing",
+    "topic": "yana",
+    "region": "Malayu / Śrībhoga (Sumatra) and the Southern Sea",
+    "claim": "The Southern Sea islands generally follow the Śrāvakayāna (the 'smaller vehicle'); only in Malayu (now Śrībhoga) are there a few who belong to the Mahāyāna.",
+    "yana": [
+      "Śrāvakayāna",
+      "Mahāyāna"
+    ],
+    "sect": [
+      "Mulasarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — The Mahāyāna and the Smaller Vehicle (p. xxv)",
+      "quote": "Malayu (= Śrībhoga), a few Mahāyānists."
+    }
+  },
+  {
+    "id": "yijing-obs-014",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Bodh Gayā (the Mahābodhi monastery)",
+    "claim": "The Mahābodhi monastery at Gayā adheres to the Sthavira school yet also belongs to the Mahāyāna — school (Vinaya lineage) and vehicle could coexist at one site. (Cross-links Xuanzang's Bodh Gayā, where the Mahābodhi Monastery's monks 'study both the Mahāyāna and the Sthavira schools'.)",
+    "yana": [
+      "Śrāvakayāna",
+      "Mahāyāna"
+    ],
+    "sect": [
+      "Sthavira"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "General Introduction — note on the Sarvāstivāda School (p. xxii, note 5)",
+      "quote": "The Mahābodhi-vihāra in Gayā, for instance, adheres to the Sthavira School, yet belongs also to the Mahāyāna"
+    }
+  },
+  {
+    "id": "yijing-obs-015",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "India (the eighteen schools under four Nikāyas)",
+    "claim": "I-tsing groups the eighteen schools under four chief Nikāyas — the Mahāsāṃghika, the Sthavira, the Mūlasarvāstivāda (his own, 'the Noble Fundamental School which affirms the Existence of All Things', subdivided into Mūlasarvāstivāda, Dharmagupta, Mahīśāsaka and Kāśyapīya), and the Sammitīya. This four-Nikāya frame is the key to reconciling I-tsing's 'Mūlasarvāstivāda' with the plain 'Sarvāstivāda' of Xuanzang's translation.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mahasamghika",
+      "Sthavira",
+      "Mulasarvastivada",
+      "Dharmaguptaka",
+      "Mahisasaka",
+      "Kasyapiya",
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — the four Nikāyas (p. 8)",
+      "quote": "the Noble Fundamental School which affirms the Existence of All Things."
+    }
+  },
+  {
+    "id": "yijing-obs-016",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "India (the Mūlasarvāstivāda vs the Daśādhyāya / older Sarvāstivāda)",
+    "claim": "CRITICAL FOR RECONCILIATION: I-tsing distinguishes his Mūlasarvāstivāda from the Daśādhyāya ('Ten Readings', i.e. the older Sarvāstivāda-vinaya). His Record 'resembles generally' the Daśādhyāya, yet he states that the Daśādhyāya 'does not belong to' the Mūlasarvāstivāda. So 'Sarvāstivāda' and 'Mūlasarvāstivāda' are related but NOT identical Vinaya traditions — Xuanzang's plain 'Sarvāstivāda' should therefore be reconciled site by site, not blanket-relabelled as Mūlasarvāstivāda.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mulasarvastivada",
+      "Sarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — Behaviour towards the Honoured (p. 20)",
+      "quote": "The Vinaya of the so-called Dasādhyāya (Ten Readings), (though not unlike), does not belong to the Āryamūlasarvāstivāda school."
+    }
+  },
+  {
+    "id": "yijing-obs-017",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "Udyāna, Kharachar (Karashahr), and Kustana (Khotan)",
+    "claim": "The three subdivisions of the Mūlasarvāstivāda (Dharmagupta, Mahīśāsaka, Kāśyapīya) do not prevail in India proper, except in three named frontier places — Udyāna, Kharachar (Karashahr) and Kustana (Khotan). This pins specific Mūlasarvāstivāda-subdivision practice to places Xuanzang also describes: Udyāna (Xuanzang entry 38), the Karashahr/Agni region (entry 1), and Gostana/Khotan (entry 145, which Xuanzang calls 'mostly Mahāyāna').",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Dharmaguptaka",
+      "Mahisasaka",
+      "Kasyapiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — Behaviour towards the Honoured (p. 20)",
+      "quote": "These three do not prevail in India, except in the following places: Udyāna, Kharakar, and Kustana, where there are some who practise the rules laid down in these schools."
+    }
+  },
+  {
+    "id": "yijing-obs-018",
+    "pilgrim": "Yijing",
+    "topic": "monastic-practice",
+    "region": "India (the four Nikāyas distinguished by practice)",
+    "claim": "I-tsing distinguishes the four Nikāyas by observable practice rather than doctrine — e.g. the Mūlasarvāstivāda cuts the under-garment skirt straight (the other three schools cut it irregularly), ordains separate rooms in lodgings, and receives food directly into the hand. Such practice-markers are how a school could in principle be identified on the ground.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mulasarvastivada",
+      "Mahasamghika",
+      "Sthavira",
+      "Sammitiya"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — the four Nikāyas (p. 7, note by I-tsing)",
+      "quote": "The Āryamūlasarvāstivādanikāya (school) cuts the skirt of the lower garment straight, while the other three schools (see below) cut it of irregular shape."
+    }
+  },
+  {
+    "id": "yijing-obs-019",
+    "pilgrim": "Yijing",
+    "topic": "school-distribution",
+    "region": "I-tsing's standpoint (the whole Record)",
+    "claim": "I-tsing declares that everything in his entire Record is set down in accordance with the Mūlasarvāstivāda and no other school — so his testimony is that of an insider to the very tradition whose name Xuanzang's translation collapses into 'Sarvāstivāda'.",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Mulasarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — closing remarks (ch. xl)",
+      "quote": "All that I state is in accordance with the Aryamūlasarvāstivādanikāya (School) and no other."
+    }
+  },
+  {
+    "id": "yijing-obs-020",
+    "pilgrim": "Yijing",
+    "topic": "monastic-practice",
+    "region": "Nālandā (Central India / Magadha)",
+    "claim": "INDICATION OF NĀLANDĀ'S VINAYA: I-tsing lived at Nālandā for ten years and states that his whole Record follows the Mūlasarvāstivāda (obs-019); the discipline he learned and describes there is therefore Mūlasarvāstivāda. He singles out that Nālandā assigns lodging-rooms to the whole assembly of priests every year — one of the distinctive Mūlasarvāstivāda practices (obs-018) — calling it the World-honoured's own teaching. So the ordination/Vinaya tradition of Nālandā (a Mahāyāna doctrinal centre) is, on I-tsing's evidence, the Mūlasarvāstivāda. (Cross-links Xuanzang's Nālandā, entry 82, where Xuanzang names no school.)",
+    "yana": [
+      "Śrāvakayāna",
+      "Mahāyāna"
+    ],
+    "sect": [
+      "Mulasarvastivada"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "A Record of Buddhist Practices — ch. XIV, the assignment of rooms",
+      "quote": "In the monastery of Nālandā such rules are practised at present; the great assembly of priests assigns rooms every year."
+    }
+  },
+  {
+    "id": "yijing-obs-021",
+    "pilgrim": "Yijing",
+    "topic": "other",
+    "region": "Terminology — Sthavira / Theravāda",
+    "claim": "I-tsing's own term throughout the Record is 'Sthavira' (Āryasthaviranikāya); he never writes 'Theravāda'. The work's apparatus equates the Sthavira-nikāya with the Theravāda and with the Vibhajyavāda of Ceylon. So the 'Sthavira' he reports as dominant in South India and universal in Ceylon (obs-004) is the Theravāda/Vibhajyavāda lineage — supporting a 'Sthavira (Theravāda)' bracketing in the reconciliation, with the caveat that modern Theravāda descends specifically from the Sinhalese Mahāvihāra (one of the two Ceylon sects Xuanzang names at Siṃhala, entry 101).",
+    "yana": [
+      "Śrāvakayāna"
+    ],
+    "sect": [
+      "Sthavira"
+    ],
+    "source": {
+      "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (Takakusu)",
+      "ref": "Index (translator's apparatus)",
+      "quote": "Sthavira-nikāya, see Theravāda."
+    }
+  }
+]

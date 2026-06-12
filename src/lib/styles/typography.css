@@ -1,0 +1,150 @@
+/* Base typography & page chrome */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	min-height: 100%;
+	background: var(--paper);
+	color: var(--ink);
+	font-family: var(--font-ui);
+	font-size: 16px;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+}
+
+/* Rice-paper grain — pure SVG noise, very low opacity, never behind dense text blocks
+   at a level that reduces contrast. */
+body::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	z-index: 0;
+	opacity: 0.5;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.55 0 0 0 0 0.48 0 0 0 0 0.36 0 0 0 0.035 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23p)'/%3E%3C/svg%3E");
+}
+
+body > div {
+	position: relative;
+	z-index: 1;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: var(--font-display);
+	font-weight: 500;
+	color: var(--ink);
+	line-height: 1.2;
+	margin: 0 0 var(--space-3);
+}
+
+h1 {
+	font-size: clamp(2rem, 5vw, 3.2rem);
+	letter-spacing: 0.01em;
+}
+
+h2 {
+	font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+p {
+	margin: 0 0 var(--space-3);
+}
+
+.prose {
+	font-family: var(--font-narrative);
+	font-size: 1.08rem;
+	line-height: 1.75;
+	max-width: 42rem;
+}
+
+a {
+	color: var(--maroon);
+	text-decoration-color: var(--gold);
+	text-underline-offset: 3px;
+	transition: color var(--transition);
+}
+
+a:hover {
+	color: var(--saffron);
+}
+
+blockquote {
+	font-family: var(--font-narrative);
+	font-style: italic;
+	font-size: 1.05rem;
+	margin: var(--space-3) 0;
+	padding: var(--space-2) var(--space-3);
+	border-left: 3px solid var(--gold);
+	background: var(--paper-deep);
+	color: var(--ink-soft);
+}
+
+blockquote cite {
+	display: block;
+	margin-top: var(--space-2);
+	font-style: normal;
+	font-family: var(--font-ui);
+	font-size: 0.8rem;
+	color: var(--ink-faint);
+}
+
+button {
+	font-family: var(--font-ui);
+	cursor: pointer;
+}
+
+:focus-visible {
+	outline: 2px solid var(--saffron);
+	outline-offset: 2px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+}
+
+/* Lotus rule divider */
+.lotus-rule {
+	display: flex;
+	align-items: center;
+	gap: var(--space-3);
+	margin: var(--space-5) 0;
+	border: none;
+}
+
+.lotus-rule::before,
+.lotus-rule::after {
+	content: '';
+	flex: 1;
+	height: 1px;
+	background: linear-gradient(to right, transparent, var(--gold), transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "faxian",
+    "name": "Faxian",
+    "nameVariants": ["Fa-Hien", "Fâ-Hien", "Fa-hsien"],
+    "journey": { "startYear": 399, "endYear": 414 },
+    "origin": "Chang'an, China",
+    "bio": "Chinese Buddhist monk who travelled overland through Central Asia to India and returned by sea via Ceylon and Java (399-414 CE) to obtain authentic copies of the Vinaya (books of monastic discipline). His account is the earliest of the three and the shortest.",
+    "source": { "work": "A Record of Buddhistic Kingdoms", "translator": "James Legge", "year": 1886 }
+  },
+  {
+    "id": "xuanzang",
+    "name": "Xuanzang",
+    "nameVariants": ["Hsuan-tsang", "Hiuen Tsiang", "Xuensang"],
+    "journey": { "startYear": 629, "endYear": 645 },
+    "origin": "Chang'an, China",
+    "bio": "Chinese Buddhist monk, scholar and translator whose 16-year journey (629-645 CE) across Central Asia and the Indian subcontinent produced the most detailed surviving geographic record of ~110 'countries', studied at Nalanda, and brought back hundreds of texts. The most comprehensive of the three accounts.",
+    "source": { "work": "The Great Tang Dynasty Record of the Western Regions", "translator": "Li Rongxi (BDK)", "year": 1996 }
+  },
+  {
+    "id": "yijing",
+    "name": "Yijing",
+    "nameVariants": ["I-tsing", "I-ching", "Ijing"],
+    "journey": { "startYear": 671, "endYear": 695 },
+    "origin": "China (departed from Canton by sea)",
+    "bio": "Chinese Buddhist monk who travelled to India by the maritime route via Srivijaya (Sumatra), studied at Nalanda, and spent years in Sribhoga (Palembang). His surviving work is a topical treatise on contemporary Indian monastic discipline rather than a place-by-place travelogue, but it is invaluable for the geographic distribution of the Buddhist schools.",
+    "source": { "work": "A Record of the Buddhist Religion as Practised in India and the Malay Archipelago", "translator": "J. Takakusu", "year": 1896 }
+  }
+]
