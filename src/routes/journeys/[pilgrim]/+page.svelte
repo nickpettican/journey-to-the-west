@@ -32,7 +32,10 @@
 	function onMapReady(m: maplibregl.Map) {
 		mapInstance = m;
 		director = new ScrollyDirector(m, journey.pilgrim as PilgrimId);
-		director.addLayers(routesUrl());
+		director.addLayers(
+			routesUrl(),
+			journey.chapters.flatMap((c) => c.stops)
+		);
 		const first = journey.chapters[0]?.stops[0];
 		if (first) director.goToStop(first);
 		mapReady = true;
