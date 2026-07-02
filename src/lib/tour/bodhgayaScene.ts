@@ -82,28 +82,29 @@ const N_STATIONS = 23;
    narrative order is not geographic). */
 const PATH_POINTS: [number, number][] = [
 	[-150, 0], // 0 the approach, from the west
-	[188, 4], // 1 the river bank
-	[64, 0], // 2 in by the east gate
-	[30, 0], // 3 the Great Temple, at the door
-	[27, 0], // 4 the tower
-	[12, 0], // 5 the image within
-	[-5.5, 0], // 6 the tree and diamond seat
-	[8, -16], // 7 Buddha's Walk
-	[58, -28], // 8 the gazing shrine
-	[-33, -38], // 9 Kāśyapa's shrine and the earth gods
-	[-66, -2], // 10 the Ratnagṛha
-	[-96, -18], // 11 the Saffron Stupa, at the west wall
-	[-4, 36], // 12 Aśoka's stupa of the grass
-	[64, 44], // 13 the banyan
-	[1, 54.5], // 14 the sinking bodhisattva
-	[22, 22], // 15 scales of a fish (the courtyard)
-	[-70, 68], // 16 the milkmaids
-	[8, 90], // 17 the flower pool
-	[85, 106], // 18 Mucilinda's lake
-	[128, 116], // 19 the six years' austerities
-	[160, 84], // 20 the merchants' offering
-	[10, -150], // 21 the road to the Saṅghārāma
-	[10, -205] // 22 the Saṅghārāma
+	[20, -100], // 1 between the Mahābodhi and the monastery, on the way to the river
+	[188, 4], // 2 the river bank
+	[64, 0], // 3 in by the east gate
+	[30, 0], // 4 the Great Temple, at the door
+	[27, 0], // 5 the tower
+	[12, 0], // 6 the image within
+	[-5.5, 0], // 7 the tree and diamond seat
+	[8, -16], // 8 Buddha's Walk
+	[58, -28], // 9 the gazing shrine
+	[-33, -38], // 10 Kāśyapa's shrine and the earth gods
+	[-66, -2], // 11 the Ratnagṛha
+	[-96, -18], // 12 the Saffron Stupa, at the west wall
+	[-4, 36], // 13 Aśoka's stupa of the grass
+	[64, 44], // 14 the banyan
+	[1, 54.5], // 15 the sinking bodhisattva
+	[22, 22], // 16 scales of a fish (the courtyard)
+	[-70, 68], // 17 the milkmaids
+	[8, 90], // 18 the flower pool
+	[85, 106], // 19 Mucilinda's lake
+	[128, 116], // 20 the six years' austerities
+	[160, 84], // 21 the merchants' offering
+	[10, -150], // 22 the road to the Saṅghārāma
+	[10, -205] // 23 the Saṅghārāma
 ];
 
 /* ------------------------------------------------------- camera keyframes --- */
@@ -117,34 +118,34 @@ interface CamKey {
 const CAM_KEYS: CamKey[] = [
 	{ s: -0.5, pos: [-380, 200, 380], look: [10, 20, 0], idx: 0 },
 	{ s: 0, pos: [-240, 60, 140], look: [10, 26, -20], idx: 0 }, // 0 approach, from the west facing east
-	{ s: 0.5, pos: [-130, 30, -90], look: [60, 10, -80], idx: 0 },
-	{ s: 1, pos: [215, 20, -70], look: [170, 2, 95], idx: 1 }, // 1 the river bank, complex at right
-	{ s: 1.5, pos: [195, 18, 40], look: [290, 6, 95], idx: 2 },
-	{ s: 2, pos: [158, 13, 26], look: [95, 5, 0], idx: 2 }, // 2 the east gates
-	{ s: 2.5, pos: [92, 9, 8], look: [44, 8, 0], idx: 3 },
-	{ s: 3, pos: [72, 16, 42], look: [12, 24, 0], idx: 3 }, // 3 the Great Temple (exterior)
-	{ s: 4, pos: [74, 32, 58], look: [10, 30, 0], idx: 4 }, // 4 the tower and its long ruin
-	{ s: 5, pos: [42, 9, 13], look: [-0.5, 3, 0], idx: 5 }, // 5 the image within (temple fades)
-	{ s: 6, pos: [-30, 18, 26], look: [-5, 8, 0], idx: 6 }, // 6 tree + diamond seat (temple fades)
-	{ s: 7, pos: [-12, 9, -28], look: [12, 1.5, -15], idx: 7 }, // 7 Buddha's Walk
-	{ s: 8, pos: [86, 16, -14], look: [58, 8, -28], idx: 8 }, // 8 the gazing shrine
-	{ s: 9, pos: [10, 12, -24], look: [-40, 3, -35], idx: 9 }, // 9 Kāśyapa's shrine and the earth gods
-	{ s: 10, pos: [-40, 9, -20], look: [-66, 4, -2], idx: 10 }, // 10 the Ratnagṛha
-	{ s: 11, pos: [-82, 27, -6], look: [-112, 10, -18], idx: 11 }, // 11 the Saffron Stupa
-	{ s: 12, pos: [28, 18, 17], look: [-4, 12, 36], idx: 12 }, // 12 Aśoka's stupa of the clean grass
-	{ s: 13, pos: [42, 12, 60], look: [64, 6, 43], idx: 13 }, // 13 the banyan
-	{ s: 14, pos: [30, 11, 42], look: [1, 2, 54.5], idx: 14 }, // 14 the sinking bodhisattva
-	{ s: 15, pos: [90, 68, 68], look: [0, 5, 5], idx: 15 }, // 15 scales of a fish
-	{ s: 16, pos: [-42, 14, 54], look: [-70, 6, 70], idx: 16 }, // 16 the milkmaids
-	{ s: 17, pos: [-32, 26, 42], look: [10, 0, 98], idx: 17 }, // 17 the flower pool
-	{ s: 18, pos: [52, 12, 128], look: [86, 2, 106], idx: 18 }, // 18 Mucilinda
-	{ s: 19, pos: [156, 14, 122], look: [131, 4, 113], idx: 19 }, // 19 the six years' austerities
-	{ s: 20, pos: [148, 11, 42], look: [162, 3, 84], idx: 20 }, // 20 the merchants
-	{ s: 20.5, pos: [95, 32, -25], look: [10, 10, -140], idx: 21 },
-	{ s: 21, pos: [10, 58, -75], look: [10, 4, -205], idx: 21 }, // 21 the Saṅghārāma
-	{ s: 21.5, pos: [10, 32, -148], look: [10, 8, -212], idx: 22 },
-	{ s: 22, pos: [-300, 220, 320], look: [40, 0, -60], idx: 22 }, // 22 what remains
-	{ s: 22.5, pos: [-340, 250, 360], look: [40, 20, -60], idx: 22 }
+	{ s: 0.5, pos: [-96, 24, -104], look: [90, 8, -96], idx: 1 }, // between the temple (right) and the monastery (left)
+	{ s: 1, pos: [215, 20, -70], look: [170, 2, 95], idx: 2 }, // 1 the river bank, complex at right
+	{ s: 1.5, pos: [195, 18, 40], look: [290, 6, 95], idx: 3 },
+	{ s: 2, pos: [158, 13, 26], look: [95, 5, 0], idx: 3 }, // 2 the east gates
+	{ s: 2.5, pos: [92, 9, 8], look: [44, 8, 0], idx: 4 },
+	{ s: 3, pos: [72, 16, 42], look: [12, 24, 0], idx: 4 }, // 3 the Great Temple (exterior)
+	{ s: 4, pos: [74, 32, 58], look: [10, 30, 0], idx: 5 }, // 4 the tower and its long ruin
+	{ s: 5, pos: [42, 9, 13], look: [-0.5, 3, 0], idx: 6 }, // 5 the image within (temple fades)
+	{ s: 6, pos: [-30, 18, 26], look: [-5, 8, 0], idx: 7 }, // 6 tree + diamond seat (temple fades)
+	{ s: 7, pos: [-12, 9, -28], look: [12, 1.5, -15], idx: 8 }, // 7 Buddha's Walk
+	{ s: 8, pos: [86, 16, -14], look: [58, 8, -28], idx: 9 }, // 8 the gazing shrine
+	{ s: 9, pos: [10, 12, -24], look: [-40, 3, -35], idx: 10 }, // 9 Kāśyapa's shrine and the earth gods
+	{ s: 10, pos: [-40, 9, -20], look: [-66, 4, -2], idx: 11 }, // 10 the Ratnagṛha
+	{ s: 11, pos: [-82, 27, -6], look: [-112, 10, -18], idx: 12 }, // 11 the Saffron Stupa
+	{ s: 12, pos: [28, 18, 17], look: [-4, 12, 36], idx: 13 }, // 12 Aśoka's stupa of the clean grass
+	{ s: 13, pos: [42, 12, 60], look: [64, 6, 43], idx: 14 }, // 13 the banyan
+	{ s: 14, pos: [30, 11, 42], look: [1, 2, 54.5], idx: 15 }, // 14 the sinking bodhisattva
+	{ s: 15, pos: [90, 68, 68], look: [0, 5, 5], idx: 16 }, // 15 scales of a fish
+	{ s: 16, pos: [-42, 14, 54], look: [-70, 6, 70], idx: 17 }, // 16 the milkmaids
+	{ s: 17, pos: [-32, 26, 42], look: [10, 0, 98], idx: 18 }, // 17 the flower pool
+	{ s: 18, pos: [52, 12, 128], look: [86, 2, 106], idx: 19 }, // 18 Mucilinda
+	{ s: 19, pos: [156, 14, 122], look: [131, 4, 113], idx: 20 }, // 19 the six years' austerities
+	{ s: 20, pos: [148, 11, 42], look: [162, 3, 84], idx: 21 }, // 20 the merchants
+	{ s: 20.5, pos: [95, 32, -25], look: [10, 10, -140], idx: 22 },
+	{ s: 21, pos: [10, 58, -75], look: [10, 4, -205], idx: 22 }, // 21 the Saṅghārāma
+	{ s: 21.5, pos: [10, 32, -148], look: [10, 8, -212], idx: 23 },
+	{ s: 22, pos: [-300, 220, 320], look: [40, 0, -60], idx: 23 }, // 22 what remains
+	{ s: 22.5, pos: [-340, 250, 360], look: [40, 20, -60], idx: 23 }
 ];
 
 const smooth = (t: number) => t * t * (3 - 2 * t);
@@ -669,15 +670,15 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		gableShape.moveTo(-3.7, 0);
 		for (let k = 0; k <= 16; k++) {
 			const a = Math.PI - (Math.PI * k) / 16;
-			gableShape.lineTo(Math.cos(a) * 3.7, Math.sin(a) * 2.7);
+			gableShape.lineTo(Math.cos(a) * 3.8, Math.sin(a) * 2.7);
 		}
 		gableShape.closePath();
 		const gable = new THREE.Mesh(
-			new THREE.ExtrudeGeometry(gableShape, { depth: 6, bevelEnabled: false }),
+			new THREE.ExtrudeGeometry(gableShape, { depth: 2, bevelEnabled: false }),
 			temple
 		);
 		gable.rotation.y = Math.PI / 2;
-		gable.position.set(PX - 4.0, 13.75, 0);
+		gable.position.set(PX + 0, 13.75, 0);
 		gable.castShadow = true;
 		tg.add(gable);
 		// four tall front pillars (Cunningham)
