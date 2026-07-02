@@ -27,6 +27,9 @@
  * Scene units are metres-ish. +x = east, −z = north (the main gate is south).
  */
 import * as THREE from 'three';
+import type { SceneTour } from './types';
+import { createTreeLoaders } from './treeModels';
+import { buildRiceLand } from './riceFields';
 
 /* --------------------------------------------------------------- palette --- */
 const C = {
@@ -45,13 +48,15 @@ const C = {
 	trunk: 0x6e573b,
 	bronze: 0x9c7a40,
 	saffron: 0xe08214,
-	gold: 0xc2a14d
+	gold: 0xc2a14d,
+	stupaStone: 0x7b7263, // dark stone of the stepped stupa bases (as Bodh Gayā)
+	plinth: 0x9a9584 // the grey plinth they stand on
 };
 
 const mat = (color: number, opts: THREE.MeshLambertMaterialParameters = {}) =>
 	new THREE.MeshLambertMaterial({ color, ...opts });
 
-const N_STATIONS = 15;
+const N_STATIONS = 22;
 
 /* ---------------------------------------------------------- glowing path --- */
 /** Ground route, in story order: in from the villages by the south gate, past
@@ -125,7 +130,7 @@ const PATH_POINTS: [number, number][] = [
 ];
 
 /* ------------------------------------------------------- camera keyframes --- */
-/** Keys are anchored to STATION numbers (0–14), not raw scroll fractions:
+/** Keys are anchored to STATION numbers (0–21), not raw scroll fractions:
  *  the component measures where each story card actually sits in the scroll
  *  and calls calibrate(), so camera, glow path and cards stay in lockstep.
  *  Fractional `s` values are fill keys that steer between stations. */
@@ -139,27 +144,36 @@ interface CamKey {
 
 const CAM_KEYS: CamKey[] = [
 	{ s: -0.5, pos: [-200, 280, 1040], look: [20, 25, -120], idx: 0 },
-	{ s: 0, pos: [-150, 210, 900], look: [20, 25, -120], idx: 1 }, // 1 approach
-	{ s: 1, pos: [20, 9, 484], look: [20, 10, 420], idx: 2 }, // 2 the gate
-	{ s: 2, pos: [60, 12, 413], look: [34, 3, 396], idx: 3 }, // 3 the well
-	{ s: 3, pos: [115, 70, 225], look: [-40, 5, 425], idx: 8 }, // 4 the buried south
-	{ s: 4, pos: [140, 75, 330], look: [-30, 8, 80], idx: 11 }, // 5 six kings
-	{ s: 4.5, pos: [80, 18, 210], look: [40, 6, 165], idx: 13 },
-	{ s: 5, pos: [58, 12, 176], look: [58, 4, 140], idx: 14 }, // 6 inside a court
-	{ s: 6, pos: [58, 36, 172], look: [58, 4, 156], idx: 18 }, // 7 daily life
-	{ s: 6.5, pos: [14, 18, 122], look: [-24, 8, 92], idx: 21 },
-	{ s: 7, pos: [4, 20, -4], look: [-47, 14, 100], idx: 23 }, // 8 traces: T12 + brass, facing SW
-	{ s: 7.5, pos: [150, 55, -60], look: [322, 16, -280], idx: 32 },
-	{ s: 8, pos: [381, 112, -176], look: [422, 8, -268], idx: 35 }, // 9 colossus, looking down into its court (Tārā beyond)
-	{ s: 8.5, pos: [240, 70, -330], look: [40, 10, -260], idx: 41 },
-	{ s: 9, pos: [190, 150, -30], look: [10, 10, -210], idx: 43 }, // 10 scholars
-	{ s: 9.5, pos: [-150, 60, -230], look: [-47, 28, -330], idx: 47 },
-	{ s: 10, pos: [-175, 95, -400], look: [-47, 52, -545], idx: 52 }, // 11 Bālāditya (F2)
-	{ s: 11, pos: [20, 620, -200], look: [20, 0, -900], idx: 56 }, // 12 the tanks, flanking the site from on high
-	{ s: 12, pos: [64, 42, -756], look: [-46, 28, -878], idx: 58 }, // 13 the library halls
-	{ s: 13, pos: [185, 105, -985], look: [0, 24, -1180], idx: 61 }, // 14 Begumpur
-	{ s: 14, pos: [-660, 440, 660], look: [60, 0, -460], idx: 61 }, // 15 legacy
-	{ s: 14.5, pos: [-740, 490, 740], look: [60, 20, -460], idx: 61 }
+	{ s: 0, pos: [-150, 210, 900], look: [20, 25, -120], idx: 1 }, // 0 approach
+	{ s: 1, pos: [110, 70, 780], look: [-200, 8, 600], idx: 1 }, // 1 Faxian — the village of Nala, looking S over the huts
+	{ s: 2, pos: [20, 9, 484], look: [20, 10, 420], idx: 2 }, // 2 the gate
+	{ s: 3, pos: [60, 12, 413], look: [34, 3, 396], idx: 3 }, // 3 the well
+	{ s: 4, pos: [115, 70, 225], look: [-40, 5, 425], idx: 8 }, // 4 the buried south
+	{ s: 5, pos: [140, 75, 330], look: [-30, 8, 80], idx: 11 }, // 5 six kings
+	{ s: 5.5, pos: [80, 18, 210], look: [40, 6, 165], idx: 13 },
+	{ s: 6, pos: [58, 12, 176], look: [58, 4, 140], idx: 14 }, // 6 inside a court
+	{ s: 7, pos: [58, 36, 172], look: [58, 4, 156], idx: 18 }, // 7 daily life
+	{ s: 8, pos: [118, 62, 116], look: [58, 10, -30], idx: 19 }, // 8 the precentor's round — along the range of courts
+	{ s: 8.5, pos: [40, 26, 118], look: [-24, 8, 92], idx: 21 },
+	{ s: 9, pos: [4, 20, -4], look: [-47, 14, 100], idx: 23 }, // 9 traces: T12 + brass, facing SW
+	{ s: 9.5, pos: [-150, 60, 120], look: [-190, 8, 88], idx: 23 },
+	{ s: 10, pos: [-300, 78, 156], look: [-200, 3, 84], idx: 23 }, // 10 the bathing tanks (west, outside the wall)
+	{ s: 11, pos: [-272, 36, 22], look: [-203, 10, 62], idx: 23 }, // 11 the sparrow stupa
+	{ s: 11.5, pos: [-60, 45, -30], look: [-46, 10, -120], idx: 25 },
+	{ s: 12, pos: [16, 30, -92], look: [-46, 10, -140], idx: 27 }, // 12 the would-be world-monarch — a stupa by Temple 13
+	{ s: 12.5, pos: [120, 80, -60], look: [322, 16, -280], idx: 32 },
+	{ s: 13, pos: [381, 112, -176], look: [422, 8, -268], idx: 35 }, // 13 colossus, looking down into its court (Tārā beyond)
+	{ s: 13.5, pos: [240, 70, -330], look: [40, 10, -260], idx: 41 },
+	{ s: 14, pos: [190, 150, -30], look: [10, 10, -210], idx: 43 }, // 14 scholars
+	{ s: 15, pos: [132, 40, -222], look: [58, 15, -250], idx: 48 }, // 15 seniority — a northern three-storeyed court
+	{ s: 15.5, pos: [-150, 70, -300], look: [-47, 32, -440], idx: 50 },
+	{ s: 16, pos: [-175, 95, -400], look: [-47, 52, -545], idx: 52 }, // 16 Bālāditya (F2)
+	{ s: 17, pos: [20, 620, -200], look: [20, 0, -900], idx: 56 }, // 17 the tanks, flanking the site from on high
+	{ s: 18, pos: [64, 42, -756], look: [-46, 28, -878], idx: 58 }, // 18 the library halls
+	{ s: 19, pos: [185, 105, -985], look: [0, 24, -1180], idx: 61 }, // 19 Begumpur
+	{ s: 20, pos: [60, 760, -360], look: [20, 0, -430], idx: 61 }, // 20 Yijing's plan — the whole site from straight above
+	{ s: 21, pos: [-660, 440, 660], look: [60, 0, -460], idx: 61 }, // 21 legacy
+	{ s: 21.5, pos: [-740, 490, 740], look: [60, 20, -460], idx: 61 }
 ];
 
 const smooth = (t: number) => t * t * (3 - 2 * t);
@@ -236,30 +250,50 @@ function buildCourt(
 				const seg = (S - 2 * T - 6) / 2;
 				addBox(g, T, H, seg, r.x, H / 2, cz - 3 - seg / 2, brick);
 				addBox(g, T, H, seg, r.x, H / 2, cz + 3 + seg / 2, brick);
-				addBox(g, T + 2, 1.4, 8, r.x, H * 0.62, cz, trim);
+				// addBox(g, T + 2, 1.4, 8, r.x, H * 0.62, cz, trim);
 			} else {
 				// north entrance (Monasteries 18 and 1A)
 				const seg = (S - 6) / 2;
 				addBox(g, seg, H, T, cx - 3 - seg / 2, H / 2, r.z, brick);
 				addBox(g, seg, H, T, cx + 3 + seg / 2, H / 2, r.z, brick);
-				addBox(g, 8, 1.4, T + 2, cx, H * 0.62, r.z, trim);
+				// addBox(g, 8, 1.4, T + 2, cx, H * 0.62, r.z, trim);
 			}
 		} else {
 			addBox(g, r.w, H, r.d, r.x, H / 2, r.z, brick);
 		}
 	}
-	// storey string-courses so the three floors read from outside
+	// storey string-courses so the three floors read from outside; the entrance
+	// side is split around the 6-wide gateway so no beam crosses the opening
+	const halfGap = 3;
+	const barX = (w: number, th: number, d: number, ez: number, y: number, split: boolean) => {
+		if (!split) {
+			addBox(g, w, th, d, cx, y, ez, trim).castShadow = false;
+			return;
+		}
+		const seg = (w - 2 * halfGap) / 2;
+		for (const s of [-1, 1])
+			addBox(g, seg, th, d, cx + s * (halfGap + seg / 2), y, ez, trim).castShadow = false;
+	};
+	const barZ = (w: number, th: number, d: number, ex: number, y: number, split: boolean) => {
+		if (!split) {
+			addBox(g, w, th, d, ex, y, cz, trim).castShadow = false;
+			return;
+		}
+		const seg = (d - 2 * halfGap) / 2;
+		for (const s of [-1, 1])
+			addBox(g, w, th, seg, ex, y, cz + s * (halfGap + seg / 2), trim).castShadow = false;
+	};
 	for (const y of [4, 8]) {
-		addBox(g, S + 0.6, 0.5, 0.7, cx, y, cz - S / 2, trim).castShadow = false;
-		addBox(g, S + 0.6, 0.5, 0.7, cx, y, cz + S / 2, trim).castShadow = false;
-		addBox(g, 0.7, 0.5, S + 0.6, cx - S / 2, y, cz, trim).castShadow = false;
-		addBox(g, 0.7, 0.5, S + 0.6, cx + S / 2, y, cz, trim).castShadow = false;
+		barX(S + 0.6, 0.5, 0.7, cz - S / 2, y, entranceSide === 'north');
+		barX(S + 0.6, 0.5, 0.7, cz + S / 2, y, false);
+		barZ(0.7, 0.5, S + 0.6, cx - S / 2, y, entranceSide === 'west');
+		barZ(0.7, 0.5, S + 0.6, cx + S / 2, y, false);
 	}
-	// parapet rims, courtyard open to the sky
-	addBox(g, S + 1, 0.9, 1.4, cx, H + 0.45, cz - S / 2 + 0.5, trim).castShadow = false;
-	addBox(g, S + 1, 0.9, 1.4, cx, H + 0.45, cz + S / 2 - 0.5, trim).castShadow = false;
-	addBox(g, 1.4, 0.9, S + 1, cx - S / 2 + 0.5, H + 0.45, cz, trim).castShadow = false;
-	addBox(g, 1.4, 0.9, S + 1, cx + S / 2 - 0.5, H + 0.45, cz, trim).castShadow = false;
+	// parapet rims, courtyard open to the sky; entrance side split to match
+	barX(S + 1, 0.9, 1.4, cz - S / 2 + 0.5, H + 0.45, entranceSide === 'north');
+	barX(S + 1, 0.9, 1.4, cz + S / 2 - 0.5, H + 0.45, false);
+	barZ(1.4, 0.9, S + 1, cx - S / 2 + 0.5, H + 0.45, entranceSide === 'west');
+	barZ(1.4, 0.9, S + 1, cx + S / 2 - 0.5, H + 0.45, false);
 	const ih = S / 2 - T;
 	addBox(g, 2 * ih, 0.7, 0.9, cx, H + 0.35, cz - ih, trim).castShadow = false;
 	addBox(g, 2 * ih, 0.7, 0.9, cx, H + 0.35, cz + ih, trim).castShadow = false;
@@ -277,7 +311,9 @@ function buildCourt(
 	return g;
 }
 
-/** Stepped pyramid temple in the Mahābodhi manner (Temples 13 and 14). */
+/** A curved śikhara tower on a short raised base, in the Mahābodhi manner
+ *  (Temples 3, 13, 14 and the buried temples). The tower profile matches the
+ *  Great Temple of bodhgayaScene; corner turrets are lesser śikharas. */
 function buildTemple(
 	x: number,
 	z: number,
@@ -287,26 +323,28 @@ function buildTemple(
 	stone: THREE.Material
 ): THREE.Group {
 	const g = new THREE.Group();
-	const base = height * 0.36;
 	const baseW = height * 0.6;
-	// each course is brick with a thin stone cap of the same footprint
-	const course = (w: number, h: number, y0: number) => {
-		addBox(g, w, h - 0.6, w, x, y0 + (h - 0.6) / 2, z, brick);
-		addBox(g, w, 0.6, w, x, y0 + h - 0.3, z, stone).castShadow = false;
-	};
-	let y = 0;
-	for (let i = 0; i < 3; i++) {
-		const w = baseW * (1 - i * 0.18);
-		const h = base / 3;
-		course(w, h, y);
-		y += h;
-	}
-	const towerH = height - base;
-	const steps = 7;
-	for (let s = 0; s < steps; s++) {
-		const f = 1 - s / steps;
-		const w = baseW * 0.52 * (0.3 + 0.7 * f);
-		course(w, towerH / steps, y + (s * towerH) / steps);
+	// a short raised base with stone string-courses (as the Mahābodhi Great
+	// Temple); widened when the temple carries corner turrets so all four stand
+	// squarely on top of the platform
+	const baseH = height * 0.17;
+	const platW = corners ? height * 0.78 + 5 : baseW;
+	addBox(g, platW + 2, baseH * 0.28, platW + 2, x, baseH * 0.14, z, brick);
+	addBox(g, platW, baseH * 0.72, platW, x, baseH * 0.64, z, brick);
+	for (const yf of [0.5, 0.85])
+		addBox(g, platW + 0.6, 0.45, platW + 0.6, x, baseH * yf, z, stone).castShadow = false;
+	// the curved śikhara tower rising from the base — profile as bodhgayaScene:
+	// brick course + thin stone cap, width easing in toward the top
+	const towerH = height - baseH;
+	const w0 = baseW * 0.58;
+	const courses = Math.max(6, Math.round(towerH / 3.8));
+	for (let i = 0; i < courses; i++) {
+		const t = i / courses;
+		const w = w0 * (1 - 0.78 * Math.pow(t, 1.35));
+		const h = towerH / courses;
+		const y = baseH + i * h;
+		addBox(g, w, h - 0.4, w, x, y + (h - 0.4) / 2, z, brick);
+		addBox(g, w + 0.5, 0.4, w + 0.5, x, y + h - 0.2, z, stone).castShadow = false;
 	}
 	// pointed gilt spire, as on the domed temple
 	const fin = new THREE.Mesh(
@@ -324,7 +362,9 @@ function buildTemple(
 			[-off, off],
 			[off, off]
 		]) {
-			g.add(buildTemple(x + dx, z + dz, height * 0.3, false, brick, stone));
+			const turret = buildTemple(x + dx, z + dz, height * 0.3, false, brick, stone);
+			turret.position.y = baseH; // stand the turret on top of the platform
+			g.add(turret);
 		}
 	}
 	return g;
@@ -389,28 +429,56 @@ function buildDomedTemple(
 	return g;
 }
 
-/** Dome stupa: drum, dome, harmikā and spire. */
-function buildStupa(x: number, z: number, height: number, brick: THREE.Material): THREE.Group {
+/** Elevated dome stupa in the Mahābodhi manner (as bodhgayaScene): a low grey
+ *  plinth, three stepped tiers, a tall bell with a rounded shoulder, harmikā
+ *  and gilt spire. */
+function buildStupa(x: number, z: number, height: number): THREE.Group {
 	const g = new THREE.Group();
-	const r = height * 0.42;
-	const drumH = height * 0.3;
-	const drum = new THREE.Mesh(new THREE.CylinderGeometry(r, r * 1.15, drumH, 18), brick);
-	drum.position.set(x, drumH / 2, z);
-	drum.castShadow = drum.receiveShadow = true;
-	g.add(drum);
-	const dome = new THREE.Mesh(
-		new THREE.SphereGeometry(r, 18, 12, 0, Math.PI * 2, 0, Math.PI / 2),
-		mat(C.plaster)
+	const R = height * 0.3;
+	const baseM = mat(C.stupaStone);
+	const bellM = mat(C.plaster);
+	// a low grey plinth — the slight elevation
+	const plinth = new THREE.Mesh(
+		new THREE.CylinderGeometry(2.0 * R, 2.15 * R, height * 0.06, 20),
+		mat(C.plinth)
 	);
-	dome.position.set(x, drumH, z);
-	dome.castShadow = true;
-	g.add(dome);
-	addBox(g, r * 0.5, r * 0.22, r * 0.5, x, drumH + r + r * 0.1, z, mat(C.sandstone));
+	plinth.position.set(x, height * 0.03, z);
+	plinth.castShadow = plinth.receiveShadow = true;
+	g.add(plinth);
+	let y = height * 0.06;
+	// three stepped base tiers, each wider than the bell
+	for (const [rb, rt] of [
+		[1.85, 1.7],
+		[1.6, 1.45],
+		[1.35, 1.2]
+	] as [number, number][]) {
+		const t = new THREE.Mesh(new THREE.CylinderGeometry(rt * R, rb * R, height * 0.1, 20), baseM);
+		t.position.set(x, y + height * 0.05, z);
+		t.castShadow = t.receiveShadow = true;
+		g.add(t);
+		y += height * 0.1;
+	}
+	// the bell: a tall body with a rounded shoulder
+	const body = new THREE.Mesh(new THREE.CylinderGeometry(0.95 * R, 1.1 * R, height * 0.34, 20), bellM);
+	body.position.set(x, y + height * 0.17, z);
+	body.castShadow = true;
+	g.add(body);
+	const shoulder = new THREE.Mesh(
+		new THREE.SphereGeometry(0.95 * R, 20, 12, 0, Math.PI * 2, 0, Math.PI / 2),
+		bellM
+	);
+	shoulder.position.set(x, y + height * 0.34, z);
+	shoulder.castShadow = true;
+	g.add(shoulder);
+	const domeTop = y + height * 0.34 + 0.95 * R;
+	// harmikā and gilt spire
+	addBox(g, 0.6 * R, height * 0.05, 0.6 * R, x, domeTop + height * 0.02, z, mat(C.sandstone));
 	const spire = new THREE.Mesh(
-		new THREE.ConeGeometry(r * 0.16, height * 0.32, 8),
+		new THREE.ConeGeometry(0.26 * R, height * 0.32, 8),
 		mat(C.gold, { emissive: C.gold, emissiveIntensity: 0.2 })
 	);
-	spire.position.set(x, drumH + r + height * 0.26, z);
+	spire.position.set(x, domeTop + height * 0.2, z);
+	spire.castShadow = true;
 	g.add(spire);
 	return g;
 }
@@ -528,16 +596,23 @@ function buildQuadrangle(
 	return g;
 }
 
-export interface NalandaTour {
-	setProgress(p: number): void;
-	setStation(i: number): void;
-	/** Measured scroll fractions of the story cards' centres (0–1). */
-	calibrate(stationPs: number[]): void;
-	resize(): void;
-	dispose(): void;
+export type NalandaTour = SceneTour;
+
+export interface NalandaModels {
+	/** the scanned standing Buddha for the copper colossus */
+	standing?: string;
+	/** tree models — the willow-twig tree and the grove species (instanced) */
+	willow?: string;
+	mango?: string;
+	oak?: string;
+	plainTree?: string;
+	banyan?: string;
 }
 
-export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
+export function createNalandaTour(
+	canvas: HTMLCanvasElement,
+	models: NalandaModels = {}
+): NalandaTour {
 	const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
 	renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.6));
 	renderer.shadowMap.enabled = true;
@@ -551,6 +626,13 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	scene.fog = new THREE.Fog(C.fog, 420, 2600);
 
 	const camera = new THREE.PerspectiveCamera(46, 1, 0.5, 4200);
+
+	let disposed = false;
+	const { loadTreeModel, scatterSpecies } = createTreeLoaders({
+		scene,
+		renderer,
+		isDisposed: () => disposed
+	});
 
 	/* lights */
 	scene.add(new THREE.HemisphereLight(0xdce9ef, 0xb3bf99, 0.95));
@@ -576,31 +658,41 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	ground.position.z = -400;
 	ground.receiveShadow = true;
 	scene.add(ground);
-	const fieldGeo = new THREE.PlaneGeometry(90, 60);
-	for (let i = 0; i < 26; i++) {
-		const f = new THREE.Mesh(fieldGeo, mat(i % 2 ? C.fieldA : C.fieldB));
-		f.rotation.x = -Math.PI / 2;
-		f.position.set(
-			-650 + (i % 7) * 210 + ((i * 37) % 60),
-			0.1,
-			470 + Math.floor(i / 7) * 90 + ((i * 53) % 40)
-		);
-		f.receiveShadow = true;
-		scene.add(f);
-	}
-	// farmland between the Baragaon row and Begumpur, as the surveys describe
-	for (let i = 0; i < 12; i++) {
-		const f = new THREE.Mesh(fieldGeo, mat(i % 2 ? C.fieldA : C.fieldB));
-		f.rotation.x = -Math.PI / 2;
-		const east = i % 2 ? 1 : -1;
-		f.position.set(
-			east * (170 + ((i * 67) % 180)),
-			0.1,
-			-680 - (i % 4) * 105 - ((i * 31) % 50)
-		);
-		f.receiveShadow = true;
-		scene.add(f);
-	}
+	/* the rice country — paddy quilts on the open land (bunds carry the trees;
+	   the pattern is the one the monks' robes copy), forests where no field is
+	   cut; the strips between the Baragaon row and Begumpur stay open farmland,
+	   as the surveys describe */
+	const riceLand = buildRiceLand(scene, {
+		blocks: [
+			{ x: -380, z: 680, w: 480, d: 260, rot: 0.06 }, // south, toward Baragaon village
+			{ x: 320, z: 660, w: 520, d: 240, rot: -0.05 },
+			{ x: -560, z: -350, w: 340, d: 800, rot: 0.04 }, // west of the wall
+			{ x: 640, z: -150, w: 300, d: 600, rot: -0.06 }, // east, beyond Pansokar
+			{ x: 80, z: -1750, w: 560, d: 380, rot: 0.03 }, // north, beyond Begumpur
+			{ x: -270, z: -890, w: 160, d: 420, sparse: true }, // the surveyed farmland
+			{ x: 250, z: -890, w: 120, d: 420, sparse: true } //   between the mound rows
+		],
+		forests: [
+			{ x: -620, z: 250, r: 90, n: 70 },
+			{ x: -620, z: -1100, r: 85, n: 65 },
+			{ x: -80, z: 590, r: 85, n: 65 },
+			{ x: -300, z: 300, r: 85, n: 65 },
+			{ x: 200, z: 300, r: 85, n: 65 },
+			{ x: 200, z: 100, r: 85, n: 65 },
+			{ x: 200, z: -300, r: 85, n: 65 },
+			{ x: 620, z: -850, r: 95, n: 70 },
+			{ x: 560, z: 350, r: 80, n: 60 },
+			{ x: -80, z: -2050, r: 100, n: 70 },
+			{ x: -950, z: -400, r: 110, n: 80 },
+			{ x: 900, z: -1300, r: 100, n: 70 },
+			{ x: -380, z: -1780, r: 85, n: 60 },
+			{ x: 950, z: 200, r: 100, n: 70 },
+			{ x: -900, z: 620, r: 90, n: 65 }
+		],
+		shades: [C.fieldA, C.fieldB, 0x9fb888, 0xccd5a9],
+		treeHeight: 15,
+		seed: 19
+	});
 	// the road runs from Monastery 1 north to the threshold of the Begumpur
 	// quadrangle — it neither cuts through Monastery 1A in the south nor into
 	// the closed quadrangle in the north
@@ -634,13 +726,30 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	wallRun('x', W.z0, W.x0, W.x1, 20);
 	wallRun('z', W.x1, W.z0, W.z1, -280); // east and west gates at the wall's
 	wallRun('z', W.x0, W.z0, W.z1, -280); // midpoint, level with Temple 14
+	// toraṇa gateways in the Aśoka-gate manner: two slim pillars either side of
+	// the opening (a touch thinner than the wall) carrying three stacked stone
+	// architraves, each a little shorter than the one below
 	function gatehouse(x: number, z: number, axis: 'x' | 'z', main: boolean) {
 		const h = main ? 12 : 9.5;
-		const [dx, dz] = axis === 'x' ? [8, 0] : [0, 8];
-		addBox(scene, axis === 'x' ? 7 : 8, h, axis === 'x' ? 8 : 7, x - dx, h / 2, z - dz, brickDark);
-		addBox(scene, axis === 'x' ? 7 : 8, h, axis === 'x' ? 8 : 7, x + dx, h / 2, z + dz, brickDark);
-		if (axis === 'x') addBox(scene, 24, 3, 9, x, h + 1.2, z, stone);
-		else addBox(scene, 9, 3, 24, x, h + 1.2, z, stone);
+		const off = gateW / 2 + 1.3;
+		const beamBase = h + 0.6;
+		const beamStep = 1.5;
+		// the pillars rise from the ground past the top architrave, so the three
+		// beams cross them rather than floating above short posts
+		const pillarH = beamBase + 2 * beamStep + 0.7;
+		for (const side of [-1, 1]) {
+			const pil = new THREE.Mesh(new THREE.BoxGeometry(2.5, pillarH, 2.5), brickDark);
+			if (axis === 'x') pil.position.set(x + side * off, pillarH / 2, z);
+			else pil.position.set(x, pillarH / 2, z + side * off);
+			pil.castShadow = true;
+			scene.add(pil);
+		}
+		[1.1, 0.92, 0.74].forEach((s, i) => {
+			const len = off * 2 + 4.5 * s;
+			const ly = beamBase + i * beamStep;
+			if (axis === 'x') addBox(scene, len, 0.85, 2.7, x, ly, z, brick);
+			else addBox(scene, 2.7, 0.85, len, x, ly, z, brick);
+		});
 	}
 	gatehouse(20, W.z1, 'x', true); // south — the single gate Xuanzang describes
 	gatehouse(20, W.z0, 'x', false);
@@ -676,8 +785,8 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	for (const [x, z, S] of ghostCourts) scene.add(ghostify(buildCourt(x, z, S, 'west', brick, stone)));
 	scene.add(ghostify(buildTemple(-47, 350, 62, true, brick, stone))); // F4
 	/* the circular field-mounds, drawn as the great stupas they may hide */
-	scene.add(ghostify(buildStupa(-40, 437, 16, brick))); // F7
-	scene.add(ghostify(buildStupa(-160, 505, 16, brick))); // F8
+	scene.add(ghostify(buildStupa(-40, 437, 16))); // F7
+	scene.add(ghostify(buildStupa(-160, 505, 16))); // F8
 
 	/* the conjectured northern continuation: two buried temples on the axis
 	   (F1, and F2 — drawn as Bālāditya's unlocated great temple), the Baragaon
@@ -685,7 +794,7 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	   villages — a guess from the temple-faces-monastery pattern */
 	scene.add(ghostify(buildTemple(-47, -390, 52, true, brick, stone))); // F1
 	scene.add(ghostify(buildTemple(-47, -545, 80, true, brick, stone))); // F2
-	scene.add(ghostify(buildStupa(-60, -655, 18, brick))); // F3
+	scene.add(ghostify(buildStupa(-60, -655, 18))); // F3
 	for (const z of [-380, -445, -510, -575, -640])
 		scene.add(ghostify(buildCourt(58, z, 58, 'west', brick, stone)));
 
@@ -695,14 +804,17 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	const doors = new THREE.InstancedMesh(doorGeo, doorMat, 460);
 	const dummy = new THREE.Object3D();
 	let di = 0;
-	function courtDoors(cx: number, cz: number, S: number, n: number) {
+	function courtDoors(cx: number, cz: number, S: number, n: number, facing: Facing) {
 		const half = S / 2 - 7;
 		for (let k = 0; k < n; k++) {
 			const t = ((k + 0.5) / n - 0.5) * 2 * (half - 1.5);
+			const atGap = Math.abs(t) < 3; // the door that would fall in the open gateway
 			dummy.rotation.set(0, 0, 0);
-			dummy.position.set(cx + t, 1.3, cz - half + 0.05);
-			dummy.updateMatrix();
-			doors.setMatrixAt(di++, dummy.matrix);
+			if (!(atGap && facing === 'north')) {
+				dummy.position.set(cx + t, 1.3, cz - half + 0.05);
+				dummy.updateMatrix();
+				doors.setMatrixAt(di++, dummy.matrix);
+			}
 			dummy.position.set(cx + t, 1.3, cz + half - 0.05);
 			dummy.updateMatrix();
 			doors.setMatrixAt(di++, dummy.matrix);
@@ -710,14 +822,16 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 			dummy.position.set(cx + half - 0.05, 1.3, cz + t);
 			dummy.updateMatrix();
 			doors.setMatrixAt(di++, dummy.matrix);
-			dummy.position.set(cx - half + 0.05, 1.3, cz + t);
-			dummy.updateMatrix();
-			doors.setMatrixAt(di++, dummy.matrix);
+			if (!(atGap && facing === 'west')) {
+				dummy.position.set(cx - half + 0.05, 1.3, cz + t);
+				dummy.updateMatrix();
+				doors.setMatrixAt(di++, dummy.matrix);
+			}
 		}
 	}
-	for (const z of courtZ) courtDoors(58, z, 52, 9);
-	courtDoors(25, 212, 40, 7); // Monastery 1A
-	courtDoors(-8, 205, 26, 4); // Monastery 18
+	for (const z of courtZ) courtDoors(58, z, 52, 9, 'west');
+	courtDoors(25, 212, 40, 7, 'north'); // Monastery 1A
+	courtDoors(-8, 205, 26, 4, 'north'); // Monastery 18
 	doors.count = di;
 	scene.add(doors);
 
@@ -725,12 +839,14 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	   courtyard faces (the ground floor inside is the row of cell doors) —
 	   but never on the entrance section itself */
 	const winGeo = new THREE.BoxGeometry(1.1, 1.5, 0.4);
-	const wins = new THREE.InstancedMesh(winGeo, doorMat, 2000);
+	const wins = new THREE.InstancedMesh(winGeo, doorMat, 2400);
 	let wi = 0;
-	function windowRow(cx: number, cz: number, S: number, facing: Facing) {
+	// n windows a side (one per cell — nine on the great courts, per Yijing),
+	// matching the inner faces; the entrance side keeps its cleared bay
+	function windowRow(cx: number, cz: number, S: number, n: number, facing: Facing) {
 		for (const y of [2, 6, 10]) {
-			for (let k = 0; k < 7; k++) {
-				const t = ((k + 0.5) / 7 - 0.5) * 2 * (S / 2 - 3);
+			for (let k = 0; k < n; k++) {
+				const t = ((k + 0.5) / n - 0.5) * 2 * (S / 2 - 3);
 				const nearEntrance = Math.abs(t) < 8; // keep the entrance bay clear
 				dummy.rotation.set(0, 0, 0);
 				if (!(nearEntrance && facing === 'north')) {
@@ -780,12 +896,12 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 		}
 	}
 	for (const z of courtZ) {
-		windowRow(58, z, 52, 'west');
+		windowRow(58, z, 52, 9, 'west');
 		innerWindowRows(58, z, 52 / 2 - 7, 9, 'west');
 	}
-	windowRow(25, 212, 40, 'north');
+	windowRow(25, 212, 40, 7, 'north');
 	innerWindowRows(25, 212, 40 / 2 - 7, 7, 'north');
-	windowRow(-8, 205, 26, 'north');
+	windowRow(-8, 205, 26, 4, 'north');
 	innerWindowRows(-8, 205, 26 / 2 - 7, 4, 'north');
 	wins.count = wi;
 	scene.add(wins);
@@ -797,7 +913,7 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 
 	/* Temple 12 — the great domed temple, with its own stupa field */
 	scene.add(buildDomedTemple(-47, 44, brick, stone));
-	/* Temple 13 — the tall pyramid, with corner turrets and its own stupas */
+	/* Temple 13 — the tall śikhara, with corner turrets and its own stupas */
 	scene.add(buildTemple(-47, -130, 52, true, brick, stone));
 	/* Brass Temple of Śīlāditya — unfinished, between Temples 3 and 12 */
 	const brassG = new THREE.Group();
@@ -866,23 +982,27 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	}
 
 	/* relic stupa + the willow-twig tree, between Temple 12 and the Brass Temple */
-	scene.add(buildStupa(-22, 70, 9, brick));
+	scene.add(buildStupa(-22, 70, 9));
 	const trunkMat = mat(C.trunk);
 	const leafMat = mat(C.leaf);
-	const willow = new THREE.Group();
-	const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.7, 4.6, 8), trunkMat);
-	trunk.position.set(-24, 2.3, 92);
-	willow.add(trunk);
-	for (const [dx, dz] of [
-		[-1.8, 0.6],
-		[1.8, -0.6]
-	]) {
-		const b = new THREE.Mesh(new THREE.SphereGeometry(2.5, 10, 8), leafMat);
-		b.position.set(-24 + dx, 6.2, 92 + dz);
-		b.castShadow = true;
-		willow.add(b);
+	if (models.willow) {
+		loadTreeModel(models.willow, { x: -24, z: 92, height: 40, yaw: 0.4, sink: 5 });
+	} else {
+		const willow = new THREE.Group();
+		const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.7, 4.6, 8), trunkMat);
+		trunk.position.set(-24, 2.3, 92);
+		willow.add(trunk);
+		for (const [dx, dz] of [
+			[-1.8, 0.6],
+			[1.8, -0.6]
+		]) {
+			const b = new THREE.Mesh(new THREE.SphereGeometry(2.5, 10, 8), leafMat);
+			b.position.set(-24 + dx, 6.2, 92 + dz);
+			b.castShadow = true;
+			willow.add(b);
+		}
+		scene.add(willow);
 	}
-	scene.add(willow);
 
 	/* the ring of great tanks — believed dug for the earth that made the
 	   bricks (Rajani 2014); they trace the edge of the site, outside the wall */
@@ -900,8 +1020,52 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	tank(-260, 470, 170, 95); // Indra Pokhar
 	tank(90, 470, 70, 45); // Kargidya
 	tank(-218, 90, 60, 36); // the tank outside the west wall
-	/* sparrow stupa beside it */
-	scene.add(buildStupa(-203, 62, 6, brick));
+	/* the heretic's sparrow stupa beside the west tank — drawn translucent and
+	   at the field-mound scale, its exact remains unexcavated like F7/F8 */
+	scene.add(ghostify(buildStupa(-203, 62, 16)));
+
+	/* --- scanned-statue loader (three's GLTFLoader, dynamically imported) --- */
+	/** Load a scanned statue, normalise its size/footing, face it, and swap out
+	 *  the placeholder stand-in. Mirrors bodhgayaScene.loadStatue. */
+	function loadStatue(
+		url: string,
+		opts: {
+			height: number;
+			x: number;
+			floorY: number;
+			z: number;
+			material: THREE.Material;
+			placeholder: THREE.Object3D;
+			yaw?: number;
+		}
+	) {
+		import('three/examples/jsm/loaders/GLTFLoader.js').then(({ GLTFLoader }) => {
+			if (disposed) return;
+			new GLTFLoader().load(url, (gltf) => {
+				if (disposed) return;
+				const model = gltf.scene;
+				model.traverse((o) => {
+					const m = o as THREE.Mesh;
+					if (m.isMesh) {
+						m.material = opts.material;
+						m.castShadow = true;
+					}
+				});
+				model.rotation.y = opts.yaw ?? -Math.PI / 2;
+				const box = new THREE.Box3().setFromObject(model);
+				const size = box.getSize(new THREE.Vector3());
+				model.scale.setScalar(opts.height / size.y);
+				box.setFromObject(model);
+				const centre = box.getCenter(new THREE.Vector3());
+				model.position.x += opts.x - centre.x;
+				model.position.z += opts.z - centre.z;
+				model.position.y += opts.floorY - box.min.y;
+				scene.add(model);
+				scene.remove(opts.placeholder);
+				renderer.shadowMap.needsUpdate = true;
+			});
+		});
+	}
 
 	/* copper colossus — “over eighty feet tall”, in its own walled enclosure
 	   outside the east gate, the walls a little higher than the statue */
@@ -917,37 +1081,48 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	const eseg = (ES - 8) / 2;
 	addBox(enc, 1.2, EH, eseg, KX - ES / 2, EH / 2, KZ - 4 - eseg / 2, encMat);
 	addBox(enc, 1.2, EH, eseg, KX - ES / 2, EH / 2, KZ + 4 + eseg / 2, encMat);
-	addBox(enc, 2, 1.6, 10, KX - ES / 2, EH * 0.7, KZ, stone);
-	for (const y of [9, 18]) {
-		addBox(enc, ES + 0.5, 0.5, 0.6, KX, y, KZ - ES / 2, stone).castShadow = false;
-		addBox(enc, ES + 0.5, 0.5, 0.6, KX, y, KZ + ES / 2, stone).castShadow = false;
-	}
-	// the standing figure: pedestal, robe, torso, head — ~24 m to the uṣṇīṣa
+	// the standing figure: a 3D scan when supplied, else a simple bronze
+	// stand-in — either way ~24 m tall (“over eighty feet”) on its stone pedestal
 	const bronzeM = mat(C.bronze, { emissive: 0x33240e, emissiveIntensity: 0.5 });
-	addBox(enc, 9, 1.6, 9, KX, 0.8, KZ, stone);
+	addBox(enc, 9, 1.6, 9, KX, 0.8, KZ, stone); // pedestal
+	scene.add(enc);
+	const colossusFallback = new THREE.Group();
 	const robe = new THREE.Mesh(new THREE.CylinderGeometry(2.1, 3.1, 11, 14), bronzeM);
 	robe.position.set(KX, 7.1, KZ);
 	robe.castShadow = true;
-	enc.add(robe);
+	colossusFallback.add(robe);
 	const torso = new THREE.Mesh(new THREE.CapsuleGeometry(2.0, 5.6, 6, 12), bronzeM);
 	torso.position.set(KX, 15.4, KZ);
 	torso.castShadow = true;
-	enc.add(torso);
+	colossusFallback.add(torso);
 	for (const s of [-1, 1]) {
 		const arm = new THREE.Mesh(new THREE.CapsuleGeometry(0.62, 4.6, 4, 8), bronzeM);
 		arm.position.set(KX + s * 2.6, 14.6, KZ);
 		arm.rotation.z = s * 0.18;
 		arm.castShadow = true;
-		enc.add(arm);
+		colossusFallback.add(arm);
 	}
 	const headB = new THREE.Mesh(new THREE.SphereGeometry(1.55, 12, 10), bronzeM);
 	headB.position.set(KX, 20.1, KZ);
 	headB.castShadow = true;
-	enc.add(headB);
+	colossusFallback.add(headB);
 	const usnisa = new THREE.Mesh(new THREE.SphereGeometry(0.55, 8, 6), bronzeM);
 	usnisa.position.set(KX, 21.6, KZ);
-	enc.add(usnisa);
-	scene.add(enc);
+	colossusFallback.add(usnisa);
+	scene.add(colossusFallback);
+	if (models.standing) {
+		// "a standing image of the Buddha made of copper … more than eighty feet
+		// high"; faces west, out the enclosure's opening toward the road
+		loadStatue(models.standing, {
+			height: 24,
+			x: KX,
+			floorY: 1.6,
+			z: KZ,
+			material: bronzeM,
+			placeholder: colossusFallback,
+			yaw: -Math.PI / 2
+		});
+	}
 
 	/* Tārā temple, further north of the colossus */
 	scene.add(buildTemple(435, -370, 24, false, brick, stone));
@@ -983,15 +1158,8 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	huts.castShadow = roofs.castShadow = true;
 	scene.add(huts, roofs);
 
-	/* mango trees */
-	const treeTrunk = new THREE.InstancedMesh(
-		new THREE.CylinderGeometry(0.4, 0.6, 3.4, 6),
-		trunkMat,
-		110
-	);
-	const treeCrown = new THREE.InstancedMesh(new THREE.SphereGeometry(3, 8, 6), leafMat, 110);
-	let ti = 0;
-	// naturally dispersed groves (deterministic LCG so the scene never shifts)
+	/* the groves — mango dominant, with oak, plain and banyan for variety
+	   (deterministic LCG so the scene never shifts) */
 	let seed = 42;
 	const rnd = () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32);
 	const tankRects: [number, number, number, number][] = [
@@ -1003,28 +1171,65 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 		[90, 470, 70, 45],
 		[-218, 90, 60, 36]
 	];
-	for (let i = 0; i < 500 && ti < 110; i++) {
-		const x = -800 + rnd() * 1600;
-		const z = -1640 + rnd() * 2400;
+	type Slot = { x: number; z: number; height: number; ry: number };
+	const groveSlots: Slot[] = [];
+	for (let i = 0; i < 4000 && groveSlots.length < 480; i++) {
+		const x = -1150 + rnd() * 2300;
+		const z = -2350 + rnd() * 3250;
 		if (x > -220 && x < 340 && z > -1400 && z < 450) continue; // keep the precinct clear
 		if (x > 390 && x < 470 && z > -400 && z < -220) continue; // and the colossus + Tārā
 		if (tankRects.some(([tx, tz, tw, td]) => Math.abs(x - tx) < tw / 2 + 5 && Math.abs(z - tz) < td / 2 + 5))
 			continue;
+		if (riceLand.onFields(x, z)) continue; // never on the paddies
 		const s = 0.75 + rnd() * 0.6;
-		dummy.rotation.set(0, 0, 0);
-		dummy.scale.setScalar(s);
-		dummy.position.set(x, 1.7 * s, z);
-		dummy.updateMatrix();
-		treeTrunk.setMatrixAt(ti, dummy.matrix);
-		dummy.position.y = 5 * s;
-		dummy.updateMatrix();
-		treeCrown.setMatrixAt(ti, dummy.matrix);
-		ti++;
+		groveSlots.push({ x, z, height: 15 * s, ry: rnd() * Math.PI * 2 });
 	}
-	dummy.scale.setScalar(1);
-	treeTrunk.count = treeCrown.count = ti;
-	treeCrown.castShadow = true;
-	scene.add(treeTrunk, treeCrown);
+	riceLand.forestSpots.forEach(([x, z, height, ry]) => groveSlots.push({ x, z, height, ry }));
+	const bundSlots: Slot[] = riceLand.bundSpots.map(([x, z, height, ry]) => ({ x, z, height, ry }));
+	if (models.mango && models.oak && models.plainTree && models.banyan) {
+		// spread the slots across the four species — mango overwhelmingly the most
+		// common (Xuanzang's mango grove gave the place its name); bund trees never
+		// get the oak — a wide cluster would sprawl over the paddies
+		const urls = [models.mango, models.oak, models.plainTree, models.banyan];
+		const weight = [0, 0, 0, 0, 0, 0, 1, 2, 3];
+		const buckets: Slot[][] = [[], [], [], []];
+		groveSlots.forEach((slot, i) => buckets[weight[i % weight.length]].push(slot));
+		const bundTo = [0, 0, 0, 2, 3];
+		bundSlots.forEach((slot, i) => buckets[bundTo[i % bundTo.length]].push(slot));
+		urls.forEach((url, k) =>
+			scatterSpecies(
+				url,
+				buckets[k].map((s): [number, number, number, number] => [s.x, s.z, s.height, s.ry])
+			)
+		);
+	} else {
+		// procedural fallback: sphere-on-cylinder trees
+		const allSlots = groveSlots.concat(bundSlots);
+		const treeTrunk = new THREE.InstancedMesh(
+			new THREE.CylinderGeometry(0.4, 0.6, 3.4, 6),
+			trunkMat,
+			allSlots.length
+		);
+		const treeCrown = new THREE.InstancedMesh(
+			new THREE.SphereGeometry(3, 8, 6),
+			leafMat,
+			allSlots.length
+		);
+		allSlots.forEach((slot, i) => {
+			const s = slot.height / 9;
+			dummy.rotation.set(0, 0, 0);
+			dummy.scale.setScalar(s);
+			dummy.position.set(slot.x, 1.7 * s, slot.z);
+			dummy.updateMatrix();
+			treeTrunk.setMatrixAt(i, dummy.matrix);
+			dummy.position.y = 5 * s;
+			dummy.updateMatrix();
+			treeCrown.setMatrixAt(i, dummy.matrix);
+		});
+		dummy.scale.setScalar(1);
+		treeCrown.castShadow = true;
+		scene.add(treeTrunk, treeCrown);
+	}
 
 	/* ghost library — later Tibetan tradition, location unrecorded; drawn in
 	   the northern mound cluster, between the buried temples and Begumpur */
@@ -1127,7 +1332,6 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 	/* ------------------------------------------------------------- loop --- */
 	let progress = 0;
 	let shown = 0;
-	let disposed = false;
 	// on narrow (mobile) viewports the camera is dollied back from its look
 	// target so more of the site fits the portrait frame; 1 on desktop
 	let dolly = 1;
@@ -1220,7 +1424,7 @@ export function createNalandaTour(canvas: HTMLCanvasElement): NalandaTour {
 		setStation(i) {
 			// the library ghost fades in at its own station and stays for the
 			// Begumpur and farewell views
-			ghostTarget = i >= 12 ? 1 : 0;
+			ghostTarget = i >= 18 ? 1 : 0;
 		},
 		calibrate(ps) {
 			if (ps.length === N_STATIONS && ps.every((v) => Number.isFinite(v))) {

@@ -146,7 +146,7 @@
 
 	.columns {
 		display: grid;
-		grid-template-columns: repeat(var(--cols), minmax(0, 1fr));
+		grid-template-columns: repeat(var(--cols), minmax(1, 1fr));
 		gap: var(--space-2);
 	}
 

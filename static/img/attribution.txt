@@ -8,3 +8,17 @@ Nalanda photographs (static/img/nalanda/), all via Wikimedia Commons:
 - rajani-2016-satellite.jpg / rajani-2016-multispectral.jpg — figures from M. B. Rajani,
   "The Expanse of Archaeological Remains at Nalanda", Archives of Asian Art 66:1 (2016),
   reproduced as scholarly illustration with credit on the card captions
+
+3D models in the Bodh Gayā tour (static/models/), all Creative Commons Attribution (CC BY 4.0):
+- standing-buddha.glb — "Gautama Buddha Standing" (https://skfb.ly/oUCYO) by jamenng0724,
+  licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+- bodhi-tree.glb — "Bodhi Tree" (https://skfb.ly/6SQuU) by Ashim Shakya,
+  licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+- banyan.glb (and the harder-decimated banyan-far.glb) — "Chinese Banyan (Ficus
+  Microcarpa)" (https://skfb.ly/o7XxS) by Valery.Li,
+  licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+- bodhisattva.glb — "Bodhisattva B Low Poly" (https://skfb.ly/Tqst) by Francesco Coldesina,
+  licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)
+- bone-pile.glb (the north-west charnel ground) — "Low Poly Bone Pile (Downloadable)"
+  (https://skfb.ly/BKnU) by 3dsauce,
+  licensed under CC BY 4.0 (http://creativecommons.org/licenses/by/4.0/)

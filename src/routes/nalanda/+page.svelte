@@ -5,6 +5,19 @@
 	import { STATIONS } from './tour';
 
 	let { data } = $props();
+
+	const loadScene = () =>
+		import('$lib/tour/nalandaScene').then(
+			(m) => (canvas: HTMLCanvasElement) =>
+				m.createNalandaTour(canvas, {
+					standing: `${base}/models/standing-buddha.glb`,
+					willow: `${base}/models/willow.glb`,
+					mango: `${base}/models/mango.glb`,
+					oak: `${base}/models/oak.glb`,
+					plainTree: `${base}/models/plain-tree.glb`,
+					banyan: `${base}/models/banyan-far.glb` // scatter-only here — hard-decimated
+				})
+		);
 </script>
 
 <svelte:head>
@@ -28,7 +41,7 @@
 	<p class="hint" aria-hidden="true">scroll ↓</p>
 </header>
 
-<TourExperience stations={STATIONS} />
+<TourExperience stations={STATIONS} {loadScene} />
 
 <section class="afterword">
 	<h2>About this reconstruction</h2>
@@ -36,7 +49,7 @@
 		The solid buildings follow the excavated plan: Temple 3 amid its field of votive stupas, with
 		Monasteries 18 and 1A at its side; Monasteries 1, 4, 6, 7, 8, 9, 10 and 11 in a line with
 		their entrances to the west; Temple 2 and the Sarai temple east of the row; and the great
-		domed Temple 12 with the pyramids of Temples 13 and 14 along the western axis. The translucent
+		domed Temple 12 with the śikhara towers of Temples 13 and 14 along the western axis. The translucent
 		buildings are the satellite’s additions (M. B. Rajani, 2014; Das/Rajani 2016/19): the
 		monastery row continuing south under the fields with one more temple and the circular
 		field-mounds; two buried temples north of Temple 14 on the same axis — the larger drawn as
@@ -59,6 +72,18 @@
 		Photographs of the site today are by their named photographers under Creative Commons
 		licences (see captions). The full testimony of all three pilgrims, with verbatim quotations,
 		is below.
+	</p>
+	<p class="prose credits">
+		3D models are used under Creative Commons Attribution (CC BY 4.0): the copper colossus is
+		<a href="https://skfb.ly/oUCYO" rel="noopener">“Gautama Buddha Standing”</a> by jamenng0724;
+		the willow is <a href="https://skfb.ly/pAsxB" rel="noopener">“Silver willow tree”</a> by
+		Georgeous; the mango is <a href="https://skfb.ly/osUzz" rel="noopener">“Mango Tree”</a> by
+		stealth86; the oak is <a href="https://skfb.ly/oJCAA" rel="noopener">“Mighty Oak Trees”</a> by
+		Jagobo; the plain trees are
+		<a href="https://skfb.ly/oMXMs" rel="noopener">“Realistic Tree Models For Games”</a> by Mega
+		Tree; and the banyan is
+		<a href="https://skfb.ly/o7XxS" rel="noopener">“Chinese Banyan (Ficus Microcarpa)”</a> by
+		Valery.Li.
 	</p>
 </section>
 
@@ -137,5 +162,15 @@
 	.afterword h2,
 	.records h2 {
 		margin: 0 0 var(--space-2);
+	}
+
+	.credits {
+		margin-top: var(--space-2);
+		font-size: 0.82rem;
+		color: var(--ink-faint);
+	}
+
+	.credits a {
+		color: inherit;
 	}
 </style>

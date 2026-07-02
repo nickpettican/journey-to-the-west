@@ -1,7 +1,8 @@
 /**
- * The fifteen stations of the Nālandā scroll tour. All quotations are verbatim
+ * The twenty-two stations of the Nālandā scroll tour. All quotations are verbatim
  * from the translations and studies used by this site (typographic ligatures
  * normalised):
+ *   F  — Faxian, "A Record of Buddhistic Kingdoms", tr. James Legge (1886), ch. XXVIII.
  *   X  — Xuanzang, "The Great Tang Dynasty Record of the Western Regions",
  *        tr. Li Rongxi (1996), Fascicle IX.
  *   YR — Yijing, "A Record of the Buddhist Religion", tr. Takakusu (1896).
@@ -31,6 +32,16 @@ export const STATIONS: TourStation[] = [
 		quote: {
 			text: 'The Buddha preached the Dharma at this place for three months and thereupon the merchants attained sainthood.',
 			cite: 'Xuanzang, Record, Fascicle IX'
+		}
+	},
+	{
+		id: 'sariputra-nala',
+		kicker: 'c. 405 CE · Faxian',
+		title: 'The village before the university',
+		body: 'Two centuries before the great monastery rose, Faxian passed this way and knew the place only as a village — Nala, later Nālandā. What drew him was not a university but a memory: this, he was told, was where Śāriputra, wisest of the Buddha’s disciples, had been born, to which he returned to die, and over whose cremation a stupa still stood in Faxian’s day. (Xuanzang, coming later, put Śāriputra’s birth at a village nearby instead — the pilgrims do not always agree, and Legge’s own note flags the doubt.)',
+		quote: {
+			text: 'A yojana south-west from this place brought them to the village of Nala, where Sariputtra was born, and to which also he returned, and attained here his pari-nirvâna.',
+			cite: 'Faxian, A Record of Buddhistic Kingdoms (tr. Legge), ch. XXVIII'
 		}
 	},
 	{
@@ -64,7 +75,7 @@ export const STATIONS: TourStation[] = [
 			cite: 'M. B. Rajani, ‘A satellite’s view of Nalanda’s past’ (2014)'
 		},
 		photo: {
-			src: 'rajani-2016-satellite.jpg',
+			src: 'nalanda/rajani-2016-satellite.jpg',
 			alt: 'Satellite view of the Nalanda environs with the excavated remains and surrounding mounds, tanks and villages',
 			credit: 'M. B. Rajani, Archives of Asian Art 66 (2016)',
 			label: 'The site from orbit'
@@ -84,13 +95,13 @@ export const STATIONS: TourStation[] = [
 		id: 'cells',
 		kicker: 'nine cells to a row',
 		title: 'Inside a court',
-		body: 'The walk begins here, in Monastery 1, where the path of the pilgrims’ days threaded court after court. Yijing, who lived ten years in ranges like these, describes them exactly: three-storeyed brick around a square courtyard, nine cells to a side, each cell over a hundred square feet, with high single-leaf doors deliberately left unscreened. The courts were so alike that to see one was to see them all.',
+		body: 'The walk begins here, in Monastery 1, where the path of the pilgrims’ days threaded court after court. Yijing, who lived ten years in ranges like these, describes them exactly: “the three-storeyed building had brickpaved rooms”, nine cells to a side around a square courtyard, each cell over a hundred square feet, with high single-leaf doors deliberately left unscreened. Every monastery followed the same plan and rose to the same three storeys, so alike that to see one was to see them all.',
 		quote: {
 			text: 'The monks would rather inspect each other than to allow any privacy among them.',
 			cite: 'Yijing, Kao Seng Chuan, chüan 1'
 		},
 		photo: {
-			src: 'inside-a-court.jpg',
+			src: 'nalanda/inside-a-court.jpg',
 			alt: 'Inside an excavated monastery court at Nalanda: cell doorways around the open courtyard',
 			credit: 'site collection'
 		}
@@ -106,18 +117,58 @@ export const STATIONS: TourStation[] = [
 		}
 	},
 	{
+		id: 'precentor',
+		kicker: 'eight halls · three hundred apartments',
+		title: 'The precentor’s round',
+		body: 'The monastery was too vast to gather for worship in one place — eight great halls and three hundred apartments, Yijing counted. So the ritual came to the monks instead: each day a precentor walked the whole establishment hall by hall, chanting hymns of praise, led by lay servants and children bearing incense and flowers, pausing at each in turn until the round was done.',
+		quote: {
+			text: 'it is customary to send out, every day, one precentor to go round from place to place chanting hymns, being preceded by monastic lay servants and children carrying with them incense and flowers.',
+			cite: 'Yijing, A Record of the Buddhist Religion (tr. Takakusu)'
+		}
+	},
+	{
 		id: 'traces',
 		kicker: 'the sacred traces',
 		title: 'Stupas, relics and the willow tree',
-		body: 'Around the courts the sacred traces are “counted by the hundreds”. A stupa keeps hair and nail relics of the Buddha, clipped over three months — the sick circle it to be cured. Nearby stands an extraordinary tree, eight or nine feet high, grown from a willow twig the Buddha chewed to clean his teeth and cast to the ground: its two branches never increase nor decrease. To the south rises Śīlāditya’s Brass Temple, abandoned half-built.',
+		body: 'Around the courts the sacred traces are “counted by the hundreds”. A stupa keeps hair and nail relics of the Buddha, clipped over three months — the sick circle it to be cured. Nearby stands an extraordinary tree, eight or nine feet high, grown from a willow twig the Buddha chewed to clean his teeth and cast to the ground: its two branches never increase nor decrease. Yijing, seeing the same tree, doubted the story’s botany — the Buddha’s tooth-wood tree, he wrote, “is not the willow”. To the south rises Śīlāditya’s Brass Temple, abandoned half-built.',
 		quote: {
 			text: 'To the south is Brass Temple, constructed by King Śīlāditya, though the work is unfinished.',
 			cite: 'Xuanzang, Record, Fascicle IX'
 		},
 		photo: {
-			src: 'temple3-shrine.jpg',
+			src: 'nalanda/temple3-shrine.jpg',
 			alt: 'A smaller shrine beside Temple 3 at Nalanda, among the votive stupas',
 			credit: 'G41rn8, CC BY-SA 4.0, via Wikimedia Commons'
+		}
+	},
+	{
+		id: 'bathing',
+		kicker: 'more than ten great pools',
+		title: 'The bathing bell',
+		body: 'Outside the walls the tanks did double duty. Yijing, who bathed here for ten years, counted more than ten great pools around the monastery and a bell — a ghanti — rung every morning to call the monks to wash; they went out in their hundreds, sometimes a thousand at once, each carrying his own bathing-cloth, then returned to the day’s study. The same squared pools, ringing the site on the cardinal points, are the ones the surveys still trace from the air.',
+		quote: {
+			text: 'There are more than ten great pools near the Nālandā monastery, and there every morning a ghanti is sounded to remind the priests of the bathing-hour.',
+			cite: 'Yijing, A Record of the Buddhist Religion (tr. Takakusu)'
+		}
+	},
+	{
+		id: 'sparrow',
+		kicker: 'outside the west wall',
+		title: 'The heretic and the bird',
+		body: 'Beside that tank, just outside the west wall, stands a stupa both pilgrims stopped at. Here, they were told, a man came to the Buddha with a small bird held in his hand and asked him about life and death — a trap, whether the Buddha would say the bird would live or die. Xuanzang set the spot down in the 630s; Yijing, a generation later, found the same caitya still standing, “more than ten feet high”, on the very ground Xuanzang had described.',
+		quote: {
+			text: 'The stupa beside the tank at the outside of the west wall of the enclosure was the place where a heretic, holding a small bird in his hand, asked the Buddha about the problem of life and death.',
+			cite: 'Xuanzang, Record, Fascicle IX'
+		}
+	},
+	{
+		id: 'world-monarch',
+		kicker: 'a hundred paces south',
+		title: 'The monk who chose a crown',
+		body: 'A small stupa south of the temple marked a quieter kind of failure. Here, the story went, a monk of rare merit once knelt before the Buddha — and wished not for awakening but to be a cakravartin, a wheel-turning king of the world. The Buddha called him pitiful: so near to buddhahood, and turning instead toward a crown and its long chain of worldly rebirths.',
+		quote: {
+			text: 'This bhikṣu is very pitiful. He is a man of great bliss and deep virtue with a mind of firm faith, and he would have realized buddhahood very soon if he had aimed at [that goal].',
+			cite: 'Xuanzang, Record, Fascicle IX'
 		}
 	},
 	{
@@ -134,15 +185,25 @@ export const STATIONS: TourStation[] = [
 		id: 'scholars',
 		kicker: 'Śīlabhadra · Dharmapāla · Sthiramati',
 		title: 'The scholars',
-		body: 'This was the reason to come: several thousand monks, “all of whom are brilliant scholars of high learning”. Xuanzang names its luminaries — Dharmapāla and Candragupta, Guṇamati and Sthiramati, Prabhāmitra, Viśeṣamitra, Jñānacandra, and Śīlabhadra, “of sublime virtue and profound insight”, the centenarian master under whom Xuanzang himself studied for five years. Yijing arrived a generation later and stayed ten, gathering texts that by his own count amounted to more than 500,000 ślokas.',
+		body: 'This was the reason to come: several thousand monks, “all of whom are brilliant scholars of high learning”. Xuanzang names its luminaries — Dharmapāla and Candragupta, Guṇamati and Sthiramati, Prabhāmitra, Viśeṣamitra, Jñānacandra, and Śīlabhadra, “of sublime virtue and profound insight”, the centenarian master under whom Xuanzang himself studied for five years. Yijing arrived a generation later and stayed ten, gathering texts that by his own count amounted to more than 500,000 ślokas. One study defeated even him: he went regularly to Nālandā’s altar to master the esoteric Vidyādhara-piṭaka, the great collection of mantras (the strand of practice later gathered under the name Vajrayāna), and by his own account “worked quite hard but could not attain full success.”',
 		quote: {
 			text: 'There are several thousand monks, all of whom are brilliant scholars of high learning',
 			cite: 'Xuanzang, Record, Fascicle IX'
 		},
 		photo: {
-			src: 'towers.jpg',
+			src: 'nalanda/towers.jpg',
 			alt: 'Brick towers and shrines among the excavated remains of Nalanda',
 			credit: 'Oo91, CC BY-SA 4.0, via Wikimedia Commons'
+		}
+	},
+	{
+		id: 'seniority',
+		kicker: 'two monks “from China”',
+		title: 'The rule of seniority',
+		body: 'When Bālāditya finished his monastery to the north-east he held a feast, and monks came from across India. Two arrived late and were led up to the third storey; asked where they were from, they answered that they came from China, having stayed to feed their sick teacher — then vanished before the king could reach them. Knowing he had entertained saints, Bālāditya deepened in faith and at last gave up his throne to become a monk, ranked lowest of all in his own foundation. From his discontent Nālandā took a custom found nowhere else: that those not yet fully ordained could reckon seniority by age.',
+		quote: {
+			text: 'We come from China. Because our teacher is ill we served him his meal before we started the journey.',
+			cite: 'Xuanzang, Record, Fascicle IX'
 		}
 	},
 	{
@@ -156,7 +217,7 @@ export const STATIONS: TourStation[] = [
 			cite: 'Xuanzang, Record, Fascicle IX'
 		},
 		photo: {
-			src: 'rajani-2016-multispectral.jpg',
+			src: 'nalanda/rajani-2016-multispectral.jpg',
 			alt: 'Multispectral satellite imagery showing crop-marks of buried temples north of the excavated site',
 			credit: 'M. B. Rajani, Archives of Asian Art 66 (2016)',
 			label: 'The crop-marks in multispectral imagery'
@@ -191,6 +252,16 @@ export const STATIONS: TourStation[] = [
 		}
 	},
 	{
+		id: 'drawn-plan',
+		kicker: '“so Rājagṛha would be in China”',
+		title: 'Yijing draws the plan',
+		body: 'Before he sailed home, Yijing drew a plan of Nālandā — its courts, halls and towers set down in short — to send back to China, hoping the throne might one day raise a copy of it, so that Rājagṛha itself would stand in the east. His drawing is lost. What you have just walked is the same wish attempted again: Nālandā rebuilt from the pilgrims’ own measurements and words, set down where it can be seen once more.',
+		quote: {
+			text: 'If he appeals to the Emperor, requesting him to construct a monastery according to this plan, then Rajagṛha would be in China without much difference.',
+			cite: 'Yijing, Kao Seng Chuan (tr. Lahiri)'
+		}
+	},
+	{
 		id: 'legacy',
 		kicker: '399 — 695 — today',
 		title: 'What remains',
@@ -200,7 +271,7 @@ export const STATIONS: TourStation[] = [
 			cite: 'Yijing, Record (tr. Takakusu)'
 		},
 		photo: {
-			src: 'temple3-sw.jpg',
+			src: 'nalanda/temple3-sw.jpg',
 			alt: 'Temple 3 at Nalanda from the south-west, its stepped brick mass rising over the stupa field',
 			credit: 'site collection'
 		}

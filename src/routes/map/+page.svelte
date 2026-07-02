@@ -32,12 +32,16 @@
 	let observations: Observation[] = $state([]);
 	let testimonyRegion: { id: string; name: string } | null = $state(null);
 	let listView = $state(false);
+	// layers & filters take too much screen on phones — collapsed by default,
+	// opened on wider screens in onMount (so mobile never flashes it expanded)
+	let controlsOpen = $state(false);
 
 	const sects = $derived(
 		[...new Set(stops.flatMap((p) => p.sectKeys))].sort((a, b) => a.localeCompare(b))
 	);
 
 	onMount(() => {
+		controlsOpen = !window.matchMedia('(max-width: 640px)').matches;
 		s.readFrom(new URLSearchParams(window.location.search));
 		loadPilgrims().then((p) => (pilgrims = p));
 		loadObservations().then((o) => (observations = o));
@@ -165,7 +169,7 @@
 	<div class="map-area">
 		<MapView onready={onMapReady} />
 
-		<details class="controls-overlay" open>
+		<details class="controls-overlay" bind:open={controlsOpen}>
 			<summary>Layers &amp; filters</summary>
 			<LayerControls state={s} {sects} />
 		</details>

@@ -32,3 +32,6 @@ vite.config.ts.timestamp-*
 .DS_Store
 .ne-cache/
 verify-shots/
+
+# other
+TODO.md

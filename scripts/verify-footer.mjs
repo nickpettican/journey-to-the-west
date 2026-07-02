@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 1200, height: 900 } });
+await page.goto('http://localhost:8741/journey-to-the-west/about/', { waitUntil: 'networkidle' });
+await page.evaluate(() => document.querySelector('.site-footer').scrollIntoView({ block: 'center' }));
+await page.waitForTimeout(500);
+await page.locator('.site-footer').screenshot({ path: 'verify-shots/footer-desktop.png' });
+await page.setViewportSize({ width: 390, height: 800 });
+await page.waitForTimeout(300);
+await page.evaluate(() => document.querySelector('.site-footer').scrollIntoView({ block: 'center' }));
+await page.locator('.site-footer').screenshot({ path: 'verify-shots/footer-mobile.png' });
+await browser.close();
+console.log('done');

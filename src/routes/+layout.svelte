@@ -100,6 +100,12 @@
 </main>
 
 <footer class="site-footer">
+	<p class="colophon">
+		Made by Tenpa Bhikshu, sponsored by
+		<a href="https://offeringbowl.org" rel="noopener">Offering Bowl</a>. If you would like to see
+		more projects like this, please
+		<a href="https://offeringbowl.org" rel="noopener">join Offering Bowl</a>.
+	</p>
 	<p>
 		Built from the records of Faxian (tr. James Legge, 1886), Xuanzang (tr. Li Rongxi, 1996) and
 		Yijing (tr. Junjirō Takakusu, 1896). <a href="{base}/about/">Sources &amp; methodology</a>
@@ -273,6 +279,24 @@
 		font-size: 0.85rem;
 		color: var(--ink-soft);
 		text-align: center;
+	}
+
+	.site-footer .colophon {
+		max-width: 44rem;
+		margin: 0 auto var(--space-2);
+		font-family: var(--font-narrative);
+		font-size: 1rem;
+		color: var(--ink);
+	}
+
+	.site-footer .colophon a {
+		color: var(--maroon);
+		text-decoration: none;
+		border-bottom: 1px solid var(--saffron);
+	}
+
+	.site-footer .colophon a:hover {
+		color: var(--ochre);
 	}
 
 	.site-footer .credits {

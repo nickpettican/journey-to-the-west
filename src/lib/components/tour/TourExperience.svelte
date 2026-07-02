@@ -2,9 +2,16 @@
 	import { onMount } from 'svelte';
 	import { base } from '$app/paths';
 	import type { TourStation } from '../../../routes/nalanda/tour';
-	import type { NalandaTour } from '$lib/tour/nalandaScene';
+	import type { SceneTour } from '$lib/tour/types';
 
-	let { stations }: { stations: TourStation[] } = $props();
+	let {
+		stations,
+		loadScene
+	}: {
+		stations: TourStation[];
+		/** Lazily imports the route's scene module and builds the tour. */
+		loadScene: () => Promise<(canvas: HTMLCanvasElement) => SceneTour>;
+	} = $props();
 
 	let canvasEl: HTMLCanvasElement;
 	let rootEl: HTMLElement;
@@ -12,19 +19,16 @@
 	let webglFailed = $state(false);
 
 	onMount(() => {
-		let tour: NalandaTour | null = null;
+		let tour: SceneTour | null = null;
 		let killed = false;
 		const cleanups: (() => void)[] = [];
 		const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-		Promise.all([
-			import('$lib/tour/nalandaScene'),
-			import('gsap'),
-			import('gsap/ScrollTrigger')
-		]).then(([sceneMod, { gsap }, { ScrollTrigger }]) => {
+		Promise.all([loadScene(), import('gsap'), import('gsap/ScrollTrigger')]).then(
+			([createTour, { gsap }, { ScrollTrigger }]) => {
 			if (killed) return;
 			try {
-				tour = sceneMod.createNalandaTour(canvasEl);
+				tour = createTour(canvasEl);
 			} catch {
 				webglFailed = true;
 				return;
@@ -53,6 +57,20 @@
 			};
 			window.addEventListener('resize', onResize);
 			cleanups.push(() => window.removeEventListener('resize', onResize));
+
+			// card images (lazily loaded, often not the declared aspect) grow the
+			// cards after mount — remeasure so the camera stays on its keyframes
+			rootEl.querySelectorAll('img').forEach((img) => {
+				if (img.complete) return;
+				img.addEventListener(
+					'load',
+					() => {
+						ScrollTrigger.refresh();
+						calibrate();
+					},
+					{ once: true }
+				);
+			});
 
 			if (!reduced) {
 				triggers.push(
@@ -133,7 +151,7 @@
 					{#if s.photo}
 						<figure>
 							<img
-								src="{base}/img/nalanda/{s.photo.src}"
+								src="{base}/img/{s.photo.src}"
 								alt={s.photo.alt}
 								loading="lazy"
 								width="1200"
@@ -223,7 +241,7 @@
 	}
 
 	.station {
-		min-height: 110vh;
+		min-height: 138vh;
 		display: flex;
 		align-items: center;
 		justify-content: flex-end;
@@ -296,8 +314,12 @@
 	}
 
 	img {
-		width: 100%;
+		display: block;
+		width: auto;
+		max-width: 100%;
+		max-height: 42vh;
 		height: auto;
+		margin-inline: auto;
 		border-radius: var(--radius);
 		border: 1px solid color-mix(in srgb, var(--ink) 15%, transparent);
 	}
