@@ -19,9 +19,8 @@
 <div class="journeys">
 	<h1>Three pilgrims, three centuries</h1>
 	<p class="prose">
-		Between 399 and 695 CE three Chinese monks made the immense journey to India — the land they
-		called the West — to study at its monasteries and carry its books home. Each left a record.
-		Follow each journey stop by stop.
+		Three Chinese monks made the long journey to India between 399 and 695 CE, to study at its
+		monasteries and carry home its books. Each left a record. Follow each, stop by stop.
 	</p>
 
 	<div class="cards">

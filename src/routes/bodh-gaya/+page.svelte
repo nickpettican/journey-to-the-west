@@ -42,13 +42,14 @@
 	<p class="eyebrow">A reconstruction from the pilgrims’ words</p>
 	<h1>Bodh Gayā</h1>
 	<p class="lede">
-		Under this tree the Buddha attained awakening. Faxian found it ringed with towers around 404;
-		Xuanzang walked monument to monument in 637, writing each one down by its bearing from the
-		tree; Yijing laid a silk robe on the statue in 674. What follows is their Mahābodhi — the
-		walled enclosure and its stone tower, the diamond seat, the stations of the seven weeks, and
-		the great monastery of the Sinhalese kings — with Cunningham’s excavation underfoot and the
-		satellite’s findings drawn sand-pale. Scroll to walk it, from the western fields to the
-		monastery court.
+		Under this tree the Buddha attained awakening, on the diamond seat where (by the tradition the
+		pilgrims carried) every buddha of this age must awaken, the one place that holds firm when the
+		earth quakes. All three came to see it. Faxian found the place ringed with towers around 404;
+		Xuanzang walked it monument to monument in 637, setting each down by its bearing from the tree;
+		Yijing laid a silk robe on the image in 674. What follows is their Mahābodhi: the walled
+		enclosure and its stone tower, the diamond seat, the stations of the seven weeks, and the great
+		monastery of the Sinhalese kings, with Cunningham’s excavation underfoot and the satellite’s
+		traces drawn sand-pale. Scroll to walk it, from the western fields to the monastery court.
 	</p>
 	<p class="hint" aria-hidden="true">scroll ↓</p>
 </header>
@@ -58,26 +59,25 @@
 <section class="afterword">
 	<h2>About this reconstruction</h2>
 	<p class="prose">
-		The layout follows Xuanzang’s bearings (he places every monument by its cardinal direction
-		from the bodhi tree), checked against Cunningham’s measured survey of 1892 (the excavated
-		temple, railing, Buddha’s Walk, throne and monastery block) and the tanks that still hold
-		water where the texts put them: the flower pool four hundred feet south of the temple,
-		Indra’s pool beyond it, Mucilinda’s in its wood. The Great Temple is drawn in the grey stone
-		of the building as it stands today; Xuanzang records its fabric as brick plastered with lime,
-		and its height as one hundred and sixty or seventy feet on a base of twenty paces. The
-		pot-shaped finial with its umbrellas follows his gilt-copper “precious pot”, and the curved
-		towers follow the standing building. The tree, the terrace and the courtyard are ringed by
-		three stone railings drawn to the vedikā design whose Aśokan pillars Cunningham excavated;
-		Xuanzang’s “high and strong” brick wall is drawn as the outermost enclosure, taking in the
-		courtyard and the flower pool. The seven-week stations are his monuments; the week
-		numbers attached to them are later tradition and are badged as such. Structures known only
-		from satellite survey — the monastery’s outer square and moat, the Sujātā stupa across the
-		river — are translucent and sand-pale: read from imagery, not yet excavated. Where the
-		sources disagree, the cards say so — Xuanzang puts the jewel house west of the tree where the
-		modern complex shows it north-west, and the Saffron Stupa west where Cunningham read
-		north-west. North-east of the tree, between the railings and the brick wall, a patch of
-		ash-grey ground strewn with bone is the charnel ground that lies there today — a present-day
-		feature none of the three pilgrims record, drawn only as the site is now found.
+		The layout follows Xuanzang’s bearings (he sets every monument by its cardinal direction from
+		the bodhi tree), checked against Cunningham’s measured survey of 1892: the excavated temple,
+		railing, Buddha’s Walk, throne and monastery block. The tanks still hold water where the texts
+		put them: the flower pool four hundred feet south of the temple, Indra’s pool beyond it,
+		Mucilinda’s in its wood. The Great Temple appears in the grey stone of the building as it stands
+		today; Xuanzang records its fabric as brick plastered with lime, and its height as one hundred
+		and sixty or seventy feet on a base of twenty paces. Its pot-shaped finial and tiers of
+		umbrellas stand in for his gilt-copper “precious pot”, and the curved towers echo the building
+		that still stands. Three stone railings ring the tree, the terrace and the courtyard, cut to the
+		vedikā design whose Aśokan pillars Cunningham unearthed; Xuanzang’s “high and strong” brick wall
+		becomes the outermost enclosure, taking in the courtyard and the flower pool. The seven-week
+		stations are his monuments; the week numbers pinned to them are later tradition, badged as such.
+		Structures known only from satellite survey (the monastery’s outer square and moat, the Sujātā
+		stupa across the river) show translucent and sand-pale, read from imagery, not yet excavated.
+		Where the sources disagree, the cards say so: Xuanzang puts the jewel house west of the tree
+		where the modern complex shows it north-west, and the Saffron Stupa west where Cunningham read
+		north-west. North-east of the tree, between the railings and the brick wall, a patch of ash-grey
+		ground strewn with bone is the charnel ground that lies there today — a present-day feature none
+		of the three pilgrims record, shown only as the site is now found.
 	</p>
 	<p class="prose">
 		The statues are 3D scans: the seated image inside the temple is posed as the pilgrims

@@ -76,9 +76,9 @@
 		<h2>What the records hold</h2>
 		<p>
 			Two hundred and ten recorded visits. One hundred and sixty-six stories — jātakas, miracles,
-			relics and remembered history. Seven holy places witnessed by all three pilgrims across
-			three centuries, from Nālandā’s lecture halls to the Bodhi Tree itself, so you can watch a
-			single monastery change across three hundred years.
+			relics and remembered history. Seven holy places that all three pilgrims saw, from Nālandā’s
+			lecture halls to the Bodhi Tree itself, so you can watch a single monastery change across
+			three hundred years.
 		</p>
 		<p>
 			The map shows where the Mahāyāna and the Śrāvakayāna flourished, which schools kept which

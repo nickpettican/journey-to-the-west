@@ -91,9 +91,9 @@
 		No pilgrim writes “Vajrayāna”. In their era it was an esoteric lineage transmitted orally
 		inside Mahāyāna communities, and it became public only in the century after Yijing sailed
 		home. But the records carry early traces of its mantra practice, and, exactly as with the
-		Mūlasarvāstivāda above, the map reads the later evidence backwards <em>site by site</em>, at
-		two places only, each shown as a flagged “(derived)” value alongside the witnessed yāna and
-		never replacing it. On the map it is drawn the same way: the bubble keeps the witnessed
+		Mūlasarvāstivāda above, the map reads the later evidence backwards <em>site by site</em>. It
+		does so at two places only, each shown as a flagged “(derived)” value alongside the witnessed
+		yāna, never replacing it. On the map it is drawn the same way: the bubble keeps the witnessed
 		colour, and the derived Vajrayāna appears as a purple ring around it.
 	</p>
 	<p>

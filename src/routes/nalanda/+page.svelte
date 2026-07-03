@@ -34,11 +34,14 @@
 	<p class="eyebrow">A reconstruction from the pilgrims’ words</p>
 	<h1>Nālandā</h1>
 	<p class="lede">
-		Xuanzang studied here for five years; Yijing lived here for ten. What follows is their
-		monastery — the solid walls, courts and towers are taken from what the two of them wrote
-		down, laid over the plan that archaeologists found in the ground at Bargaon; the translucent
-		ones are the buried city that satellite surveys have since traced around it. Scroll to walk
-		it, from Monastery 1 to the four-pointed mound of Begumpur.
+		Xuanzang studied here for five years; Yijing lived here for ten. They came for its teachers:
+		several thousand monks, “all of whom are brilliant scholars of high learning”, fed by the
+		revenue of two hundred villages. A single gate let strangers in, and only after questioning.
+		Most who came to debate were sent away beaten. What follows is their monastery: the solid
+		walls, courts and towers taken from what the two of them wrote down, laid over the plan
+		archaeologists found in the ground at Bargaon; the translucent ones are the buried city that
+		satellite surveys have since traced around it. Scroll to walk it, from Monastery 1 to the
+		four-pointed mound of Begumpur.
 	</p>
 	<p class="hint" aria-hidden="true">scroll ↓</p>
 </header>
@@ -49,26 +52,25 @@
 	<h2>About this reconstruction</h2>
 	<p class="prose">
 		The solid buildings follow the excavated plan: Temple 3 amid its field of votive stupas, with
-		Monasteries 18 and 1A at its side; Monasteries 1, 4, 6, 7, 8, 9, 10 and 11 in a line with
-		their entrances to the west; Temple 2 and the Sarai temple east of the row; and the great
-		domed Temple 12 with the śikhara towers of Temples 13 and 14 along the western axis. The translucent
-		buildings are the satellite’s additions (M. B. Rajani, 2014; Das/Rajani 2016/19): the
-		monastery row continuing south under the fields with one more temple and the circular
-		field-mounds; two buried temples north of Temple 14 on the same axis — the larger drawn as
-		Bālāditya’s unlocated “great temple, more than three hundred feet high” — with the Baragaon
-		brick mound as a great stupa and a conjectured northern row of courts under the villages; the
-		ring of tanks believed dug for brick-earth; and, at the far north, the four-pointed Begumpur
-		quadrangle (~450 × 400 m), drawn in the manner of Somāpura. Translucency means exactly that:
-		read from crop-marks, mounds and elevation, not yet excavated.
-		Dimensions follow the pilgrims: walls “more than twenty feet high”, three-storeyed courts with
-		nine cells to a row (Yijing), a copper Buddha of over eighty feet (Xuanzang). Where the
-		witnesses differ from the spade (Xuanzang counts six royal monasteries, Yijing seven or
-		eight, the archaeologists eleven), the scene follows the excavation and the cards quote the
-		texts. Xuanzang knew one gate; the four cardinal gates of later Tibetan tradition are also
-		drawn, the south gate remaining the gate of the texts. The library’s three halls appear only
-		as saffron outlines in the northern mound cluster, because they appear in no pilgrim’s record
-		and no record places them; buildings the pilgrims place far outside the walls (the Tārā
-		temple, the villages) are drawn nearer than their true distance.
+		Monasteries 18 and 1A at its side; Monasteries 1, 4, 6, 7, 8, 9, 10 and 11 in a line, entrances
+		to the west; Temple 2 and the Sarai temple east of the row; and the great domed Temple 12 with
+		the śikhara towers of Temples 13 and 14 along the western axis. The translucent ones are the
+		satellite’s additions (M. B. Rajani, 2014; Das/Rajani 2016/19): the monastery row continuing
+		south under the fields with one more temple and the circular field-mounds; two buried temples
+		north of Temple 14 on the same axis, the larger of them Bālāditya’s unlocated “great temple,
+		more than three hundred feet high”; the Baragaon brick mound as a great stupa, and a conjectured
+		northern row of courts under the villages; the ring of tanks thought to have been dug for
+		brick-earth; and, at the far north, the four-pointed Begumpur quadrangle (~450 × 400 m) in the
+		manner of Somāpura. Translucency means what it says: read from crop-marks, mounds and elevation,
+		not yet excavated. The dimensions come from the pilgrims: walls “more than twenty feet high”,
+		three-storeyed courts of nine cells to a row (Yijing), a copper Buddha over eighty feet tall
+		(Xuanzang). Where the witnesses differ from the spade (Xuanzang counts six royal monasteries,
+		Yijing seven or eight, the archaeologists eleven), the scene keeps to the excavation and the
+		cards quote the texts. Xuanzang knew one gate; the four cardinal gates of later Tibetan
+		tradition are shown as well, the southern one still the gate of the record. The library’s three
+		halls appear only as saffron outlines in the northern mound cluster, since no pilgrim records
+		them and nothing fixes their place; buildings the pilgrims set far outside the walls (the Tārā
+		temple, the villages) sit nearer here than their true distance.
 	</p>
 	<p class="prose">
 		Photographs of the site today are by their named photographers under Creative Commons
