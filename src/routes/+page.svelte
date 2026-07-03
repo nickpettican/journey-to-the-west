@@ -86,6 +86,10 @@
 			verbatim line of the source text.
 		</p>
 	</section>
+
+		<hr class="lotus-rule" />
+
+		<p class="dedication">For my teacher, Do Tulku Rinpoche, who set me on this road.</p>
 </div>
 
 <style>
@@ -206,5 +210,16 @@
 
 	.threads {
 		margin: 0 auto;
+	}
+
+	.dedication {
+		max-width: 30rem;
+		margin: 0 auto;
+		text-align: center;
+		font-family: var(--font-narrative);
+		font-style: italic;
+		font-size: 0.98rem;
+		line-height: 1.6;
+		color: var(--ink-soft);
 	}
 </style>

@@ -9,6 +9,14 @@
 <div class="about prose">
 	<h1>Sources &amp; methodology</h1>
 
+	<h2>Dedication</h2>
+	<p class="dedication">
+		This site began with my teacher, Do Tulku Rinpoche. A few years ago he suggested I read about
+		Xuanzang’s journey to India. Following that road through the pilgrims’ own records became this
+		attempt to let others walk it too, and see what they saw. It is dedicated to him, with
+		gratitude.
+	</p>
+
 	<h2>The three records</h2>
 	<ul>
 		<li>
@@ -173,5 +181,10 @@
 
 	li {
 		margin-bottom: var(--space-2);
+	}
+
+	.dedication {
+		font-style: italic;
+		color: var(--ink-soft);
 	}
 </style>
