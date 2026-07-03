@@ -161,7 +161,7 @@
 	<title>Map explorer — Journeys to the West</title>
 	<meta
 		name="description"
-		content="Explore the religious landscape of the Indian subcontinent, 399–695 CE, through the eyes of three Chinese pilgrims."
+		content="Explore Buddhist India through the eyes of three Chinese pilgrims, 399–695 CE — where each school and vehicle held sway, place by place."
 	/>
 </svelte:head>
 

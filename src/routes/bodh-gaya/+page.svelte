@@ -20,10 +20,10 @@
 					dancingBodhisattva: `${base}/models/bodhisattva-dancing.glb`,
 					fastingBuddha: `${base}/models/buddha-fasting.glb`,
 					scatterTrees: [
-						`${base}/models/plain-tree.glb`,
+						`${base}/models/plain-tree-far.glb`,
 						`${base}/models/willow-far.glb`,
-						`${base}/models/mango.glb`,
-						`${base}/models/oak.glb`
+						`${base}/models/mango-far.glb`,
+						`${base}/models/oak-far.glb` // stays last — scene's wide-cluster bucket
 					],
 					bones: `${base}/models/bone-pile.glb`
 				})
@@ -58,8 +58,8 @@
 <section class="afterword">
 	<h2>About this reconstruction</h2>
 	<p class="prose">
-		The layout follows Xuanzang’s bearings — he places every monument by its cardinal direction
-		from the bodhi tree — checked against Cunningham’s measured survey of 1892 (the excavated
+		The layout follows Xuanzang’s bearings (he places every monument by its cardinal direction
+		from the bodhi tree), checked against Cunningham’s measured survey of 1892 (the excavated
 		temple, railing, Buddha’s Walk, throne and monastery block) and the tanks that still hold
 		water where the texts put them: the flower pool four hundred feet south of the temple,
 		Indra’s pool beyond it, Mucilinda’s in its wood. The Great Temple is drawn in the grey stone
@@ -75,7 +75,7 @@
 		river — are translucent and sand-pale: read from imagery, not yet excavated. Where the
 		sources disagree, the cards say so — Xuanzang puts the jewel house west of the tree where the
 		modern complex shows it north-west, and the Saffron Stupa west where Cunningham read
-		north-west. North-west of the tree, between the railings and the brick wall, a patch of
+		north-west. North-east of the tree, between the railings and the brick wall, a patch of
 		ash-grey ground strewn with bone is the charnel ground that lies there today — a present-day
 		feature none of the three pilgrims record, drawn only as the site is now found.
 	</p>

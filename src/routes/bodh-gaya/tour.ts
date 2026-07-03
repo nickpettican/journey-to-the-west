@@ -20,7 +20,7 @@ export const STATIONS: TourStation[] = [
 		id: 'approach',
 		kicker: 'c. 637 CE · south-west from Prāgbodhi Mountain',
 		title: 'The approach',
-		body: 'Xuanzang comes down from Prāgbodhi Mountain and walks the last fourteen or fifteen li to the bodhi tree. Faxian had stood here two centuries earlier; Yijing would follow within a generation, carrying silk for an offering. The whole sacred ground is ringed by a high, strong wall of brick — the enclosure Xuanzang measured at some five hundred paces around, long from east to west and narrow from south to north. It is what holds the precinct apart from the fields: inside it stand the tree, the great stone tower, and the crowd of stupas that kings and nobles of distant countries had raised on the ground where the Buddha awoke. Its gates open east to the river, south to the flower pool and north to a great monastery; the west side, where we stand, has no gate at all — Xuanzang calls it an inaccessible natural barrier, and the mounds still bank against it.',
+		body: 'Xuanzang comes down from Prāgbodhi Mountain and walks the last fourteen or fifteen li to the bodhi tree. Faxian had stood here two centuries earlier; Yijing would follow within a generation, carrying silk for an offering. The whole sacred ground is ringed by a high, strong wall of brick, the enclosure Xuanzang measured at some five hundred paces around, long from east to west and narrow from south to north. It is what holds the precinct apart from the fields: inside it stand the tree, the great stone tower, and the crowd of stupas that kings and nobles of distant countries had raised on the ground where the Buddha awoke. Its gates open east to the river, south to the flower pool and north to a great monastery; the west side, where we stand, has no gate at all — Xuanzang calls it an inaccessible natural barrier, and the mounds still bank against it.',
 		quote: {
 			text: 'The surrounding walls are built high and strong out of brick; they are long from east to west and narrow from south to north, and are about five hundred paces in circuit.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -67,7 +67,7 @@ export const STATIONS: TourStation[] = [
 		id: 'the-tower',
 		kicker: 'the tower, and its long ruin',
 		title: 'A hundred and seventy feet of it',
-		body: 'Xuanzang gives the height as one hundred and sixty or seventy feet, on a base twenty paces wide, of brick faced with lime. Cunningham, clearing it twelve centuries later, found the very same building: forty-eight feet square, its straight sides tapering in a blunt pyramid — the mark, he argued, of an early date — with a gold impression of a coin of the Kuṣāṇa king Huviṣka among the relics under the throne, which sets its building in the second century CE, on the site of Aśoka’s older small shrine. Inside, a ground-floor sanctum holds the earth-touching image; a stair climbs past an upper chamber to the terrace where the tree stands. He found it a ruin — the great hall roofless, the whole front above the third chamber fallen away in a triangular gap twenty feet high, the west face peeled of brick to a depth of five feet, a pipal root "as thick as a man’s thigh" splitting the buttresses behind. Beglar rebuilt the surface niche for niche between 1880 and 1884, modelling the restored porch and the four corner towers on a small stone model of the temple turned up in the rubble.',
+		body: 'Xuanzang gives the height as one hundred and sixty or seventy feet, on a base twenty paces wide, of brick faced with lime. Cunningham, clearing it twelve centuries later, found the very same building: forty-eight feet square, its straight sides tapering in a blunt pyramid (the mark, he argued, of an early date), with a gold impression of a coin of the Kuṣāṇa king Huviṣka among the relics under the throne, which sets its building in the second century CE, on the site of Aśoka’s older small shrine. Inside, a ground-floor sanctum holds the earth-touching image; a stair climbs past an upper chamber to the terrace where the tree stands. He found it a ruin — the great hall roofless, the whole front above the third chamber fallen away in a triangular gap twenty feet high, the west face peeled of brick to a depth of five feet, a pipal root "as thick as a man’s thigh" splitting the buttresses behind. Beglar rebuilt the surface niche for niche between 1880 and 1884, modelling the restored porch and the four corner towers on a small stone model of the temple turned up in the rubble.',
 		quote: {
 			text: 'To the east of the bodhi tree is a shrine, one hundred and sixty or seventy feet high, built on a base whose front side is more than twenty paces wide. It was built with brick and plastered with lime.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -94,7 +94,7 @@ export const STATIONS: TourStation[] = [
 		kicker: 'the centre of the world',
 		title: 'The bodhi tree and the diamond seat',
 		badge: 'Week one — the seven-week numbering is later tradition',
-		body: 'Behind the temple, against its west wall, is the reason for everything else: the pipal tree, and beneath it the diamond seat on which every buddha of this age attains enlightenment. Xuanzang found the throne already lost under drifted sand, and the tree — cut down by Aśoka before his conversion, by Aśoka’s queen, and lately by King Śaśāṅka — standing behind the stone wall King Pūrṇavarman raised twenty-four feet high after reviving the roots with the milk of a thousand cows. Here the Buddha sat without rising for the first seven days after his awakening. The trunk is yellowish-white, the leaves green in winter and summer alike.',
+		body: 'Behind the temple, against its west wall, is the reason for everything else: the pipal tree, and beneath it the diamond seat on which every buddha of this age attains enlightenment. Xuanzang found the throne already lost under drifted sand, and the tree (cut down by Aśoka before his conversion, by Aśoka’s queen, and lately by King Śaśāṅka) standing behind the stone wall King Pūrṇavarman raised twenty-four feet high after reviving the roots with the milk of a thousand cows. Here the Buddha sat without rising for the first seven days after his awakening. The trunk is yellowish-white, the leaves green in winter and summer alike.',
 		quote: {
 			text: 'Whenever the earth quakes this spot alone remains stable.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -153,7 +153,7 @@ export const STATIONS: TourStation[] = [
 		id: 'saffron-stupa',
 		kicker: 'beyond the west wall',
 		title: 'The Saffron Stupa',
-		body: 'West of the enclosure stands a stupa plastered in saffron clay, raised by a merchant lord of Jāguḍa who had once despised the buddha-dharma. Driven off course in the South Sea and adrift three years, his ship bore down on what seemed a mountain under two bright suns — until he named it a makara fish, its cliffs the fins, the suns its eyes. The whole company called on Avalokiteśvara with one mind; the mountain sank, and a monk came through the air to bring them home. They built this stupa in thanks — and later, on pilgrimage to the tree, rounded a corner and found the very stupa they had built at home, carried here.',
+		body: 'West of the enclosure stands a stupa plastered in saffron clay, raised by a merchant lord of Jāguḍa who had once despised the buddha-dharma. Driven off course in the South Sea and adrift three years, his ship bore down on what seemed a mountain under two bright suns — until he named it a makara fish, its cliffs the fins, the suns its eyes. The whole company called on Avalokiteśvara with one mind; the mountain sank, and a monk came through the air to bring them home. They built this stupa in thanks. Later, on pilgrimage to the tree, they rounded a corner and found the very stupa they had built at home, carried here.',
 		quote: {
 			text: 'Not far to the west of the bodhi tree enclosure is a stupa more than forty feet high, known as Saffron Stupa, built by a merchant lord of the country of Jāguḍa.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -163,7 +163,7 @@ export const STATIONS: TourStation[] = [
 		id: 'grass-cutter',
 		kicker: 'the seat of clean grass',
 		title: 'Aśoka’s stupa of the grass',
-		body: 'South of the tree rises Aśoka’s stupa, more than a hundred feet high, on the spot where the Bodhisattva took his seat. Fresh from bathing in the Nairañjanā and wondering what to sit on, he met a grass-cutter on the road — Indra in disguise — and asked for some of his grass; with that clean grass he made the seat under the tree. North-east of the grass spot a second stupa marks a good omen: bluebirds and a herd of deer that came as the Bodhisattva was about to become a buddha, the luckiest of signs.',
+		body: 'South of the tree rises Aśoka’s stupa, more than a hundred feet high, on the spot where the Bodhisattva took his seat. Fresh from bathing in the Nairañjanā and wondering what to sit on, he met a grass-cutter on the road (Indra in disguise) and asked for some of his grass; with that clean grass he made the seat under the tree. North-east of the grass spot a second stupa marks a good omen: bluebirds and a herd of deer that came as the Bodhisattva was about to become a buddha, the luckiest of signs.',
 		quote: {
 			text: 'Meanwhile Indra transformed himself into a grass cutter, carrying a bundle of grass going on his way. The Bodhisattva said to him, “Can you favor me with some of your grass?”',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -204,7 +204,7 @@ export const STATIONS: TourStation[] = [
 		id: 'milkmaids',
 		kicker: 'the south-west corner',
 		title: 'The milkmaids’ gruel',
-		body: 'Outside the south-west corner a cluster of stupas keeps the memory of the meal that ended the fast. After six years of austerity had brought him no nearer awakening, the Bodhisattva accepted milk gruel from two village women — Sujātā of the tradition — and regained the strength to sit under the tree. One stupa marks their old house, one the place where they cooked the gruel, and one the spot where the Tathāgata received it. It is the small human hinge of the whole story: without the gruel, no seat, no tree, no enlightenment.',
+		body: 'Outside the south-west corner a cluster of stupas keeps the memory of the meal that ended the fast. After six years of austerity had brought him no nearer awakening, the Bodhisattva accepted milk gruel from two village women (Sujātā of the tradition) and regained the strength to sit under the tree. One stupa marks their old house, one the place where they cooked the gruel, and one the spot where the Tathāgata received it. It is the small human hinge of the whole story: without the gruel, no seat, no tree, no enlightenment.',
 		quote: {
 			text: 'At the southwest corner outside the bodhi tree enclosure is a stupa that marks the site of the old house of the two milkmaids who offered milk gruel to the Buddha.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -214,7 +214,7 @@ export const STATIONS: TourStation[] = [
 		id: 'flower-pool',
 		kicker: 'outside the south gate',
 		title: 'The flower pool',
-		body: 'The south gate opens onto the great tank the texts call the flower pool, dug — the story goes — by the younger of the two brahman brothers whom Maheśvara sent to build the shrine and excavate the pond. Cunningham found it exactly where Xuanzang put it, four hundred feet due south of the temple, its size unchanged, its north bank a niched wall with steps to the water: the tank now called Buddhokar. Beyond it lie Indra’s bathing pool and the great rock brought from the Snow Mountains for drying the Buddha’s washed robes.',
+		body: 'The south gate opens onto the great tank the texts call the flower pool, dug, the story goes, by the younger of the two brahman brothers whom Maheśvara sent to build the shrine and excavate the pond. Cunningham found it exactly where Xuanzang put it, four hundred feet due south of the temple, its size unchanged, its north bank a niched wall with steps to the water: the tank now called Buddhokar. Beyond it lie Indra’s bathing pool and the great rock brought from the Snow Mountains for drying the Buddha’s washed robes.',
 		quote: {
 			text: 'Outside the south gate of the bodhi tree enclosure is a big pond more than seven hundred paces in circuit, with clear and lucid water in which dragons and fish dwell.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -252,7 +252,7 @@ export const STATIONS: TourStation[] = [
 		kicker: 'the first almsfood',
 		title: 'The merchants’ offering',
 		badge: 'Week seven — the seven-week numbering is later tradition',
-		body: 'Near the road by the river the stupas mark the end of the forty-nine days: two passing merchants — tradition names them Trapuṣa and Bhallika, the first lay disciples — were told by the god of the wood that the new Buddha sat fasting in the trees, and offered baked barley and honey from their ration bags. The four devarājas came from the four quarters with golden bowls, then silver, crystal, lapis lazuli, agate, coral and pearl; he refused each in turn, and accepted four plain bowls of dark violet stone.',
+		body: 'Near the road by the river the stupas mark the end of the forty-nine days: two passing merchants (tradition names them Trapuṣa and Bhallika, the first lay disciples) were told by the god of the wood that the new Buddha sat fasting in the trees, and offered baked barley and honey from their ration bags. The four devarājas came from the four quarters with golden bowls, then silver, crystal, lapis lazuli, agate, coral and pearl; he refused each in turn, and accepted four plain bowls of dark violet stone.',
 		quote: {
 			text: 'In order to avoid showing partiality the World-honored One accepted all four bowls, which he stacked and pressed together into one bowl. That is why his almsbowl has four rims on the outside.',
 			cite: 'Xuanzang, Record, Fascicle VIII'
@@ -263,7 +263,7 @@ export const STATIONS: TourStation[] = [
 		kicker: 'outside the north gate',
 		title: 'The Mahābodhi Saṅghārāma',
 		badge: 'Moat and outer square: satellite-inferred — not yet excavated',
-		body: 'North of the north gate stands the great monastery a king of Siṃhala (Ceylon) built after his cousin, a monk, was turned away from every lodging in India as a frontiersman. Faxian saw "three monasteries, in all of which there are monks residing"; by Xuanzang’s day they had grown into one establishment of six courtyards holding fewer than a thousand monks, students of both the Mahāyāna and the Sthavira school, with a gold-and-silver Buddha and relic stupas shown to the public once a year. Cunningham dug its central block on the mound called Amar Sinh’s Fort — thirty-six squares to the plan, nine-foot walls, sixteen towers on the enclosure — and recent satellite survey reads a still larger walled square with a moat around it, drawn here sand-pale.',
+		body: 'North of the north gate stands the great monastery a king of Siṃhala (Ceylon) built after his cousin, a monk, was turned away from every lodging in India as a frontiersman. Faxian saw "three monasteries, in all of which there are monks residing"; by Xuanzang’s day they had grown into one establishment of six courtyards holding fewer than a thousand monks, students of both the Mahāyāna and the Sthavira school, with a gold-and-silver Buddha and relic stupas shown to the public once a year. Cunningham dug its central block on the mound called Amar Sinh’s Fort (thirty-six squares to the plan, nine-foot walls, sixteen towers on the enclosure), and recent satellite survey reads a still larger walled square with a moat around it, drawn here sand-pale.',
 		quote: {
 			text: 'The buildings consist of six courtyards and three-storied pavilions, surrounded by walls thirty or forty feet high.',
 			cite: 'Xuanzang, Record, Fascicle VIII'

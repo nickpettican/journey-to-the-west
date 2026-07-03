@@ -68,8 +68,8 @@
 
 	<h2>Sarvāstivāda and Mūlasarvāstivāda</h2>
 	<p>
-		Xuanzang’s translator writes plain “Sarvāstivāda” throughout, but Yijing — who lived ten years
-		under the rule he describes — distinguishes his <strong>Mūlasarvāstivāda</strong> from the
+		Xuanzang’s translator writes plain “Sarvāstivāda” throughout, but Yijing, who lived ten years
+		under the rule he describes, distinguishes his <strong>Mūlasarvāstivāda</strong> from the
 		older Daśādhyāya Sarvāstivāda, and warns (in effect) against relabelling wholesale. The map
 		therefore adds the Mūlasarvāstivāda <em>site by site</em>, only where Yijing’s regional
 		testimony supports it: the Sarvāstivāda monasteries of Magadha and Northern India, and Nālandā
@@ -82,8 +82,8 @@
 	<p>
 		No pilgrim writes “Vajrayāna”. In their era it was an esoteric lineage transmitted orally
 		inside Mahāyāna communities, and it became public only in the century after Yijing sailed
-		home. But the records carry early traces of its mantra practice, and — exactly as with the
-		Mūlasarvāstivāda above — the map reads the later evidence backwards <em>site by site</em>, at
+		home. But the records carry early traces of its mantra practice, and, exactly as with the
+		Mūlasarvāstivāda above, the map reads the later evidence backwards <em>site by site</em>, at
 		two places only, each shown as a flagged “(derived)” value alongside the witnessed yāna and
 		never replacing it. On the map it is drawn the same way: the bubble keeps the witnessed
 		colour, and the derived Vajrayāna appears as a purple ring around it.

@@ -283,7 +283,7 @@
 
 	.site-footer .colophon {
 		max-width: 44rem;
-		margin: 0 auto var(--space-2);
+		margin: var(--space-2) auto var(--space-3);
 		font-family: var(--font-narrative);
 		font-size: 1rem;
 		color: var(--ink);
@@ -300,7 +300,8 @@
 	}
 
 	.site-footer .credits {
-		margin-top: var(--space-1);
+		margin-top: var(--space-3);
+		margin-bottom: var(--space-3);
 		font-size: 0.7rem;
 		color: var(--ink-faint);
 	}

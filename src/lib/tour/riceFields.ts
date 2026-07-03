@@ -83,8 +83,9 @@ export function buildRiceLand(
 				});
 			}
 		// trees strung along the bund lines (perimeter included)
-		const pAlong = b.sparse ? 0.08 : 0.3;
-		const pAcross = b.sparse ? 0.05 : 0.2;
+		// ponytail: densities halved from 0.08/0.3 & 0.05/0.2 for mobile GPU load
+		const pAlong = b.sparse ? 0.04 : 0.15;
+		const pAcross = b.sparse ? 0.025 : 0.1;
 		for (const lx of cx)
 			for (let lz = -b.d / 2; lz < b.d / 2; lz += 14 + rnd() * 12)
 				if (rnd() < pAlong) spot(bundSpots, ...world(lx, lz));
@@ -94,7 +95,8 @@ export function buildRiceLand(
 	}
 
 	for (const f of opts.forests)
-		for (let i = 0; i < f.n; i++) {
+		for (let i = 0; i < f.n / 2; i++) {
+			// ponytail: forest density halved for mobile GPU load (n stays truthful)
 			const a = rnd() * Math.PI * 2;
 			const r = f.r * Math.sqrt(rnd());
 			spot(forestSpots, f.x + Math.cos(a) * r, f.z + Math.sin(a) * r);

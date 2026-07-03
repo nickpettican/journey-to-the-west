@@ -11,11 +11,13 @@
 			(m) => (canvas: HTMLCanvasElement) =>
 				m.createNalandaTour(canvas, {
 					standing: `${base}/models/standing-buddha.glb`,
-					willow: `${base}/models/willow.glb`,
-					mango: `${base}/models/mango.glb`,
-					oak: `${base}/models/oak.glb`,
-					plainTree: `${base}/models/plain-tree.glb`,
-					banyan: `${base}/models/banyan-far.glb` // scatter-only here — hard-decimated
+					willow: `${base}/models/willow.glb`, // story tree — kept detailed
+					scatterTrees: [
+						`${base}/models/mango-far.glb`, // [mango, oak, plainTree, banyan]
+						`${base}/models/oak-far.glb`,
+						`${base}/models/plain-tree-far.glb`,
+						`${base}/models/banyan-far.glb`
+					]
 				})
 		);
 </script>
@@ -60,8 +62,8 @@
 		read from crop-marks, mounds and elevation, not yet excavated.
 		Dimensions follow the pilgrims: walls “more than twenty feet high”, three-storeyed courts with
 		nine cells to a row (Yijing), a copper Buddha of over eighty feet (Xuanzang). Where the
-		witnesses differ from the spade — Xuanzang counts six royal monasteries, Yijing seven or
-		eight, the archaeologists eleven — the scene follows the excavation and the cards quote the
+		witnesses differ from the spade (Xuanzang counts six royal monasteries, Yijing seven or
+		eight, the archaeologists eleven), the scene follows the excavation and the cards quote the
 		texts. Xuanzang knew one gate; the four cardinal gates of later Tibetan tradition are also
 		drawn, the south gate remaining the gate of the texts. The library’s three halls appear only
 		as saffron outlines in the northern mound cluster, because they appear in no pilgrim’s record

@@ -601,12 +601,10 @@ export type NalandaTour = SceneTour;
 export interface NalandaModels {
 	/** the scanned standing Buddha for the copper colossus */
 	standing?: string;
-	/** tree models — the willow-twig tree and the grove species (instanced) */
+	/** the willow-twig story tree by the Brass Temple (keeps its own materials) */
 	willow?: string;
-	mango?: string;
-	oak?: string;
-	plainTree?: string;
-	banyan?: string;
+	/** low-poly landscape foliage, instanced: [mango, oak, plainTree, banyan] */
+	scatterTrees?: string[];
 }
 
 export function createNalandaTour(
@@ -690,7 +688,7 @@ export function createNalandaTour(
 			{ x: -900, z: 620, r: 90, n: 65 }
 		],
 		shades: [C.fieldA, C.fieldB, 0x9fb888, 0xccd5a9],
-		treeHeight: 15,
+		treeHeight: 20, // 1.5× — landscape trees taller, fewer of them
 		seed: 19
 	});
 	// the road runs from Monastery 1 north to the threshold of the Begumpur
@@ -1173,7 +1171,7 @@ export function createNalandaTour(
 	];
 	type Slot = { x: number; z: number; height: number; ry: number };
 	const groveSlots: Slot[] = [];
-	for (let i = 0; i < 4000 && groveSlots.length < 480; i++) {
+	for (let i = 0; i < 4000 && groveSlots.length < 240; i++) {
 		const x = -1150 + rnd() * 2300;
 		const z = -2350 + rnd() * 3250;
 		if (x > -220 && x < 340 && z > -1400 && z < 450) continue; // keep the precinct clear
@@ -1182,15 +1180,16 @@ export function createNalandaTour(
 			continue;
 		if (riceLand.onFields(x, z)) continue; // never on the paddies
 		const s = 0.75 + rnd() * 0.6;
-		groveSlots.push({ x, z, height: 15 * s, ry: rnd() * Math.PI * 2 });
+		groveSlots.push({ x, z, height: 20 * s, ry: rnd() * Math.PI * 2 }); // 1.5× taller
 	}
 	riceLand.forestSpots.forEach(([x, z, height, ry]) => groveSlots.push({ x, z, height, ry }));
 	const bundSlots: Slot[] = riceLand.bundSpots.map(([x, z, height, ry]) => ({ x, z, height, ry }));
-	if (models.mango && models.oak && models.plainTree && models.banyan) {
+	const [mango, oak, plainTree, banyan] = models.scatterTrees ?? [];
+	if (mango && oak && plainTree && banyan) {
 		// spread the slots across the four species — mango overwhelmingly the most
 		// common (Xuanzang's mango grove gave the place its name); bund trees never
 		// get the oak — a wide cluster would sprawl over the paddies
-		const urls = [models.mango, models.oak, models.plainTree, models.banyan];
+		const urls = [mango, oak, plainTree, banyan];
 		const weight = [0, 0, 0, 0, 0, 0, 1, 2, 3];
 		const buckets: Slot[][] = [[], [], [], []];
 		groveSlots.forEach((slot, i) => buckets[weight[i % weight.length]].push(slot));

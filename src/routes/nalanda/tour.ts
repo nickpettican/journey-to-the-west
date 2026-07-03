@@ -28,7 +28,7 @@ export const STATIONS: TourStation[] = [
 		id: 'approach',
 		kicker: 'c. 637 CE · thirty li north of Rājagṛha',
 		title: 'The approach',
-		body: 'Xuanzang walks north from Rājagṛha through mango groves and villages — Faxian had passed this way two centuries before him, and Yijing would follow a generation later, staying ten years. The monastery ahead was held to stand on a grove once bought by five hundred merchants and offered to the Buddha. Yijing records that two hundred and one villages, granted by generations of kings, sustained the establishment these fields surround — an establishment that, as the fields themselves still secretly testify, ran far beyond the walls archaeologists have since uncovered.',
+		body: 'Xuanzang walks north from Rājagṛha through mango groves and villages. Faxian had passed this way two centuries before him, and Yijing would follow a generation later, staying ten years. The monastery ahead was held to stand on a grove once bought by five hundred merchants and offered to the Buddha. Yijing records that two hundred and one villages, granted by generations of kings, sustained the establishment these fields surround — an establishment that, as the fields themselves still secretly testify, ran far beyond the walls archaeologists have since uncovered.',
 		quote: {
 			text: 'The Buddha preached the Dharma at this place for three months and thereupon the merchants attained sainthood.',
 			cite: 'Xuanzang, Record, Fascicle IX'
@@ -38,7 +38,7 @@ export const STATIONS: TourStation[] = [
 		id: 'sariputra-nala',
 		kicker: 'c. 405 CE · Faxian',
 		title: 'The village before the university',
-		body: 'Two centuries before the great monastery rose, Faxian passed this way and knew the place only as a village — Nala, later Nālandā. What drew him was not a university but a memory: this, he was told, was where Śāriputra, wisest of the Buddha’s disciples, had been born, to which he returned to die, and over whose cremation a stupa still stood in Faxian’s day. (Xuanzang, coming later, put Śāriputra’s birth at a village nearby instead — the pilgrims do not always agree, and Legge’s own note flags the doubt.)',
+		body: 'Two centuries before the great monastery rose, Faxian passed this way and knew the place only as a village: Nala, later Nālandā. What drew him was not a university but a memory: this, he was told, was where Śāriputra, wisest of the Buddha’s disciples, had been born, to which he returned to die, and over whose cremation a stupa still stood in Faxian’s day. (Xuanzang, coming later, put Śāriputra’s birth at a village nearby instead — the pilgrims do not always agree, and Legge’s own note flags the doubt.)',
 		quote: {
 			text: 'A yojana south-west from this place brought them to the village of Nala, where Sariputtra was born, and to which also he returned, and attained here his pari-nirvâna.',
 			cite: 'Faxian, A Record of Buddhistic Kingdoms (tr. Legge), ch. XXVIII'
@@ -48,7 +48,7 @@ export const STATIONS: TourStation[] = [
 		id: 'gate',
 		kicker: 'one gate for all the monasteries',
 		title: 'The gatekeeper’s examination',
-		body: 'A lofty enclosure rings the whole complex. Xuanzang describes one gate for all the monasteries — this southern one; later Tibetan accounts remember four, to the cardinal points, and all four are drawn here, around a wall taken right out to the extent the surveys suggest. At the gate strangers are questioned before they may enter, and most who come to debate are turned away — the surest sign of the monastery’s confidence.',
+		body: 'A lofty enclosure rings the whole complex. Xuanzang describes one gate for all the monasteries, this southern one; later Tibetan accounts remember four, to the cardinal points, and all four are drawn here, around a wall taken right out to the extent the surveys suggest. At the gate strangers are questioned before they may enter, and most who come to debate are turned away — the surest sign of the monastery’s confidence.',
 		quote: {
 			text: 'The visiting students carry on debates with the resident monks but seven or eight out of ten flee in defeat.',
 			cite: 'Xuanzang, Record, Fascicle IX'
@@ -69,7 +69,7 @@ export const STATIONS: TourStation[] = [
 		kicker: 'crop-marks and field-mounds',
 		title: 'The city beneath the fields',
 		badge: 'Satellite-inferred — not yet excavated (Rajani 2014)',
-		body: 'The dug ruins are only the core of Nālandā. South of Monastery 1, satellite images show a vegetation pattern tracing three sides of a rectangle whose edges align with the excavated monastery walls — more courts, still underground — and, in line with the temples, a canopy gap where another temple seems to lie. Walking the fields, the surveyors found three circular mounds, drawn here as the great stupas they may conceal. Everything translucent in this reconstruction is such a guess: read from the ground, not yet touched by the spade.',
+		body: 'The dug ruins are only the core of Nālandā. South of Monastery 1, satellite images show a vegetation pattern tracing three sides of a rectangle whose edges align with the excavated monastery walls (more courts, still underground), and, in line with the temples, a canopy gap where another temple seems to lie. Walking the fields, the surveyors found three circular mounds, drawn here as the great stupas they may conceal. Everything translucent in this reconstruction is such a guess: read from the ground, not yet touched by the spade.',
 		quote: {
 			text: 'This suggests that there may be additional similarly shaped structures south of Monastery 1.',
 			cite: 'M. B. Rajani, ‘A satellite’s view of Nalanda’s past’ (2014)'
@@ -110,7 +110,7 @@ export const STATIONS: TourStation[] = [
 		id: 'daily-life',
 		kicker: '≈3,500 monks · 201 villages',
 		title: 'A day at Nālandā',
-		body: 'The day ran on water: a clepsydra — a perforated bowl sinking in a basin — sounded the hours, and the night was divided into three watches, the first and last for meditation and chanting. Nothing was decided without the consent of every resident monk; to spend even a husk of rice unexplained meant expulsion. Yijing counted about three and a half thousand monks, supported by the revenue of 201 villages.',
+		body: 'The day ran on water: a clepsydra (a perforated bowl sinking in a basin) sounded the hours, and the night was divided into three watches, the first and last for meditation and chanting. Nothing was decided without the consent of every resident monk; to spend even a husk of rice unexplained meant expulsion. Yijing counted about three and a half thousand monks, supported by the revenue of 201 villages.',
 		quote: {
 			text: 'About three thousand five hundred monks were living in the Nālandā monastery. This establishment was in possession of 201 villages.',
 			cite: 'Yijing, Kao Seng Chuan, chüan 1'
@@ -145,7 +145,7 @@ export const STATIONS: TourStation[] = [
 		id: 'bathing',
 		kicker: 'more than ten great pools',
 		title: 'The bathing bell',
-		body: 'Outside the walls the tanks did double duty. Yijing, who bathed here for ten years, counted more than ten great pools around the monastery and a bell — a ghanti — rung every morning to call the monks to wash; they went out in their hundreds, sometimes a thousand at once, each carrying his own bathing-cloth, then returned to the day’s study. The same squared pools, ringing the site on the cardinal points, are the ones the surveys still trace from the air.',
+		body: 'Outside the walls the tanks did double duty. Yijing, who bathed here for ten years, counted more than ten great pools around the monastery and a bell (a ghanti) rung every morning to call the monks to wash; they went out in their hundreds, sometimes a thousand at once, each carrying his own bathing-cloth, then returned to the day’s study. The same squared pools, ringing the site on the cardinal points, are the ones the surveys still trace from the air.',
 		quote: {
 			text: 'There are more than ten great pools near the Nālandā monastery, and there every morning a ghanti is sounded to remind the priests of the bathing-hour.',
 			cite: 'Yijing, A Record of the Buddhist Religion (tr. Takakusu)'
@@ -238,14 +238,14 @@ export const STATIONS: TourStation[] = [
 		kicker: 'what later tradition adds',
 		title: 'The nine-storeyed library',
 		badge: 'Later Tibetan tradition — not in the pilgrims’ records',
-		body: 'Tibetan historians writing centuries later tell of a library precinct called Dharmagañja with three great buildings — Ratnasāgara, Ratnodadhi and Ratnarañjaka — Ratnodadhi rising nine storeys and housing the rarest texts. Neither Xuanzang nor Yijing, who together spent fifteen years here, mentions any of it, and no record places it on the ground. The three halls are drawn here only in outline — Ratnodadhi’s nine storeys between its two sisters — in the northern mound cluster between the buried temples and the Begumpur quadrangle: undug ground where, if they stood at all, they may yet wait.',
+		body: 'Tibetan historians writing centuries later tell of a library precinct called Dharmagañja with three great buildings (Ratnasāgara, Ratnodadhi and Ratnarañjaka), Ratnodadhi rising nine storeys and housing the rarest texts. Neither Xuanzang nor Yijing, who together spent fifteen years here, mentions any of it, and no record places it on the ground. The three halls are drawn here only in outline, Ratnodadhi’s nine storeys between its two sisters, in the northern mound cluster between the buried temples and the Begumpur quadrangle: undug ground where, if they stood at all, they may yet wait.',
 	},
 	{
 		id: 'begumpur',
 		kicker: '~450 × 400 m · four-pointed',
 		title: 'The Begumpur quadrangle',
 		badge: 'Satellite-inferred — not yet excavated (Rajani 2014)',
-		body: 'The walk ends at the strangest of the satellite’s finds: under the village of Begumpur, at the far north, the ground rises four or five metres into an enormous four-pointed shape. A trench dug by a villager exposed brick at exactly its north-east corner. It is drawn here in the manner of Somāpura — a vast square of monks’ quarters around a cruciform temple — for that is the family the surveyors place it in: either Nālandā’s own last great extension, or a sister foundation of the Pāla age standing at its edge.',
+		body: 'The walk ends at the strangest of the satellite’s finds: under the village of Begumpur, at the far north, the ground rises four or five metres into an enormous four-pointed shape. A trench dug by a villager exposed brick at exactly its north-east corner. It is drawn here in the manner of Somāpura (a vast square of monks’ quarters around a cruciform temple), for that is the family the surveyors place it in: either Nālandā’s own last great extension, or a sister foundation of the Pāla age standing at its edge.',
 		quote: {
 			text: 'The massive structure one suspects lies hidden beneath the northern mound is comparable in size and shape to the Vihara quadrangles of Vikramasila (in Bihar) and Somapura (in Bangladesh).',
 			cite: 'M. B. Rajani, ‘A satellite’s view of Nalanda’s past’ (2014)'

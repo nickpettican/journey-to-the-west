@@ -288,7 +288,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 			{ x: 700, z: 500, r: 90, n: 60 }
 		],
 		shades: [C.fieldA, C.fieldB, 0x9fb888, 0xccd5a9],
-		treeHeight: 15,
+		treeHeight: 20, // 1.5× — landscape trees taller, fewer of them
 		seed: 31
 	});
 
@@ -802,7 +802,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 				// normalise: unit height, base at y0, centred in x/z
 				g.translate(-centre.x, -bb.min.y, -centre.z);
 				g.scale(1 / size.y, 1 / size.y, 1 / size.y);
-				const im = new THREE.InstancedMesh(g, fadeable(temple), slots.length);
+				const im = new THREE.InstancedMesh(g, fadeable(goldM), slots.length);
 				slots.forEach((slot, i) => {
 					// the statue stands ~70% of the niche height (1.72 · s), set
 					// proud of the shallow niche so it can be seen
@@ -1017,7 +1017,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		// the scanned bodhi tree replaces the procedural one once loaded —
 		// larger, and set lower so its roots sit in the ground, not above it
 		if (models.bodhiTree)
-			loadTreeModel(models.bodhiTree, { x: -9, z: 0, height: 40, sink: 5, placeholder: tree });
+			loadTreeModel(models.bodhiTree, { x: -9, z: 0, height: 50, sink: 7, yaw: 5, placeholder: tree });
 	}
 
 	/* ------------------------------------------------ Buddha's Walk (§5) --- */
@@ -1297,7 +1297,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		scene.add(g);
 		// the scanned banyan replaces the procedural one once loaded
 		if (models.banyan)
-			loadTreeModel(models.banyan, { x: 64, z: 44, height: 16, placeholder: g });
+			loadTreeModel(models.banyan, { x: 64, z: 44, height: 20, placeholder: g });
 		scene.add(buildStupa(57, 39, 4.5, temple));
 		scene.add(buildShrine(71, 39, 3.6, 4.2, temple));
 	}
@@ -1431,7 +1431,6 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 	const austFadePale = new THREE.Color(0xdcd2b8);
 	const austEdgeMat = new THREE.LineBasicMaterial({ color: 0x8d8474, transparent: true, opacity: 0 });
 	const austEdges = new THREE.Group();
-	let austGroup: THREE.Group | null = null;
 	const austFadeable = (m: THREE.Material) => {
 		const c = m.clone() as THREE.MeshLambertMaterial;
 		c.userData.c0 = c.color.clone();
@@ -1444,7 +1443,6 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		const CW = 8; // a bigger cell than the other shrines, to hold the statue
 		const CH = 8;
 		const g = new THREE.Group();
-		austGroup = g;
 		const wallM = austFadeable(brick);
 		const capM = austFadeable(templeDark);
 		addBox(g, CW + 2.6, 1, CW + 2.6, SX, 0.5, SZ, wallM); // platform
@@ -1522,7 +1520,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		t.castShadow = true;
 		scene.add(t);
 		if (models.banyan)
-			loadTreeModel(models.banyan, { x: 160, z: 88, height: 16, placeholder: t });
+			loadTreeModel(models.banyan, { x: 160, z: 88, height: 18, placeholder: t });
 		scene.add(buildStupa(168, 122, 4, brick));
 		scene.add(buildStupa(175, 132, 3.4, brick));
 		scene.add(buildStupa(163, 140, 3.4, brick));
@@ -1830,7 +1828,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		const put = (x: number, z: number, hBase: number) =>
 			spots.push([x, z, hBase * (0.8 + rnd() * 0.5), rnd() * Math.PI * 2]);
 		// the wood of Mucilinda and the austerities grove
-		for (let i = 0; i < 26; i++) {
+		for (let i = 0; i < 13; i++) {
 			const a = rnd() * Math.PI * 2;
 			const r = 24 + rnd() * 22;
 			const x = 95 + Math.cos(a) * r;
@@ -1841,7 +1839,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		}
 		// scattered groves everywhere else — the uncultivated land is thick with
 		// trees — clear of the precinct, tanks, river, monastery and paddies
-		for (let i = 0; i < 4000 && spots.length < 470; i++) {
+		for (let i = 0; i < 4000 && spots.length < 235; i++) {
 			const x = -950 + rnd() * 1800;
 			const z = -650 + rnd() * 1300;
 			if (x > -108 && x < 126 && z > -100 && z < 148) continue; // walls + surrounds
@@ -1852,7 +1850,8 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 			if (x > 55 && x < 130 && z > 80 && z < 135) continue; // Mucilinda
 			if (x > -145 && x < -100 && z > -80 && z < 115) continue; // the barrier mounds
 			if (riceLand.onFields(x, z)) continue; // never on the paddies
-			put(x, z, 15);
+			put(x, z, 20); // 1.5× taller landscape tree
+
 		}
 		spots.push(...riceLand.forestSpots);
 		// hand the spots out among the species; the oak GLB is a wide cluster,
@@ -2016,20 +2015,21 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 			templeEdges.visible = fadeVal > 0.12;
 			templeEdgeMat.opacity = Math.min(1, fadeVal * 1.4) * 0.75;
 		}
-		// the same treatment for the six-years-austerities shrine
+		// the six-years-austerities shrine only needs to go translucent, not
+		// vanish: fade the solid surfaces down to a floor opacity and keep the
+		// group visible, so it reads as a translucent shrine rather than an
+		// edges-only ghost like the great temple.
 		const dv2 = austFadeTarget - austFadeVal;
 		if (Math.abs(dv2) > 0.002) {
 			austFadeVal += dv2 * 0.12;
-			const cut2 = 0.5;
-			const gone2 = austFadeVal > cut2;
-			const op2 = gone2 ? 0 : 1 - austFadeVal / cut2;
+			const floor2 = 0.32;
+			const op2 = 1 - Math.min(1, austFadeVal) * (1 - floor2);
 			for (const m of austMats) {
 				m.opacity = op2;
 				m.transparent = austFadeVal > 0.01;
 				m.depthWrite = op2 > 0.6;
 				m.color.copy(m.userData.c0 as THREE.Color).lerp(austFadePale, Math.min(1, austFadeVal) * 0.5);
 			}
-			if (austGroup && austGroup.visible === gone2) austGroup.visible = !gone2;
 			austEdges.visible = austFadeVal > 0.12;
 			austEdgeMat.opacity = Math.min(1, austFadeVal * 1.4) * 0.75;
 		}
