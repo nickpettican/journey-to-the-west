@@ -336,7 +336,7 @@ function buildTemple(
 	// the curved śikhara tower rising from the base — profile as bodhgayaScene:
 	// brick course + thin stone cap, width easing in toward the top
 	const towerH = height - baseH;
-	const w0 = baseW * 0.58;
+	const w0 = baseW * 0.75;
 	const courses = Math.max(6, Math.round(towerH / 3.8));
 	for (let i = 0; i < courses; i++) {
 		const t = i / courses;
@@ -1171,7 +1171,7 @@ export function createNalandaTour(
 	];
 	type Slot = { x: number; z: number; height: number; ry: number };
 	const groveSlots: Slot[] = [];
-	for (let i = 0; i < 4000 && groveSlots.length < 240; i++) {
+	for (let i = 0; i < 4000 && groveSlots.length < 200; i++) {
 		const x = -1150 + rnd() * 2300;
 		const z = -2350 + rnd() * 3250;
 		if (x > -220 && x < 340 && z > -1400 && z < 450) continue; // keep the precinct clear

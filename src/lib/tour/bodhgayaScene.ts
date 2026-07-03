@@ -1828,7 +1828,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		const put = (x: number, z: number, hBase: number) =>
 			spots.push([x, z, hBase * (0.8 + rnd() * 0.5), rnd() * Math.PI * 2]);
 		// the wood of Mucilinda and the austerities grove
-		for (let i = 0; i < 13; i++) {
+		for (let i = 0; i < 16; i++) {
 			const a = rnd() * Math.PI * 2;
 			const r = 24 + rnd() * 22;
 			const x = 95 + Math.cos(a) * r;
@@ -1839,7 +1839,7 @@ export function createBodhgayaTour(canvas: HTMLCanvasElement, models: BodhgayaMo
 		}
 		// scattered groves everywhere else — the uncultivated land is thick with
 		// trees — clear of the precinct, tanks, river, monastery and paddies
-		for (let i = 0; i < 4000 && spots.length < 235; i++) {
+		for (let i = 0; i < 4000 && spots.length < 200; i++) {
 			const x = -950 + rnd() * 1800;
 			const z = -650 + rnd() * 1300;
 			if (x > -108 && x < 126 && z > -100 && z < 148) continue; // walls + surrounds
